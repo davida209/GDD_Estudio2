@@ -6,46 +6,46 @@ Define para quién se diseña el videojuego y dónde se jugará. Las decisiones 
 
 ## Público objetivo
 
-**Edad aproximada:**
+**Edad aproximada:** 13 años en adelante contenido ligero, sin violencia gráfica.
 
 **Experiencia esperada:**  
-> Casual, intermedia, avanzada.
+> Casual a intermedia
 
 **Intereses relevantes:**
-
+simuladores de gestión
 **Conocimientos previos necesarios:**
-
+ninguno; controles simples de movimiento e interacción.
 ## Plataforma
 
-| Elemento | Decisión |
-|---|---|
-| Plataforma principal | |
-| Plataformas secundarias | |
-| Método de entrada | Teclado / Mouse / Control / Pantalla táctil |
-| Resolución objetivo | |
-| Relación de aspecto | |
-| Rendimiento objetivo | FPS |
-| Conexión requerida | Sí / No |
+| Elemento                | Decisión     |
+| ----------------------- | ------------ |
+| Plataforma principal    | PC (Windows) |
+| Plataformas secundarias | Ninguna      |
+| Método de entrada       | Teclado      |
+| Resolución objetivo     | 1920x1080    |
+| Relación de aspecto     | 16:9         |
+| Rendimiento objetivo    | 60FPS        |
+| Conexión requerida      | No           |
 
 ## Restricciones de plataforma
 
-Documenta limitaciones de hardware, controles, memoria, almacenamiento, distribución o conectividad.
+sin requerimientos de hardware exigentes; debe poder ejecutarse en laptops de gama media sin necesidad de GPU dedicada.
 
 ## Sesión de juego
 
 **Duración esperada de una sesión:**
-
+5 a 10 minutos por jornada o día jugado.
 **Duración total estimada del juego:**
-
+30 a 45 minutos para completar una partida completa de 7 días.
 ## Modelo de distribución
 
-> Gratuito, pago único, educativo, prototipo académico, etc.
+> Prototipo académico / gratuito.
 
 ## Consideraciones
 
-- [ ] Controles adaptados a la plataforma
+- [x] Controles adaptados a la plataforma
 - [ ] Interfaz legible
-- [ ] Rendimiento considerado
+- [x] Rendimiento considerado
 - [ ] Resoluciones consideradas
 - [ ] Guardado compatible
 
