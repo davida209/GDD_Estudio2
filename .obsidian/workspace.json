@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "6833ac17afcc1539",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccf6d8a986e1110d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5cc9c9a33621372b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06 - Experiencia/03 - Accesibilidad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03 - Accesibilidad"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a2b9af91dfda94fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d47bb5e8daf8485",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4885753c3f8c2cad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "f5625f507d8e6815",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "a4ea21555c0451ed",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "394ea0254d05c924",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3495926b7ea0cc1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee7145ad2289774b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 - Visión/01 - Ficha del Proyecto.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "a6d353377bbdda57",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 - Visión/01 - Ficha del Proyecto.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "3bc4c329d5611c95",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "2eeb90e5bbd96445",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "c463d82c5f0e0224",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 - Visión/01 - Ficha del Proyecto.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "5cc9c9a33621372b",
+  "lastOpenFiles": [
+    "06 - Experiencia/02 - UI y Menús.md",
+    "06 - Experiencia/01 - UX y Flujo del Jugador.md",
+    "05 - Arte y Audio/05 - Audio y Música.md",
+    "05 - Arte y Audio/04 - Interfaz Visual.md",
+    "05 - Arte y Audio/03 - Entornos.md",
+    "05 - Arte y Audio/02 - Personajes y Animación.md",
+    "05 - Arte y Audio/01 - Dirección de Arte.md",
+    "04 - Contenido/05 - Misiones y Desafíos.md",
+    "04 - Contenido/04 - Objetos y Coleccionables.md",
+    "04 - Contenido/02 - Niveles.md",
+    "04 - Contenido/03 - Enemigos y NPC.md",
+    "04 - Contenido/01 - Estructura del Contenido.md",
+    "03 - Historia y Mundo/04 - Diálogos y Narrativa.md",
+    "03 - Historia y Mundo/03 - Personajes.md",
+    "03 - Historia y Mundo/02 - Mundo.md",
+    "03 - Historia y Mundo/01 - Premisa y Trama.md",
+    "02 - Diseño/07 - Reglas y Estados del Juego.md",
+    "02 - Diseño/06 - Economía y Recursos.md",
+    "02 - Diseño/05 - Progresión.md",
+    "02 - Diseño/04 - Controles.md",
+    "02 - Diseño/03 - Sistemas.md",
+    "02 - Diseño/02 - Mecánicas.md",
+    "02 - Diseño/01 - Jugabilidad.md",
+    "01 - Visión/04 - Pilares de Diseño.md",
+    "01 - Visión/03 - Público y Plataforma.md",
+    "01 - Visión/02 - Visión del Juego.md"
+  ]
+}

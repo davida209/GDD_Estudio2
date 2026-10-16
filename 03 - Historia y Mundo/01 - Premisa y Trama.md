@@ -1,38 +1,31 @@
 # Premisa y Trama
 
-## Descripción de la sección
-
-Aquí se documenta la narrativa que sostiene la experiencia. La historia debe explicar qué sucede, por qué sucede y cómo participa el jugador.
-
 ## Premisa
 
-Resume el conflicto principal en pocas líneas.
+Un empleado debe mantener por sí solo una tienda de conveniencia durante siete jornadas. La afluencia de clientes, el desorden, un ladrón y las revisiones del dueño amenazan la reputación del negocio.
 
 ## Sinopsis
 
-Describe el argumento completo sin entrar todavía en cada escena.
+El jugador comienza con dinero, mercancía y una tienda funcional. Cada jornada combina tareas rutinarias con imprevistos. Al avanzar la semana llegan más clientes, compran más y toleran menos espera, mientras los eventos aparecen con mayor frecuencia. El conflicto se resuelve mediante la gestión del jugador: completar el séptimo día conserva el negocio; perder toda la reputación termina la partida.
 
 ## Estructura narrativa
 
-### Acto / Etapa 1
+**Inicio, días 1–2:** familiarización con caja, bodega, anaqueles y limpieza. **Desarrollo, días 3–5:** tareas más frecuentes y mayor presión sobre existencias y atención. **Cierre, días 6–7:** dominio de prioridades y resultado final.
 
-### Acto / Etapa 2
-
-### Acto / Etapa 3
+No hay escenas de historia independientes ni una trama de personajes con nombres y biografías. La narrativa surge de lo que ocurre durante el turno.
 
 ## Eventos principales
 
-| Orden | Evento | Participación del jugador | Consecuencia |
-|---|---|---|---|
-| | | | |
-| | | | |
+| Evento | Participación del jugador | Consecuencia |
+|---|---|---|
+| Compra y fila | Reponer y cobrar | Ingreso o cliente insatisfecho |
+| Aparición de suciedad | Equipar trapeador y limpiar | Recuperación de presentación y reputación temporal |
+| Robo | Interceptar al ladrón | Protección o recuperación de dinero; riesgo reputacional |
+| Visita del dueño | Preparar y mantener el local | Revisión, posible multa y pérdida acumulada |
+| Cierre diario | Observar resumen y preparar siguiente jornada | Aumento de dificultad |
 
 ## Finales
 
-Documenta los finales posibles y las condiciones que los provocan.
-
-> [!warning] Spoilers
-> Si el documento será compartido con estudiantes o colaboradores, considera separar información sensible de la documentación general.
-
+**Victoria:** terminar el día siete con reputación. **Derrota:** agotar reputación antes de completar la partida. La pantalla correspondiente comunica el resultado y permite repetir o regresar al menú. No existen finales secretos ni decisiones de diálogo que alteren la historia.
 
 > **Navegación:** [[00 - Índice]] · ← [[07 - Reglas y Estados del Juego]] · [[02 - Mundo]] →

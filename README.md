@@ -1,49 +1,23 @@
-## Autoría
+# Turno Rosso — GDD
 
-**Ing. Luis Fernando Villafaña Rejón**
+Documento de Diseño de Videojuego del prototipo académico Turno Rosso. Versión documental **0.2.0**, actualizada el **2026-10-16**.
 
-Creación y desarrollo de esta guía integral de GDD en español para la documentación y desarrollo de proyectos de videojuegos.
+## Lectura
 
-# GDD de Videojuego — Plantilla Profesional para Obsidian
+Abrir esta carpeta como bóveda de Obsidian y comenzar en [[00 - Índice]]. Los enlaces conectan visión, diseño, contenido, arte/audio, experiencia, tecnología, producción, calidad y clasificación. Las secciones se han completado con el juego actual; las tareas pendientes se identifican explícitamente.
 
-Esta carpeta contiene una estructura de **Documento de Diseño de Videojuego (GDD)** completamente en español y preparada para trabajar en Obsidian.
+El juego es una simulación de gestión de tienda para PC Windows, de un jugador y sin conexión. Incluye siete días de 210 segundos, cuatro categorías, cajas de cinco, reposición gradual, limpieza, cobro manual, robos e inspecciones. La victoria requiere finalizar el séptimo día conservando reputación.
 
-## Características
+## Estado y alcance de la documentación
 
-- Estructura profesional y modular.
-- Cada apartado explica qué debe documentarse.
-- Enlaces internos mediante `[[Wikilinks]]` de Obsidian.
-- Navegación de ida y vuelta entre secciones.
-- Campos preparados para completar.
-- Tablas, diagramas y bloques de información.
-- Separación entre diseño, contenido, arte, audio, UX, tecnología, producción y calidad.
-- Biblioteca integrada de géneros, subgéneros, plataformas, consolas, perspectivas, cámaras, modos de juego y etiquetas.
-- Registro de decisiones y versiones.
-- Orientado a proyectos académicos de desarrollo de videojuegos.
+El prototipo es jugable y cuenta con pruebas funcionales y auditorías. Todavía faltan una partida continua de siete jornadas, aprobación visual final, compilación Windows y mediciones en equipos de entrega. Los integrantes y responsable se conservan de la ficha original. Fechas administrativas y roles específicos no confirmados no se inventan.
 
-## Cómo usarlo
+Anexos contiene capturas del prototipo y reportes de su revisión previa. `obsidian-unificado.md` se conserva como copia empaquetada anterior proporcionada en la carpeta; no es la fuente actualizada. Para consultar el diseño vigente se usan las notas de las once secciones y el índice.
 
-1. Copia o mueve esta carpeta dentro de tu bóveda de Obsidian.
-2. Abre `00 - Índice.md`.
-3. Activa el panel de navegación de Obsidian si deseas explorar los enlaces visualmente.
-4. Completa primero la sección **01 — Visión**.
-5. Utiliza [[00 - Biblioteca de Clasificación]] cuando necesites decidir género, subgénero, plataforma, cámara o modo de juego.
-6. Continúa con diseño y sistemas.
-7. Documenta después contenido, experiencia y tecnología.
-8. Utiliza producción y calidad para controlar el desarrollo.
+## Crédito de la guía
 
-## Importante
+**Ing. Luis Fernando Villafaña Rejón:** creación y desarrollo de la guía integral de GDD en español que sirve de estructura. Los créditos del equipo del juego aparecen en la ficha y en Roles y Responsabilidades.
 
-No existe un único formato universal de GDD utilizado por todos los estudios. Esta plantilla utiliza una estructura amplia basada en las áreas que normalmente necesitan coordinarse durante el diseño y desarrollo de un videojuego.
+## Configuración de Obsidian
 
-El objetivo no es producir documentación por cantidad, sino conseguir que **el equipo pueda entender, implementar, probar y mantener las decisiones del juego**.
-
-## Ajuste visual de casillas
-
-La carpeta `snippets/` incluye `GDD-checkbox-fix.css`.  
-Si el tema de Obsidian superpone las casillas con el texto en **modo lectura**, activa este snippet desde:
-
-**Ajustes → Apariencia → Fragmentos de CSS → GDD-checkbox-fix**
-
-Las casillas siguen utilizando la sintaxis nativa de tareas de Obsidian (`- [ ]` / `- [x]`).
-
+Se conservan preferencias y archivos existentes. Si el tema superpone las casillas en lectura, puede activarse el fragmento `snippets/GDD-checkbox-fix.css` desde Ajustes → Apariencia → Fragmentos de CSS.

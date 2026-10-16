@@ -1,53 +1,31 @@
 # Público y Plataforma
 
-## Descripción de la sección
-
-Define para quién se diseña el videojuego y dónde se jugará. Las decisiones de diseño, interfaz, controles y rendimiento dependen de estas variables.
-
 ## Público objetivo
 
-**Edad aproximada:** 13 años en adelante contenido ligero, sin violencia gráfica.
+Se dirige a jugadores casuales e intermedios interesados en simulación de gestión y desafíos de organización. El público de diseño es de aproximadamente 13 años en adelante por la lectura y priorización requeridas; esta orientación no es una clasificación oficial por edades. El contenido presenta un robo ficticio sin violencia gráfica.
 
-**Experiencia esperada:**  
-> Casual a intermedia
+No se necesitan conocimientos de comercio ni experiencia previa con simuladores. Las instrucciones explican movimiento, interacción, limpieza, cobro y objetivo de la partida.
 
-**Intereses relevantes:**
-simuladores de gestión
-**Conocimientos previos necesarios:**
-ninguno; controles simples de movimiento e interacción.
 ## Plataforma
 
-| Elemento                | Decisión     |
-| ----------------------- | ------------ |
-| Plataforma principal    | PC (Windows) |
-| Plataformas secundarias | Ninguna      |
-| Método de entrada       | Teclado      |
-| Resolución objetivo     | 1920x1080    |
-| Relación de aspecto     | 16:9         |
-| Rendimiento objetivo    | 60FPS        |
-| Conexión requerida      | No           |
+| Elemento | Decisión |
+|---|---|
+| Plataforma principal | PC Windows |
+| Plataformas secundarias | Fuera del alcance actual |
+| Entrada | Teclado para jugar; mouse para los botones de interfaz |
+| Referencia de interfaz | 1280 × 720, relación 16:9 |
+| Resolución adicional de evaluación | 1920 × 1080 |
+| Rendimiento deseado | 60 FPS; pendiente de medición en equipos de entrega |
+| Conexión | No requerida |
 
-## Restricciones de plataforma
+## Restricciones
 
-sin requerimientos de hardware exigentes; debe poder ejecutarse en laptops de gama media sin necesidad de GPU dedicada.
+La tienda y el HUD deben ser legibles en 16:9, con escalado y encuadre adecuados. La intención es funcionar en computadoras comunes, pero todavía no hay una medición que permita prometer un mínimo de CPU, GPU o RAM. No está implementado el control táctil ni la adaptación completa a gamepad.
 
-## Sesión de juego
+## Sesión de juego y distribución
 
-**Duración esperada de una sesión:**
-5 a 10 minutos por jornada o día jugado.
-**Duración total estimada del juego:**
-30 a 45 minutos para completar una partida completa de 7 días.
-## Modelo de distribución
+Cada jornada dura **3 minutos y 30 segundos de juego activo**. Las siete jornadas suman **24 minutos y 30 segundos**; las seis transiciones agregan aproximadamente 25 segundos. Las pausas y los menús pueden prolongar la sesión. Una derrota puede finalizarla antes.
 
-> Prototipo académico / gratuito.
-
-## Consideraciones
-
-- [x] Controles adaptados a la plataforma
-- [ ] Interfaz legible
-- [x] Rendimiento considerado
-- [ ] Resoluciones consideradas
-- [ ] Guardado compatible
-
+Se prevé una entrega académica gratuita para Windows. No hay tienda de publicación ni fecha de lanzamiento registrada.
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Visión del Juego]] · [[04 - Pilares de Diseño]] →

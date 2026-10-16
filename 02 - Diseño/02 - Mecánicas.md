@@ -1,55 +1,33 @@
 # Mecánicas
 
-## Descripción de la sección
+## Movimiento y manos
 
-Una mecánica es una regla o interacción mediante la cual el jugador puede actuar dentro del sistema del juego.
+**Propósito:** conectar tareas dentro de la tienda. **Entrada:** WASD o flechas. **Estado inicial:** jugador libre o equipado. **Reglas:** movimiento sujeto a colisiones; solo un objeto en manos. La velocidad base configurada es 3.1 unidades por segundo; con caja se multiplica por 0.8. **Estado final:** nueva posición y orientación. No hay salto, ataque ni consumo de energía.
 
-Documenta cada mecánica con suficiente detalle para que otro integrante pueda implementarla.
+## Recogida y devolución de cajas
 
-## Plantilla de mecánica
+**Activación:** pulsar E junto a una de las cuatro estaciones con manos disponibles. **Recurso:** cinco unidades de la categoría, descontadas de bodega. **Resultado:** caja equipada. Se requiere disponibilidad suficiente; una categoría no utiliza existencias de otra. La caja sin usar puede devolverse a su estación. Si se lleva trapeador, primero debe devolverse. No hay penalización por devolver una caja válida.
 
-### Nombre de la mecánica
+## Reposición progresiva
 
-**Propósito:**  
-¿Qué aporta a la experiencia?
+**Propósito:** mantener productos a la venta. **Activación:** E junto al anaquel de la misma categoría con una caja equipada. **Estado inicial:** anaquel con espacio y caja con unidades. **Procesamiento:** una unidad cada 0.18 segundos, con progreso visible. **Estado final:** caja agotada o anaquel lleno; la caja desaparece y el sobrante vuelve a bodega. **Recompensa:** existencias disponibles y recuperación de la penalización por anaquel vacío cuando deja de estarlo.
 
-**Activación:**  
-¿Qué debe hacer el jugador?
+**Casos límite:** un anaquel en 18/20 recibe dos de las cinco unidades y devuelve tres a bodega. La categoría incorrecta no transfiere productos. Alejarse más del rango de continuidad interrumpe la transferencia; la caja conserva lo restante. Nunca se supera la capacidad de 20.
 
-**Reglas:**  
-¿Qué puede y qué no puede ocurrir?
+## Limpieza
 
-**Entrada:**  
-¿Qué botón, gesto o acción la activa?
+**Activación:** equipar trapeador con E en su estación y mantener E junto a una mancha. **Estado inicial:** mancha activa y herramienta equipada. **Proceso:** interacción sostenida, aproximadamente 2.25 segundos en la configuración actual. **Resultado:** desaparece la mancha y se actualiza el objetivo diario. **Recursos:** tiempo y ocupación de manos. Se recupera la parte de reputación asociada a esa mancha; no elimina penalizaciones históricas de inspecciones.
 
-**Estado inicial:**
+## Cobro manual
 
-**Estado final:**
+**Activación:** E en la zona de caja cuando hay un cliente esperando. **Estado inicial:** compra preparada y primer cliente de la fila disponible. **Proceso:** animación de pago dirigida a la registradora y progreso de cobro de aproximadamente 2.4 segundos. **Resultado:** ingreso por unidades realmente compradas; el cliente sale y avanza la fila. **Caso límite:** alejarse cancela un cobro incompleto; hace falta E de nuevo. Una compra terminada se abona una sola vez.
 
-**Recursos utilizados:**
+## Intercepción del ladrón
 
-**Recompensa:**
+**Activación:** E al estar cerca del ladrón durante aproximación, robo o huida. **Reglas:** puede robar hasta $150 disponibles en caja tras completar su acción de cuatro segundos. Un robo con dinero sustraído resta 12 de reputación. **Resultado:** se detiene al ladrón y se recupera el dinero que lleve. La recuperación no revierte automáticamente la penalización reputacional. La caja sin dinero no produce un robo monetario ni esa penalización.
 
-**Penalización:**
+## Mecánicas complementarias
 
-**Interacciones con otras mecánicas:**
-
-**Casos límite:**  
-¿Qué ocurre en situaciones poco comunes?
-
-## Mecánicas principales
-
-### Mecánica 01
-
-<!-- Copiar la plantilla anterior -->
-
-### Mecánica 02
-
-### Mecánica 03
-
-## Mecánicas secundarias
-
-Lista las mecánicas que complementan la experiencia pero no constituyen el núcleo.
-
+Esc abre o cierra pausa durante el juego activo. Los objetivos diarios cuentan reposiciones y limpiezas. Las pantallas de resultado permiten repetir o volver al menú. Las inspecciones y la compra de NPC son procesos automáticos descritos en [[03 - Sistemas]].
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Jugabilidad]] · [[03 - Sistemas]] →

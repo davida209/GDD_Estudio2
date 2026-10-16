@@ -1,0 +1,6 @@
+PASS 77 animation clips have valid frame references
+PASS References in Assets/TurnoRosso/Scenes/MainMenu.unity
+PASS References in Assets/TurnoRosso/Scenes/Game.unity
+PASS All prefab component and serialized references
+PASS Sampling and isolated sprite rectangles: Assets/TurnoRosso/Art/Environment/sage-shop.png
+PASS Sampling and isolated sprite rectangles: Assets/TurnoRosso/Art/UI/sage-hud.png

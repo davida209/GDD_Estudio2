@@ -1,23 +1,12 @@
-# GDD de Videojuego
+# Turno Rosso — Documento de Diseño de Videojuego
 
-> [!info] Autoría
-> **Creado y desarrollado por el Ing. Luis Fernando Villafaña Rejón.**
->
-> Esta guía fue diseñada como una estructura integral de documentación para la creación de videojuegos, completamente en español y orientada al aprendizaje, planeación, diseño, producción y documentación de proyectos de videojuegos.
->
-> Su propósito es servir como una guía de trabajo práctica: explica **qué debe documentarse, qué significa cada apartado y qué decisiones debe tomar el equipo**, evitando que el estudiante tenga que buscar conceptos fundamentales fuera del GDD.
+**Versión 0.2.0 · Actualizado: 2026-10-16 · Estado: prototipo jugable en pulido y pruebas.**
 
-# Documento de Diseño de Videojuego (GDD)
+El jugador atiende una tienda de conveniencia durante siete jornadas de 3:30. Repone cuatro categorías con cajas de cinco, limpia, cobra con E, evita robos y responde a las inspecciones del dueño. La meta es completar el séptimo día sin agotar la reputación.
 
-> [!abstract] Propósito
-> Este documento es la **fuente central de verdad del diseño del videojuego**. Aquí se define qué es el juego, qué experiencia busca producir, cómo funciona, qué contenido contiene y qué requisitos necesita para existir.
+Este GDD describe el juego actual y distingue lo implementado de las validaciones pendientes. No añade sistemas ajenos al proyecto. Los nombres del equipo y el repositorio se conservan en la ficha; las asignaciones no confirmadas se indican como tales.
 
-## Cómo utilizar este GDD
-
-Cada sección explica **qué información debe escribirse**, por qué es importante y qué preguntas debe responder. No se trata de llenar campos por llenar: cada decisión debe ayudar al equipo a construir el mismo videojuego.
-
-> [!important] Regla principal
-> Si una decisión importante del proyecto no está documentada aquí, existe el riesgo de que cada integrante la interprete de una manera diferente.
+**Autoría de la guía y estructura original:** Ing. Luis Fernando Villafaña Rejón. La autoría de la plantilla es distinta de los créditos del equipo de Turno Rosso.
 
 ## Navegación
 
@@ -101,21 +90,6 @@ Cada sección explica **qué información debe escribirse**, por qué es importa
 - [[05 - Modos de Juego]]
 - [[06 - Clasificaciones y Etiquetas]]
 
-## Orden recomendado para construir el GDD
+## Evidencia y lectura
 
-1. Definir la visión.
-2. Definir la experiencia principal.
-3. Diseñar las mecánicas y sistemas.
-4. Definir la progresión.
-5. Construir historia y mundo.
-6. Diseñar contenido.
-7. Definir arte, audio y experiencia de usuario.
-8. Documentar la arquitectura técnica.
-9. Definir producción y alcance.
-10. Establecer pruebas y criterios de calidad.
-
-> [!tip] Principio de diseño
-> El GDD no tiene que ser un libro terminado antes de comenzar a desarrollar. Debe evolucionar junto con el proyecto y registrar las decisiones que realmente importan.
-
-
-> **Navegación:** [[00 - Índice]] · [[01 - Ficha del Proyecto]] →
+Las reglas centrales están en Mecánicas, Sistemas, Progresión y Economía. Producción y Calidad indican qué falta para la entrega. Las capturas y reportes de pruebas se conservan en la carpeta Anexos.

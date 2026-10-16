@@ -1,69 +1,36 @@
 # Ficha del Proyecto
 
-## Descripción de la sección
-
-Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien que nunca haya visto el videojuego entienda qué proyecto es y cuál es su estado actual.
-
 ## Información general
 
-| Campo                        | Información                                                                                                                                                                             |
-| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Nombre del proyecto**      | Turno Rosso                                                                                                                                                                             |
-| **Nombre clave**             | <!-- Identificador interno si existe -->                                                                                                                                                |
-| **Versión del GDD**          | 0.1.0                                                                                                                                                                                   |
-| **Estado del proyecto**      | Concepto                                                                                                                                                                                |
-| **Equipo**                   | Lester David Uicab Gongora<br>José Ignacio Hernández Pérez<br>Romel Sebastián Cruz Medina<br>Karem Vanessa Borges Correa<br>Jorge Antonio Castañon Uitz<br>Gabriel Eduardo Ruiz Velasco |
-| **Responsable del proyecto** | Lester David Uicab Gongora                                                                                                                                                              |
-| **Fecha de inicio**          | <!-- AAAA-MM-DD -->                                                                                                                                                                     |
-| **Última actualización**     | <!-- AAAA-MM-DD -->                                                                                                                                                                     |
-| **Repositorio**              | https://github.com/davida209/turno-rosso                                                                                                                                                |
+| Campo                    | Información                                                                                                                                                                   |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nombre del proyecto      | Turno Rosso                                                                                                                                                                   |
+| Nombre clave             | Turno Rosso; no se utiliza otro identificador                                                                                                                                 |
+| Versión del GDD          | 0.2.0                                                                                                                                                                         |
+| Estado del proyecto      | Prototipo jugable en etapa de pulido y pruebas                                                                                                                                |
+| Equipo                   | Lester David Uicab Gongora; José Ignacio Hernández Pérez; Romel Sebastián Cruz Medina; Karem Vanessa Borges Correa; Jorge Antonio Castañon Uitz; Gabriel Eduardo Ruiz Velasco |
+| Responsable del proyecto | Lester David Uicab Gongora                                                                                                                                                    |
+| Fecha de inicio          |                                                                                                                                                                               |
+| Última actualización     | 2026-10-16                                                                                                                                                                    |
+| Repositorio              | https://github.com/davida209/turno-rosso                                                                                                                                      |
+| Tipo de proyecto         | Prototipo académico, distribución gratuita prevista                                                                                                                           |
 
 ## Identidad del videojuego
 
-**Género principal:**  
-> Simulación
+**Género:** simulación. **Subgénero:** simulación de gestión de tienda con gestión del tiempo en tiempo real. **Plataforma:** PC Windows. **Modo:** un jugador, local y sin conexión. **Perspectiva:** 2D top-down con cámara ortográfica fija. **Tecnología:** Unity y C#.
 
-**Subgéneros:**  
-> Simulación de gestión
-> 
+Las etiquetas aplicables son pixel art, gestión de recursos, jornadas cortas, dificultad progresiva y objetivos diarios. La tienda conserva su estado durante una partida; no existe un mundo persistente entre partidas. La clasificación se desarrolla en [[00 - Biblioteca de Clasificación]].
 
-**Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
+## Elevator pitch
 
-**Plataforma objetivo:**  
->PC (Windows).
-
-**Modo de juego:**  
-> Un Jugador
-
-**Perspectiva:**  
-> 2D Top Down
-
-**Clasificaciones y etiquetas adicionales:**  
-> Local,Mundo persistente
-
-**Tecnología principal:**  
->Unity (C#)
-
-## Elevator Pitch
-
->Turno Rosso hace que el jugador sea el único encargado de una tienda de conveniencia durante turnos de trabajo: debe reponer anaqueles, limpiar la tienda, atender clientes y frustrar a un ladrón, todo mientras cuida la reputación del negocio para sobrevivir 7 días sin que el dueño lo multe o la tienda pierda toda su reputación.
-
-**Respuesta:**
+Turno Rosso pone al jugador al frente de una tienda de conveniencia durante siete jornadas. Debe reponer cuatro tipos de productos, limpiar, cobrar personalmente y detener a un ladrón, mientras las visitas del dueño ponen a prueba la reputación del negocio. Cada día dura tres minutos y medio y exige priorizar mejor las tareas.
 
 ## Estado actual
 
-- [x] Concepto definido
-- [x] Alcance inicial definido
-- [x] Mecánica principal definida
-- [ ] Prototipo funcional
-- [ ] Vertical slice
-- [ ] Producción
-- [ ] Pruebas
-- [ ] Versión final
+El concepto, las mecánicas principales, la tienda, los menús, el HUD y la progresión están implementados. Hay pruebas funcionales e integración de arte y animaciones. Continúan la revisión visual y la validación de una partida completa. La compilación de distribución y la entrega final están pendientes; no se presenta el prototipo como versión comercial terminada.
 
-## Criterio de éxito del proyecto
+## Criterio de éxito
 
-El proyecto cumple su propósito si un jugador puede completar un turno de 7 días administrando la tienda (reponiendo stock, limpiando, cobrando y evitando robos) sin necesitar explicación externa, la tensión entre atender varias tareas a la vez resulta clara y motivante en lugar de confusa.
-
+Un jugador debe comprender las instrucciones del menú, completar las siete jornadas sin perder toda la reputación y reconocer por qué cambian sus recursos. La presión debe surgir de atender varias tareas, manteniendo controles claros y movimientos legibles.
 
 > **Navegación:** [[00 - Índice]] · ← [[00 - Índice]] · [[02 - Visión del Juego]] →

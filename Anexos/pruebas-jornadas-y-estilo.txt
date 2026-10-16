@@ -1,0 +1,92 @@
+PASS Every day lasts exactly 210 seconds
+PASS Day clock advances with simulation time
+PASS Pause does not consume day time
+PASS Neutral / opposite steps with stable orientation: client2_Base_0_1
+PASS Neutral / opposite steps with stable orientation: client2_Base_1_1
+PASS Neutral / opposite steps with stable orientation: client2_Base_2_1
+PASS Neutral / opposite steps with stable orientation: client2_Base_3_1
+PASS Neutral / opposite steps with stable orientation: cliente1_Base_0_1
+PASS Neutral / opposite steps with stable orientation: cliente1_Base_1_1
+PASS Neutral / opposite steps with stable orientation: cliente1_Base_2_1
+PASS Neutral / opposite steps with stable orientation: cliente1_Base_3_1
+PASS Neutral / opposite steps with stable orientation: cliente3_Base_0_1
+PASS Neutral / opposite steps with stable orientation: cliente3_Base_1_1
+PASS Neutral / opposite steps with stable orientation: cliente3_Base_2_1
+PASS Neutral / opposite steps with stable orientation: cliente3_Base_3_1
+PASS Neutral / opposite steps with stable orientation: Owner_Base_0_1
+PASS Neutral / opposite steps with stable orientation: Owner_Base_1_1
+PASS Neutral / opposite steps with stable orientation: Owner_Base_2_1
+PASS Neutral / opposite steps with stable orientation: Owner_Base_3_1
+PASS Neutral / opposite steps with stable orientation: Player_Base_0_1
+PASS Neutral / opposite steps with stable orientation: Player_Base_1_1
+PASS Neutral / opposite steps with stable orientation: Player_Base_2_1
+PASS Neutral / opposite steps with stable orientation: Player_Base_3_1
+PASS Neutral / opposite steps with stable orientation: Player_Carry_0_1
+PASS Neutral / opposite steps with stable orientation: Player_Carry_1_1
+PASS Neutral / opposite steps with stable orientation: Player_Carry_2_1
+PASS Neutral / opposite steps with stable orientation: Player_Carry_3_1
+PASS Neutral / opposite steps with stable orientation: Player_Mop_0_1
+PASS Neutral / opposite steps with stable orientation: Player_Mop_1_1
+PASS Neutral / opposite steps with stable orientation: Player_Mop_2_1
+PASS Neutral / opposite steps with stable orientation: Player_Mop_3_1
+PASS Neutral / opposite steps with stable orientation: Thief_Base_0_1
+PASS Neutral / opposite steps with stable orientation: Thief_Base_1_1
+PASS Neutral / opposite steps with stable orientation: Thief_Base_2_1
+PASS Neutral / opposite steps with stable orientation: Thief_Base_3_1
+PASS All 32 walking cycles follow the requested sequence
+PASS Alternating neutral and stride keeps visual height and feet grounded
+PASS Five units in StockBox_0
+PASS Five units in StockBox_1
+PASS Five units in StockBox_2
+PASS Five units in StockBox_3
+PASS A completed theft removes money and 12 reputation immediately
+PASS Theft reputation penalty survives regular recalculation
+PASS Dirt reduces live reputation
+PASS Owner penalizes an inspection with two dirty spots
+PASS Holding E cleans and restores the live cleanliness penalty
+PASS Taking a box consumes five warehouse units
+PASS E fills the five-unit box gradually
+PASS Pause freezes incremental stock transfer
+PASS One box adds exactly five units then disappears
+PASS Restocking restores the empty-shelf reputation penalty
+PASS Five real stock units produce five visible products
+PASS Near-full shelf takes only its space and returns the remainder
+PASS Difficulty rises on day 1
+PASS Difficulty rises on day 2
+PASS Difficulty rises on day 3
+PASS Difficulty rises on day 4
+PASS Difficulty rises on day 5
+PASS Difficulty rises on day 6
+PASS Difficulty rises on day 7
+PASS End of day freezes the game before advancing
+PASS Animated end-of-day screen appears
+PASS Transition animation does not consume the next day
+PASS Escape cannot interrupt the day change
+PASS Day two starts with its full 210-second budget
+PASS Day-change overlay releases input
+PASS Seventh day completes the game without creating day eight
+PASS VERIFICATION COMPLETE (no score saved)
+PASS Day seven customers request larger baskets and have shorter patience
+PASS Customer pays only for the units actually available
+PASS Customer still waits for manual E checkout
+PASS E checkout starts with the new difficulty rules
+PASS Manual checkout produces one correctly priced sale
+PASS Expired patience removes the customer from the queue
+PASS Actual customer spawn cadence on day 1
+PASS Actual customer spawn cadence on day 7
+PASS New shelf leaves a walkable route: Drinks
+PASS New shelf leaves a walkable route: Household
+PASS New shelf leaves a walkable route: Groceries
+PASS New shelf leaves a walkable route: Snacks
+PASS VERIFICATION COMPLETE
+PASS Daily objectives scale on day 3: 6 restocks, 1 cleans
+PASS Daily objectives scale on day 4: 6 restocks, 2 cleans
+PASS Daily objectives scale on day 7: 8 restocks, 3 cleans
+PASS Theft reports and removes only available money
+PASS Empty till does not create a false theft penalty
+PASS Queue position 1 stays clear of shelves: (7.65, 0.80, 0.00)
+PASS Queue position 2 stays clear of shelves: (7.65, -0.35, 0.00)
+PASS Queue position 3 stays clear of shelves: (7.65, -1.50, 0.00)
+PASS Queue position 4 stays clear of shelves: (6.50, -1.50, 0.00)
+PASS Queue position 5 stays clear of shelves: (6.50, -2.65, 0.00)
+PASS Queue position 6 stays clear of shelves: (6.50, -3.80, 0.00)

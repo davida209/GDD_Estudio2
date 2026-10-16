@@ -1,54 +1,27 @@
-# Clasificaciones y Etiquetas de Diseño
+# Clasificaciones y Etiquetas
 
-## Propósito
+## Etiquetas aplicables
 
-Esta página ayuda a describir el juego con más precisión sin confundir **género**, **subgénero**, **perspectiva**, **modo** y **características**.
-
-## Diferencia rápida
-
-| Concepto | Pregunta que responde |
+| Etiqueta | Evidencia en el juego |
 |---|---|
-| Género | ¿Qué tipo general de experiencia es? |
-| Subgénero | ¿Qué especialización tiene? |
-| Perspectiva | ¿Cómo observa el jugador el mundo? |
-| Cámara | ¿Cómo se mueve o controla la vista? |
-| Modo | ¿Cómo participan los jugadores? |
-| Plataforma | ¿Dónde se juega? |
-| Característica | ¿Qué sistemas o propiedades adicionales tiene? |
+| Simulación de gestión | Operación de tienda y recursos |
+| Gestión del tiempo | Jornadas de 210 segundos y tareas simultáneas |
+| Un jugador | Un empleado controlable |
+| Local / offline | Partida y marcador disponibles sin servidor |
+| Pixel art 2D | Sprites, tiles e interfaz estilizados |
+| Top-down | Visión superior del local |
+| Dificultad progresiva | Mayor exigencia a lo largo de siete días |
+| Inventario limitado | Un objeto en manos y cajas por categoría |
+| Objetivos diarios | Reposición y limpieza con contadores |
 
-## Características posibles
+## Etiquetas que no corresponden
 
-- Mundo abierto
-- Lineal
-- No lineal
-- Procedural
-- Generación aleatoria
-- Mundo persistente
-- Narrativa ramificada
-- Decisiones del jugador
-- Personalización
-- Construcción
-- Crafteo
-- Inventario
-- Árbol de habilidades
-- Jefes
-- Misiones
-- Sigilo
-- Combate
-- Exploración
-- Coleccionables
-- Permadeath
-- Cooperativo
-- Competitivo
-- Online
-- Local
+No se usa “mundo persistente” para una sesión que no se guarda; “mundo abierto”, porque solo hay una tienda; “procedural”, porque el mapa no se genera; ni “online”, porque no hay backend activo. Los tiempos aleatorios de eventos no equivalen a generación procedural del mundo.
 
-## Regla de documentación
+No corresponden combate, jefes, crafteo, coleccionables, narrativa ramificada, construcción ni árbol de habilidades. El dueño es un supervisor, no un jefe de combate.
 
-No conviertas todas las características en géneros.
+## Público y clasificación por edades
 
-Por ejemplo:
+La orientación de diseño es aproximadamente 13+, sin violencia gráfica. No hay una clasificación oficial ESRB, PEGI u otra registrada. No debe colocarse un sello oficial sin un proceso real de clasificación.
 
-> **RPG de acción en tercera persona para PC, un jugador, con mundo semiabierto, exploración, crafteo y narrativa ramificada.**
-
-Eso describe mucho mejor el proyecto que una lista de diez géneros.
+> **Navegación:** [[00 - Índice]]

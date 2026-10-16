@@ -1,52 +1,25 @@
 # Personajes
 
-## Descripción de la sección
+## Protagonista — Empleado de la tienda
 
-Cada personaje importante debe tener una función clara dentro de la historia y/o la jugabilidad.
+**Nombre:** no se establece nombre narrativo; el jugador introduce uno para su puntuación. **Rol:** único personaje controlable. **Función:** caminar, llevar cajas, reponer, limpiar, cobrar y detener al ladrón. **Apariencia:** sprite pixel art con gorra roja y delantal verde. **Motivación:** completar la semana manteniendo el negocio. **Conflicto:** dispone de tiempo y manos limitados frente a tareas simultáneas.
 
-## Plantilla de personaje
+La personalidad se expresa mediante las decisiones del jugador; no hay biografía ni arco dialogado. Su aprendizaje es operativo. Es más lento al cargar cajas y no puede llevar trapeador y caja simultáneamente. No tiene vida, ataques ni habilidades desbloqueables.
 
-### Nombre
+## Clientes
 
-**Rol:**
+Hay tres variantes visuales: verde, morada y azul. Su función es buscar productos, retirarlos, formarse, pagar y salir. Las variantes no constituyen clases de comprador con poderes distintos. Pueden mostrarse molestos por falta de existencias o exceso de espera. Su motivación es completar una compra; se comunican con gestos y estados visuales, sin conversaciones ramificadas.
 
-**Función jugable:**
+## Ladrón
 
-**Función narrativa:**
+Es la amenaza económica: entra, se aproxima a la registradora, intenta robar y huye. Su apariencia debe diferenciarlo claramente de los clientes. No es un enemigo de combate ni un jefe con vida. Su debilidad jugable es poder ser interceptado con E; la velocidad está ajustada para que sea alcanzable.
 
-**Descripción física:**
+## Dueño
 
-**Personalidad:**
+Representa la supervisión del negocio. Anuncia su llegada, entra, recorre una ruta libre, inspecciona y comunica el resultado antes de retirarse. Evalúa limpieza, existencias y reputación; puede imponer multa. No pelea ni permanece sobre un anaquel.
 
-**Motivaciones:**
+## Relaciones, tono y referencias
 
-**Objetivos:**
-
-**Conflicto:**
-
-**Relaciones:**
-
-**Arco del personaje:**
-
-**Habilidades:**
-
-**Debilidades:**
-
-**Frases o tono de diálogo:**
-
-**Referencias visuales:**
-
-## Personajes
-
-### Protagonista
-
-### Antagonista
-
-### Personajes secundarios
-
-## NPC
-
-Documenta qué NPC existen, qué hacen y cómo interactúan con el jugador.
-
+El empleado atiende al cliente, responde ante el dueño e impide el robo. La expresión es cotidiana, directa y ligera. No se han definido frases personales, parentescos o historias adicionales. Las capturas y recursos actuales del proyecto son la referencia visual de estos personajes; sus estados se detallan en [[02 - Personajes y Animación]].
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mundo]] · [[04 - Diálogos y Narrativa]] →

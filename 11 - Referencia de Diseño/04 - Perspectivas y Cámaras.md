@@ -1,67 +1,19 @@
 # Perspectivas y Cámaras
 
-## Por qué importa
-
-La cámara determina qué puede ver el jugador, cómo interpreta el espacio y cómo se diseñan movimiento, combate, niveles e interfaz.
-
-## Primera persona
-
-La cámara se presenta desde la perspectiva visual del personaje.
-
-**Adecuada para:** exploración inmersiva, shooters, terror, simulación.
-
-**Considerar:** visibilidad, mareo, animación de manos y orientación espacial.
-
-## Tercera persona
-
-La cámara se sitúa detrás o alrededor del personaje y permite verlo directamente.
-
-**Adecuada para:** acción, aventura, RPG, plataformas 3D.
-
-**Considerar:** colisiones de cámara, distancia, obstáculos y control de orientación.
-
-## Isométrica
-
-Presenta el mundo mediante una vista elevada y angular que facilita la lectura espacial.
-
-**Adecuada para:** estrategia, RPG, gestión y tácticos.
-
-## Vista superior / Top-down
-
-La cámara observa el mundo desde arriba.
-
-**Adecuada para:** estrategia, acción, RPG, gestión y juegos de arena.
-
-## Lateral / Side-scroller
-
-La acción se observa principalmente desde un costado.
-
-**Adecuada para:** plataformas 2D, acción 2D, aventuras.
-
-## 2D fija
-
-El juego utiliza una representación bidimensional con cámara fija o con desplazamiento limitado.
-
-## 2.5D
-
-Combina elementos visuales o espaciales 2D y 3D.
-
-## Cámara libre
-
-El jugador puede controlar gran parte de la orientación de la cámara.
-
-## Cámara fija
-
-La posición de la cámara está determinada por el diseño.
-
-## Cámara dinámica
-
-La cámara cambia automáticamente según acciones, eventos o contexto.
-
 ## Decisión del proyecto
 
-**Perspectiva principal:**  
-**Tipo de cámara:**  
-**¿Puede cambiar durante el juego?:**  
+**Perspectiva:** top-down 2D estilizada. **Cámara:** ortográfica fija, encuadrando el local para observar tareas y recorridos. El jugador no la gira ni cambia a primera persona.
 
-**Justificación de diseño:**
+## Justificación
+
+La vista general permite comparar rápidamente fila, anaqueles, manchas, ladrón y dueño. Los sprites muestran volumen de forma dibujada, pero el juego sigue funcionando en un espacio 2D. No se clasifica como isométrico ni 3D por la apariencia frontal de los muebles.
+
+## Configuración y restricciones
+
+StoreCameraFrame mantiene el encuadre; la configuración actual utiliza tamaño ortográfico 6.15 y referencia 16:9. El layout y posibles bandas de encuadre deben preservar toda la tienda y el HUD. PixelPerfectCamera está deshabilitada en el estado actual debido al encuadre y mezcla de escalas de recursos.
+
+## Cambios durante la partida
+
+Pausa, transición y resultado añaden paneles sobre el juego; no introducen una cámara libre o un modo de exploración distinto. Los avisos deben dejar visible la información necesaria para jugar.
+
+> **Navegación:** [[00 - Índice]]

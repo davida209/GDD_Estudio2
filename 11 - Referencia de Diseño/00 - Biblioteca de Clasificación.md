@@ -1,10 +1,20 @@
-# Biblioteca de Clasificación del Videojuego
+# Biblioteca de Clasificación
 
-> **Creada por el Ing. Luis Fernando Villafaña Rejón.**
+## Clasificación de Turno Rosso
 
-Esta sección funciona como una **biblioteca de consulta integrada al GDD**. El objetivo es que el equipo pueda tomar decisiones de clasificación sin salir del documento.
+La estructura de esta biblioteca procede de la guía del **Ing. Luis Fernando Villafaña Rejón**. Se concreta aquí para describir el juego sin acumular etiquetas que no correspondan.
 
-## Consulta rápida
+| Dimensión | Elección |
+|---|---|
+| Género | Simulación |
+| Subgénero | Gestión de tienda y gestión del tiempo |
+| Plataforma | PC Windows |
+| Perspectiva | Top-down 2D |
+| Cámara | Ortográfica fija con encuadre general del local |
+| Modo | Un jugador local, offline |
+| Características | Pixel art, cuatro categorías, tareas simultáneas y siete jornadas progresivas |
+
+## Consulta
 
 - [[01 - Géneros]]
 - [[02 - Subgéneros y Combinaciones]]
@@ -13,15 +23,6 @@ Esta sección funciona como una **biblioteca de consulta integrada al GDD**. El 
 - [[05 - Modos de Juego]]
 - [[06 - Clasificaciones y Etiquetas]]
 
-> [!tip] Antes de elegir
-> Lee la descripción de las opciones que parezcan cercanas y compara sus características con las mecánicas reales de tu videojuego.
+El resumen de identidad se encuentra en [[01 - Ficha del Proyecto]].
 
-## Ruta recomendada
-
-`Género → Subgénero → Plataforma → Perspectiva/Cámara → Modo de juego → Características`
-
-## Resultado
-
-Cuando termines, regresa a:
-
-[[01 - Ficha del Proyecto]]
+> **Navegación:** [[00 - Índice]]

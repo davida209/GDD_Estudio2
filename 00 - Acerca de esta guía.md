@@ -1,30 +1,19 @@
 # Acerca de esta guía
 
-> [!info] Autoría
-> **Ing. Luis Fernando Villafaña Rejón**
+## Autoría original
 
-## Propósito
+**Ing. Luis Fernando Villafaña Rejón**, creador de la guía integral de GDD en español utilizada como base de esta bóveda.
 
-Esta guía fue creada para proporcionar una estructura completa, práctica y coherente de **Game Design Document (GDD)** en español.
+## Propósito de esta edición
 
-Está pensada para acompañar al estudiante desde la definición inicial de una idea hasta la producción, pruebas y versión final de un videojuego.
+Documentar Turno Rosso de manera coherente con su prototipo jugable: visión, reglas, mundo, contenido, arte, experiencia, tecnología, producción y calidad. Los apartados genéricos se han concretado para el juego; no representan una lista de funciones que deban añadirse automáticamente.
 
-## Principios de la guía
+## Criterios de documentación
 
-- Explicar cada apartado antes de pedir información.
-- Evitar que el equipo tenga que buscar conceptos fundamentales en fuentes dispersas.
-- Separar claramente género, subgénero, plataforma, perspectiva, cámara, modo de juego y características.
-- Utilizar navegación interna para que el documento funcione como una base de conocimiento.
-- Mantener la documentación útil para tomar decisiones reales durante el desarrollo.
-- Permitir que el GDD crezca o se reduzca según el alcance del proyecto.
+Se mantienen las decisiones expresadas para el proyecto y los datos del equipo. Las funciones existentes se diferencian de tareas pendientes. Una fecha, crédito, requisito de hardware o asignación no registrada se indica como tal. Los valores de balance reflejan la configuración actual y pueden revisarse con pruebas.
 
-## Cómo usarla
+## Uso
 
-1. Comienza en [[00 - Índice]].
-2. Lee la descripción de cada apartado antes de completarlo.
-3. Utiliza las bibliotecas de referencia cuando necesites clasificar o definir conceptos.
-4. Documenta las decisiones importantes y sus razones.
-5. Mantén actualizado el GDD conforme evolucione el videojuego.
+Comenzar en [[00 - Índice]], consultar [[01 - Ficha del Proyecto]] y mantener alineadas reglas, código e instrucciones cuando se cambie el juego. La biblioteca final concreta la clasificación de Turno Rosso y evita confundir género, plataforma, cámara y modo.
 
-> [!quote] Idea central
-> Un GDD no debe ser un documento que se escribe una sola vez. Debe ser una herramienta viva que ayude al equipo a **pensar, decidir, construir y validar** el videojuego.
+El GDD no reemplaza la revisión de una partida real ni acredita como final un prototipo aún en pulido. Las evidencias disponibles y sus límites se describen en [[02 - Pruebas]].
