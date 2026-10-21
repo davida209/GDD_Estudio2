@@ -40,6 +40,4 @@ La guía de GDD en español fue creada por el **Ing. Luis Fernando Villafaña Re
 
 ![Nuevo día](../Anexos/anuncio-nuevo-dia.png)
 
-### Poses de caminata
 
-![Alternancia de pasos](../Anexos/pasos-neutro-izquierda-derecha.png)
