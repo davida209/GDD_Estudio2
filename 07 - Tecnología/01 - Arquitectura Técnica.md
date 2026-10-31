@@ -17,19 +17,19 @@ HUD + animaciones + sonido + resultados → ScoreManager
 
 ## Componentes principales
 
-| Componente o área | Responsabilidad | Dependencias |
-|---|---|---|
-| GameManager | Día, reloj, pausa, transición y resultado | Eventos de jornada y reputación |
-| DayDifficulty | Parámetros escalados por día | Día actual |
-| WarehouseStockManager | Reservas por categoría y suministro | Eventos de inicio de jornada |
-| EconomyManager | Balance, ventas, robos y multas | Caja, ladrón y dueño |
-| OwnerInspectionManager | Aviso y evaluación del negocio | Reputación, manchas y stock |
-| Inventario e interactuables | Caja/trapeador y acciones cercanas | Entrada y objetos de escena |
-| StoreWalker | Rutas de NPC por zonas transitables | Mobiliario, obstáculos y destinos |
-| ActorSpriteStability | Apoyo y escala visual de actores | SpriteRenderer y animación |
-| SoundBank | Efectos y preferencia de sonido | Eventos y PlayerPrefs |
-| ScoreManager | Puntuaciones y último nombre | PlayerPrefs, JSON y resultado |
-| RemoteScoreSync | Punto de integración remota opcional | Backend sin configurar; no activo en el alcance |
+| Componente o área           | Responsabilidad                           | Dependencias                                    |
+| --------------------------- | ----------------------------------------- | ----------------------------------------------- |
+| GameManager                 | Día, reloj, pausa, transición y resultado | Eventos de jornada y reputación                 |
+| DayDifficulty               | Parámetros escalados por día              | Día actual                                      |
+| WarehouseStockManager       | Reservas por categoría y suministro       | Eventos de inicio de jornada                    |
+| EconomyManager              | Balance, ventas, robos y multas           | Caja, ladrón y dueño                            |
+| OwnerInspectionManager      | Aviso y evaluación del negocio            | Reputación, manchas y stock                     |
+| Inventario e interactuables | Caja/trapeador y acciones cercanas        | Entrada y objetos de escena                     |
+| StoreWalker                 | Rutas de NPC por zonas transitables       | Mobiliario, obstáculos y destinos               |
+| ActorSpriteStability        | Apoyo y escala visual de actores          | SpriteRenderer y animación                      |
+| SoundBank                   | Efectos y preferencia de sonido           | Eventos y PlayerPrefs                           |
+| ScoreManager                | Puntuaciones y último nombre              | PlayerPrefs, JSON y resultado                   |
+| RemoteScoreSync             | Punto de integración remota opcional      | Backend sin configurar; no activo en el alcance |
 
 ## Comunicación y principios
 

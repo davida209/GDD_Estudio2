@@ -1,5 +1,14 @@
 # Interfaz Visual
 
+## Recursos Visuales de UI
+
+| Logotipo Oficial | Fondo de Menú | Tarjeta de Contenedor / Papel |
+| :---: | :---: | :---: |
+| ![[Logo.png\|200]] | ![[MenuBackground.png\|220]] | ![[menu-paper-card.png\|160]] |
+| `Logo.png` | `MenuBackground.png` | `menu-paper-card.png` |
+
+---
+
 ## HUD
 
 La zona superior presenta día, tiempo restante, dinero y reputación, además de acceso a pausa e identidad del juego. La zona inferior contiene cuatro reservas de bodega, equipo actual, acción contextual/progreso y objetivos del turno.

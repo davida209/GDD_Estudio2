@@ -2,15 +2,15 @@
 
 ## Riesgos
 
-| Riesgo | Probabilidad cualitativa | Impacto | Mitigación |
-|---|---|---|---|
-| Perder referencias al mover recursos | Posible en reorganización | Alto | Mover con sus .meta y auditar escenas/prefabs |
-| Rutas de NPC dentro de muebles | Posible al cambiar layout | Alto | Revisar cuadrícula, colisiones y destinos libres |
-| Cobro o stock duplicado | Posible al modificar interacción | Alto | Una operación por acción y pruebas de límites |
-| Pausa o transición que consume tiempo | Posible al modificar estados | Alto | Probar reloj y escala temporal en cada transición |
-| Sprite con recorte o pivote incorrecto | Posible al importar arte | Medio | Auditar recortes y revisar movimiento real |
-| Puntuaciones locales dañadas | Posible | Medio | Comprobar carga y conservar copia de datos al investigar |
-| Rendimiento o HUD distinto por equipo | Sin medir en matriz completa | Medio | Pruebas de compilación y resoluciones |
+| Riesgo                                 | Probabilidad cualitativa         | Impacto | Mitigación                                               |
+| -------------------------------------- | -------------------------------- | ------- | -------------------------------------------------------- |
+| Perder referencias al mover recursos   | Posible en reorganización        | Alto    | Mover con sus .meta y auditar escenas/prefabs            |
+| Rutas de NPC dentro de muebles         | Posible al cambiar layout        | Alto    | Revisar cuadrícula, colisiones y destinos libres         |
+| Cobro o stock duplicado                | Posible al modificar interacción | Alto    | Una operación por acción y pruebas de límites            |
+| Pausa o transición que consume tiempo  | Posible al modificar estados     | Alto    | Probar reloj y escala temporal en cada transición        |
+| Sprite con recorte o pivote incorrecto | Posible al importar arte         | Medio   | Auditar recortes y revisar movimiento real               |
+| Puntuaciones locales dañadas           | Posible                          | Medio   | Comprobar carga y conservar copia de datos al investigar |
+| Rendimiento o HUD distinto por equipo  | Sin medir en matriz completa     | Medio   | Pruebas de compilación y resoluciones                    |
 
 Las probabilidades anteriores son evaluación de riesgo, no frecuencias medidas ni errores actuales confirmados.
 

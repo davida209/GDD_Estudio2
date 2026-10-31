@@ -2,14 +2,14 @@
 
 ## Equipo registrado
 
-| Integrante | Rol confirmado | Responsabilidad registrada |
-|---|---|---|
-| Lester David Uicab Gongora | Responsable del proyecto | Coordinar y validar el proyecto y su documentación |
-| José Ignacio Hernández Pérez | Integrante del equipo | Especialidad y entregables por asignar por el equipo |
-| Romel Sebastián Cruz Medina | Integrante del equipo | Especialidad y entregables por asignar por el equipo |
-| Karem Vanessa Borges Correa | Integrante del equipo | Especialidad y entregables por asignar por el equipo |
-| Jorge Antonio Castañon Uitz | Integrante del equipo | Especialidad y entregables por asignar por el equipo |
-| Gabriel Eduardo Ruiz Velasco | Integrante del equipo | Especialidad y entregables por asignar por el equipo |
+| Integrante                   | Rol confirmado           | Responsabilidad registrada                           |
+| ---------------------------- | ------------------------ | ---------------------------------------------------- |
+| Lester David Uicab Gongora   | Responsable del proyecto | Coordinar y validar el proyecto y su documentación   |
+| José Ignacio Hernández Pérez | Integrante del equipo    | Especialidad y entregables por asignar por el equipo |
+| Romel Sebastián Cruz Medina  | Integrante del equipo    | Especialidad y entregables por asignar por el equipo |
+| Karem Vanessa Borges Correa  | Integrante del equipo    | Especialidad y entregables por asignar por el equipo |
+| Jorge Antonio Castañon Uitz  | Integrante del equipo    | Especialidad y entregables por asignar por el equipo |
+| Gabriel Eduardo Ruiz Velasco | Integrante del equipo    | Especialidad y entregables por asignar por el equipo |
 
 No se atribuyen programación, arte o pruebas a integrantes sin un reparto confirmado. La ficha original solo identificaba al responsable general.
 
