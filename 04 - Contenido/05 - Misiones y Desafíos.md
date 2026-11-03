@@ -12,13 +12,13 @@ Estos objetivos orientan el trabajo; no son requisitos para que pase el día. No
 
 ## Desafíos emergentes
 
-| Desafío | Condición | Respuesta adecuada | Consecuencia |
-|---|---|---|---|
-| Fila creciente | Varios clientes esperando | Cobrar con E a cada uno | Ventas o insatisfacción por espera |
-| Anaquel vacío | Stock agotado | Caja compatible y reposición | Recuperar servicio y penalización temporal |
-| Tienda sucia | Manchas activas | Trapeador y limpieza | Mejorar reputación temporal y auditoría |
-| Robo | Ladrón en caja o huida | Interceptar con E | Evitar pérdida o recuperar dinero |
-| Inspección próxima | Aviso del dueño | Priorizar orden sin abandonar servicio | Posible multa y pérdida reputacional |
+| Desafío            | Condición                 | Respuesta adecuada                     | Consecuencia                               |
+| ------------------ | ------------------------- | -------------------------------------- | ------------------------------------------ |
+| Fila creciente     | Varios clientes esperando | Cobrar con E a cada uno                | Ventas o insatisfacción por espera         |
+| Anaquel vacío      | Stock agotado             | Caja compatible y reposición           | Recuperar servicio y penalización temporal |
+| Tienda sucia       | Manchas activas           | Trapeador y limpieza                   | Mejorar reputación temporal y auditoría    |
+| Robo               | Ladrón en caja o huida    | Interceptar con E                      | Evitar pérdida o recuperar dinero          |
+| Inspección próxima | Aviso del dueño           | Priorizar orden sin abandonar servicio | Posible multa y pérdida reputacional       |
 
 No hay un sistema de misiones narrativas, NPC que entreguen encargos ni recompensas de equipo.
 

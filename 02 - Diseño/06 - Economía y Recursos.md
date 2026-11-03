@@ -2,15 +2,15 @@
 
 ## Recursos
 
-| Recurso | Inicio y obtención | Uso o pérdida | Límite |
-|---|---|---|---|
-| Dinero | $1000 iniciales; $40 por unidad cobrada | Robo y multas | No puede sustraerse más dinero del disponible |
-| Reputación | Base 100; se recuperan penalizaciones temporales al resolver causas | Manchas, vacíos, insatisfacción, robo e inspección | 0–100; cero provoca derrota |
-| Stock de anaquel | 12 iniciales por categoría; reposición | Compras de clientes | 20 por anaquel |
-| Stock de bodega | 30 iniciales por categoría; +20 al iniciar días 2–7 | Cajas de cinco unidades | 80 por categoría |
-| Caja transportada | Retiro de cinco unidades de una categoría | Transferencia gradual o devolución | Una caja en manos |
-| Tiempo diario | 210 segundos por jornada | Avanza durante juego activo | Se congela en pausa y transición |
-| Capacidad de manos | Manos vacías al inicio | Caja o trapeador ocupan la única selección | Un objeto equipado |
+| Recurso            | Inicio y obtención                                                  | Uso o pérdida                                      | Límite                                        |
+| ------------------ | ------------------------------------------------------------------- | -------------------------------------------------- | --------------------------------------------- |
+| Dinero             | $1000 iniciales; $40 por unidad cobrada                             | Robo y multas                                      | No puede sustraerse más dinero del disponible |
+| Reputación         | Base 100; se recuperan penalizaciones temporales al resolver causas | Manchas, vacíos, insatisfacción, robo e inspección | 0–100; cero provoca derrota                   |
+| Stock de anaquel   | 12 iniciales por categoría; reposición                              | Compras de clientes                                | 20 por anaquel                                |
+| Stock de bodega    | 30 iniciales por categoría; +20 al iniciar días 2–7                 | Cajas de cinco unidades                            | 80 por categoría                              |
+| Caja transportada  | Retiro de cinco unidades de una categoría                           | Transferencia gradual o devolución                 | Una caja en manos                             |
+| Tiempo diario      | 210 segundos por jornada                                            | Avanza durante juego activo                        | Se congela en pausa y transición              |
+| Capacidad de manos | Manos vacías al inicio                                              | Caja o trapeador ocupan la única selección         | Un objeto equipado                            |
 
 ## Fuentes y sumideros
 

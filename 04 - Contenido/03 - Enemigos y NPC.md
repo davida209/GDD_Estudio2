@@ -2,17 +2,25 @@
 
 ## Clientes
 
+|           Cliente 01 (Verde)            |           Cliente 02 (Morado)           |            Cliente 03 (Azul)            |
+| :-------------------------------------: | :-------------------------------------: | :-------------------------------------: |
+| ![[Cliente01_Reposo_Abajo_01.png\|147]] | ![[Cliente02_Reposo_Abajo_01.png\|152]] | ![[Cliente03_Reposo_Abajo_01.png\|148]] |
+
 **Función:** consumir existencias y generar ventas. **Ubicación:** entrada, anaqueles, fila y salida. **Comportamiento:** entrar → caminar a producto → retirar unidades disponibles → formar fila → esperar cobro → pagar → salir. Si falta producto o se agota la paciencia, se registra insatisfacción y el cliente se retira.
 
 Su velocidad configurada es 1.65 unidades por segundo. La compra deseada aumenta de una a dos y tres unidades en días 1, 4 y 7 respectivamente. Cada unidad efectivamente comprada vale $40 al cobrar. Los límites diarios de clientes son 3, 3, 4, 4, 5, 5 y 6. No tienen vida, daño ni recompensas de combate.
 
 ## Ladrón
 
+![[Ladron_Reposo_Abajo_01.png|205]]
+
 **Rol:** amenaza a dinero y reputación. **Estados:** entrar → aproximarse a caja → robar si puede → huir; la intercepción puede detenerlo. **Velocidad:** 1.65, con multiplicador de huida 1.12, aproximadamente 1.85 unidades por segundo. **Acción:** robo de hasta $150 tras cuatro segundos; resta 12 de reputación si hubo dinero sustraído. **Debilidad:** E en proximidad. No hay ataques ni defensas de combate.
 
 La generación limita su presencia simultánea. La dificultad aumenta su frecuencia de aparición, conservando una velocidad alcanzable. Recuperar dinero no borra la pérdida reputacional del robo ya consumado.
 
 ## Dueño
+
+![[Dueno_Reposo_Abajo_01.png|176]]
 
 **Función:** evaluar el estado del local. **Estados:** aviso → entrada y recorrido → inspección → resultado → salida. **Velocidad configurada:** aproximadamente 1.35 unidades por segundo. El punto de revisión se ubica en espacio libre y la navegación debe rodear los muebles.
 

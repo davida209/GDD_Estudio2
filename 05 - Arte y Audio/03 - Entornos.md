@@ -11,6 +11,31 @@
 | Acceso | Puerta y marcos consistentes con la tienda | Entrada y salida de NPC |
 | Paredes | Revestimiento claro y paneles verdes | Delimitar y unificar el local |
 
+---
+
+## Catálogo de Recursos Gráficos del Escenario
+
+### 1. Escenario Modular y Tilesets
+![[sage-shop.png|420]]
+*Muestra de integración del local de la tienda (`sage-shop.png`)*
+
+|       Tiles de Piso       | Elementos de Pared/Entorno | Sombra de Actores   |
+| :-----------------------: | :------------------------: | :-----------------: |
+| ![[floor-tiles.png\|180]] | ![[environment.png\|180]]  | ![[Shadow.png\|70]] |
+
+### 2. Mobiliario y Utilería de Tienda
+| Props Generales | Props de Tienda Artesanales | Detalles y Señalética |
+| :---: | :---: | :---: |
+| ![[props.png\|200]] | ![[shop-props-crafted.png\|200]] | ![[store-details.png\|200]] |
+
+### 3. Objetos Interactivos del Jugador
+| Caja Registradora | Pallet de Bodega | Trapeador | Señal de Piso Mojado | Mancha de Suciedad |
+| :---: | :---: | :---: | :---: | :---: |
+| ![[Caja_Registradora.png\|70]] | ![[Pallet_Madera.png\|80]] | ![[Trapeador.png\|60]] | ![[Senal_PisoMojado.png\|60]] | ![[Mancha_01.png\|70]] |
+| Cobro y defensa | Carga de mercancía | Herramienta | Advertencia | Obstáculo ambiental |
+
+---
+
 ## Modularidad
 
 El suelo y las paredes utilizan módulos reutilizables. Los anaqueles comparten estructura visual, pero sus productos, categoría y existencias los diferencian. La representación de producto está separada del mueble para mostrar vaciado y llenado progresivo.

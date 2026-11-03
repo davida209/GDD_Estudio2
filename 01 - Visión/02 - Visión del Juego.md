@@ -20,7 +20,7 @@ La fantasía es ser el encargado que sostiene todo el negocio con sus propias ac
 4. Limpieza mediante trapeador e interacción sostenida.
 5. Ladrón alcanzable que afecta dinero y reputación si completa un robo.
 6. Inspecciones del dueño, multas y penalizaciones por descuido.
-7. Siete jornadas de 210 segundos, transición animada y dificultad creciente.
+7. Siete jornadas de 210 segundos, transición animada y dificultad creciente.  #read-later
 8. Menú, pausa, instrucciones, acerca de y puntuaciones locales.
 
 ## Diferenciadores y límites

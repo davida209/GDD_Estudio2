@@ -8,19 +8,19 @@ No se necesitan conocimientos de comercio ni experiencia previa con simuladores.
 
 ## Plataforma
 
-| Elemento | Decisión |
-|---|---|
-| Plataforma principal | PC Windows |
-| Plataformas secundarias | Fuera del alcance actual |
-| Entrada | Teclado para jugar; mouse para los botones de interfaz |
-| Referencia de interfaz | 1280 × 720, relación 16:9 |
-| Resolución adicional de evaluación | 1920 × 1080 |
-| Rendimiento deseado | 60 FPS; pendiente de medición en equipos de entrega |
-| Conexión | No requerida |
+| Elemento                           | Decisión                                               |
+| ---------------------------------- | ------------------------------------------------------ |
+| Plataforma principal               | PC Windows                                             |
+| Plataformas secundarias            | Fuera del alcance actual                               |
+| Entrada                            | Teclado para jugar; mouse para los botones de interfaz |
+| Referencia de interfaz             | 1280 × 720, relación 16:9                              |
+| Resolución adicional de evaluación | 1920 × 1080                                            |
+| Rendimiento deseado                | 60 FPS; pendiente de medición en equipos de entrega    |
+| Conexión                           | No requerida                                           |
 
 ## Restricciones
 
-La tienda y el HUD deben ser legibles en 16:9, con escalado y encuadre adecuados. La intención es funcionar en computadoras comunes, pero todavía no hay una medición que permita prometer un mínimo de CPU, GPU o RAM. No está implementado el control táctil ni la adaptación completa a gamepad.
+La tienda y el HUD deben ser legibles en 16:9, con escalado y encuadre adecuados. La intención es funcionar en computadoras comunes, pero todavía no hay una medición que permita prometer un mínimo de CPU, GPU o RAM. No está implementado el control táctil ni la adaptación completa a gamepad. #read-later
 
 ## Sesión de juego y distribución
 
