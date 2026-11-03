@@ -2,10 +2,10 @@
 
 ## Recursos Visuales de UI
 
-| Logotipo Oficial | Fondo de Menú | Tarjeta de Contenedor / Papel |
-| :---: | :---: | :---: |
+|  Logotipo Oficial  |        Fondo de Menú         | Tarjeta de Contenedor / Papel |
+| :----------------: | :--------------------------: | :---------------------------: |
 | ![[Logo.png\|200]] | ![[MenuBackground.png\|220]] | ![[menu-paper-card.png\|160]] |
-| `Logo.png` | `MenuBackground.png` | `menu-paper-card.png` |
+
 
 ---
 
