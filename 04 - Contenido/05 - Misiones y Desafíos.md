@@ -1,25 +1,26 @@
-# Misiones y Desafíos
+# Misiones y desafíos
 
-## Objetivo principal — Completar la semana
+## Objetivo global
 
-**Tipo:** principal. **Contexto:** mantener funcionando la tienda durante siete jornadas. **Requisito:** iniciar una nueva partida. **Pasos:** atender ventas, reponer, limpiar, responder al ladrón e inspecciones y conservar reputación hasta el cierre del día siete. **Éxito:** victoria al finalizar esa jornada. **Fracaso:** reputación cero. **Recompensa:** pantalla de victoria y registro del resultado local. Participan empleado, clientes, ladrón y dueño en la tienda única.
+Completar siete jornadas conservando confianza en desafío, o mantener el negocio durante tantas jornadas como sea posible en continuo.
 
-## Objetivos diarios — Reposición y limpieza
+## Objetivos diarios actuales
 
-**Tipo:** objetivos complementarios de cada turno. **Acciones:** completar reposiciones válidas y eliminar manchas. El HUD muestra progreso y cumplimiento. Las metas de reposición por día son 5, 5, 6, 6, 7, 7 y 8; las de limpieza son 1, 1, 1, 2, 2, 2 y 3.
+| Objetivo | Meta de escena | Cómo progresa |
+| --- | ---: | --- |
+| Rellenar anaqueles | 5 | Cada interacción de reposición válida |
+| Limpiar manchas | 1 | Cada mancha eliminada |
 
-Estos objetivos orientan el trabajo; no son requisitos para que pase el día. No se otorgan desbloqueos ni una recompensa monetaria independiente por marcarlos completos. Las acciones sí conservan sus beneficios normales: más producto y mejor estado de tienda.
+`ObjectiveManager` reconstruye estos objetivos al comenzar el día. La configuración actual no aumenta sus metas automáticamente con el día. Completar ambos concede 25 XP una sola vez por jornada. No completarlos no bloquea el cierre ni provoca por sí solo la derrota.
 
 ## Desafíos emergentes
 
-| Desafío | Condición | Respuesta adecuada | Consecuencia |
-|---|---|---|---|
-| Fila creciente | Varios clientes esperando | Cobrar con E a cada uno | Ventas o insatisfacción por espera |
-| Anaquel vacío | Stock agotado | Caja compatible y reposición | Recuperar servicio y penalización temporal |
-| Tienda sucia | Manchas activas | Trapeador y limpieza | Mejorar reputación temporal y auditoría |
-| Robo | Ladrón en caja o huida | Interceptar con E | Evitar pérdida o recuperar dinero |
-| Inspección próxima | Aviso del dueño | Priorizar orden sin abandonar servicio | Posible multa y pérdida reputacional |
+- Cobrar antes de agotar paciencia sin abandonar definitivamente limpieza y suministro.
+- Mantener producto en anaqueles que comparten demanda.
+- Elegir cuándo comprar otro anaquel y cuándo especializarlo.
+- Llegar a caja antes del robo mientras se prepara una inspección.
+- Mejorar eficiencia al final de la semana.
 
-No hay un sistema de misiones narrativas, NPC que entreguen encargos ni recompensas de equipo.
+No hay misiones con diálogo, rutas secundarias, combate o recompensas de campaña adicionales. Las metas orientan el trabajo sin sustituir la evaluación de confianza y economía.
 
-> **Navegación:** [[00 - Índice]] · ← [[04 - Objetos y Coleccionables]] · [[01 - Dirección de Arte]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

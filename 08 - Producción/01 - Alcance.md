@@ -1,23 +1,30 @@
 # Alcance
 
-## Incluido en la versión objetivo
+## Versión documentada
 
-Una tienda jugable, siete jornadas, cuatro categorías de stock, cajas de cinco, reposición gradual, limpieza, cobro manual, fila con paciencia, ladrón, inspecciones, reputación, economía, objetivos, menú, pausa, instrucciones, acerca de, resultado y puntuaciones locales. Se incluye la coherencia visual de personajes, anaqueles, paredes y HUD, preservando el logo original.
+| Área | Incluido |
+| --- | --- |
+| Modos | Desafío de siete días y tienda continua |
+| Escenario | Tienda y bodega conectadas |
+| Operación | Movimiento, cajas de cinco, reposición, limpieza y cobro manual |
+| Oferta | Cuatro básicos, cuatro extras y cuatro especialidades |
+| Personas | Tres arquetipos de cliente, supervisor y ladrón |
+| Crecimiento | XP, nivel 1–10 y tres habilidades de tres rangos |
+| Presentación | Decoración, animaciones, reacciones, música y efectos |
+| UI | Menú, teclado, Cómo jugar, mejoras, pausa, informes y resultados |
+| Persistencia | Punto de control del negocio continuo y marcador local |
+| Soporte | Reporte voluntario a PWA |
 
-## Fuera del alcance
+## Fuera de alcance
 
-Multijugador, cuentas, nube, ranking online activo, mundo abierto, varias tiendas, construcción, mejoras permanentes, combate, crafteo, narrativa ramificada, guardado del turno, doblaje y monetización. No se agregan estos sistemas para completar campos de la plantilla.
+Multijugador, combate, construcción libre, ventas reales de café/panes, clientes sentados, móviles, consola y ranking online confirmado. Mesa, sillas y poses sentadas se retiraron por decisión del proyecto; no se mantienen como tarea pendiente de esta entrega.
 
-## MVP
+## Entregables
 
-Un empleado puede recorrer la tienda, abastecer anaqueles, limpiar y cobrar mientras se calcula reputación. Clientes y eventos generan decisiones y existe una condición clara de resultado. Esta base ya está integrada en el prototipo.
+Proyecto Unity versionado, GDD con medios y paquete Windows completo cuando se genere y verifique. La revisión b28eaa1 está en main y develop. La existencia del código no sustituye empaquetar y ejecutar el producto final.
 
-## Vertical slice
+## Criterio de cierre
 
-Una jornada representativa debe mostrar arte coherente, movimiento natural, cobro manual, reposición, limpieza, un evento y cierre diario con HUD y sonido. El prototipo contiene estos elementos; su aprobación visual final y la calidad de entrega continúan en revisión.
+Cumplir [04 - Criterios de Aceptación](../09%20-%20Calidad/04%20-%20Criterios%20de%20Aceptaci%C3%B3n.md), verificar las pruebas de distribución, conservar licencias y entregar un ZIP que funcione sin Editor. El documento no amplía el alcance del juego por enumerar una posible mejora.
 
-## Criterios de recorte
-
-Si falta tiempo, se recorta decoración adicional, variedad visual opcional y efectos secundarios antes que controles, claridad, estados de juego, interacción o pruebas críticas. No se elimina una categoría para ocultar problemas de stock ni se presenta una función pendiente como terminada.
-
-> **Navegación:** [[00 - Índice]] · ← [[05 - Seguridad y Riesgos Técnicos]] · [[02 - Roles y Responsabilidades]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

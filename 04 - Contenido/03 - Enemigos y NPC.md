@@ -1,25 +1,21 @@
 # Enemigos y NPC
 
-## Clientes
+## Cliente
 
-**Función:** consumir existencias y generar ventas. **Ubicación:** entrada, anaqueles, fila y salida. **Comportamiento:** entrar → caminar a producto → retirar unidades disponibles → formar fila → esperar cobro → pagar → salir. Si falta producto o se agota la paciencia, se registra insatisfacción y el cliente se retira.
+Secuencia principal: entrar → visitar exhibidores opcionales → buscar producto → retirar mercancía → formar fila → esperar cobro → salir. Puede retirarse molesto si no encuentra stock válido o agota la espera. El ticket contiene solo la cantidad retirada y su precio real.
 
-Su velocidad configurada es 1.65 unidades por segundo. La compra deseada aumenta de una a dos y tres unidades en días 1, 4 y 7 respectivamente. Cada unidad efectivamente comprada vale $40 al cobrar. Los límites diarios de clientes son 3, 3, 4, 4, 5, 5 y 6. No tienen vida, daño ni recompensas de combate.
+Los arquetipos Vecino, Estudiante y Oficinista restringen categorías y cantidades; véase [03 - Personajes](../03%20-%20Historia%20y%20Mundo/03%20-%20Personajes.md). El producto se escoge entre oferta instalada elegible. Al acercarse a un anaquel vacío debe buscar otro accesible con el mismo producto antes de desistir. La demanda potencial se registra una vez al entrar, incluso si no se concreta la venta.
+
+Las visitas al café, pan y refrigeradores son ambientales: no consumen esos sprites ni elevan el ticket. No hay clientes sentados.
 
 ## Ladrón
 
-**Rol:** amenaza a dinero y reputación. **Estados:** entrar → aproximarse a caja → robar si puede → huir; la intercepción puede detenerlo. **Velocidad:** 1.65, con multiplicador de huida 1.12, aproximadamente 1.85 unidades por segundo. **Acción:** robo de hasta $150 tras cuatro segundos; resta 12 de reputación si hubo dinero sustraído. **Debilidad:** E en proximidad. No hay ataques ni defensas de combate.
+Estados: aproximación → robo → huida → salida. Su temporizador base de código es 4 s, configurable en prefab. Si el cajero ocupa el puesto al aproximarse o durante el intento, huye. Al completar el robo sustrae todo el efectivo disponible y aplica −50 de confianza una vez; la caja vacía no evita la pérdida de confianza. No hay barra de vida ni recompensa por capturarlo.
 
-La generación limita su presencia simultánea. La dificultad aumenta su frecuencia de aparición, conservando una velocidad alcanzable. Recuperar dinero no borra la pérdida reputacional del robo ya consumado.
+## Supervisor
 
-## Dueño
+Entra, recorre puntos de inspección, comprueba su entorno y sale. Cada mancha o anaquel crítico observado se registra una vez por visita. Criterio crítico: dos unidades o menos. Multas: $20 por mancha y $40 por anaquel crítico; confianza: −5 y −10 respectivamente. No es una multa fija que aumente automáticamente cada día.
 
-**Función:** evaluar el estado del local. **Estados:** aviso → entrada y recorrido → inspección → resultado → salida. **Velocidad configurada:** aproximadamente 1.35 unidades por segundo. El punto de revisión se ubica en espacio libre y la navegación debe rodear los muebles.
+La periodicidad depende del perfil diario y de la confianza actual: menor confianza implica visitas más frecuentes. No hay combate ni jefes.
 
-Puede multar por reputación insuficiente, dos manchas o dos anaqueles vacíos. La inspección añade una pérdida reputacional de tres por mancha y dos por anaquel vacío. No es un jefe de combate ni requiere diálogo del jugador.
-
-## Navegación y animación
-
-Los recorridos usan StoreWalker y búsqueda de rutas sobre el espacio transitable. La orientación visual sigue la dirección real del desplazamiento. La fila se pliega para seis clientes sin ocupar los anaqueles. Pago y revisión son estados de interacción, no desplazamientos rápidos sobre el mobiliario.
-
-> **Navegación:** [[00 - Índice]] · ← [[02 - Niveles]] · [[04 - Objetos y Coleccionables]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

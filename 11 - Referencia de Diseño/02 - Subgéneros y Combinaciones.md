@@ -1,19 +1,17 @@
-# Subgéneros y Combinaciones
+# Subgéneros y combinaciones
 
-## Subgénero principal
+## Gestión de tienda
 
-**Simulación de gestión de tienda.** El jugador mantiene recursos, servicio y estado del negocio. Las decisiones operativas afectan dinero, existencias y reputación.
+Oferta por categoría, stock, compra de cajas, cobro, confianza y crecimiento de mobiliario. La economía obliga a decidir entre gastar en suministro, ampliar o mejorar un extra.
 
-## Combinación con gestión del tiempo
+## Gestión del tiempo
 
-Las jornadas de 210 segundos y tareas simultáneas exigen priorizar. El formato arcade simplifica abastecimiento y economía para que la habilidad central sea organizar acciones, no administrar contabilidad realista.
+Cada jornada de cinco minutos reúne demandas concurrentes. Ir a bodega deja la tienda activa; la ruta y el momento de salir forman parte del reto. Las habilidades reducen costo de ejecución, sin eliminar la priorización.
 
-## Alcance de la combinación
+## Presentación arcade
 
-No es simulación de construcción, porque no se colocan muebles; tampoco simulación de vida, porque no hay relaciones o necesidades personales. “Tiempo real” describe cómo avanzan tareas y eventos, sin implicar ejércitos o combate de estrategia RTS.
+Cantidades pequeñas, controles contextuales y consecuencias inmediatas. El modo semanal facilita comparar resultados; el continuo permite sostener un negocio entre sesiones.
 
-## Descripción recomendada
+Descripción recomendada: «Simulación de gestión de tienda y tiempo en 2D, para un jugador, con desafío semanal y tienda continua». No se etiqueta como simulación de vida, roguelike o sandbox de construcción.
 
-“Simulación de gestión de tienda y tiempo en 2D, para un jugador, con siete jornadas de dificultad creciente”. Esta frase comunica el contenido sin añadir subgéneros que no tengan mecánicas propias dentro del juego.
-
-> **Navegación:** [[00 - Índice]]
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

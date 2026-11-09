@@ -1,36 +1,31 @@
-# Ficha del Proyecto
+# Ficha del proyecto
 
-## Información general
+| Campo | Información |
+| --- | --- |
+| Nombre | Turno Rosso |
+| Versión del GDD | 0.3.0 |
+| Actualización | 9 de noviembre de 2026 |
+| Estado | Versión jugable con pruebas confirmadas por el responsable; preparación de entrega de Windows |
+| Responsable | Lester David Uicab Gongora |
+| Equipo | Lester David Uicab Gongora; José Ignacio Hernández Pérez; Romel Sebastián Cruz Medina; Karem Vanessa Borges Correa; Jorge Antonio Castañon Uitz; Gabriel Eduardo Ruiz Velasco |
+| Género | Simulación de gestión de tienda y gestión del tiempo |
+| Plataforma | PC Windows; un jugador |
+| Motor | Unity 6000.6.4f1 |
+| Lenguaje | C# |
+| Perspectiva | 2D superior estilizada; cámara ortográfica |
+| Repositorio vigente del juego | https://github.com/nachherp/TurnoRosso |
+| Revisión de referencia | b28eaa1: main y develop sincronizadas el 9 de noviembre de 2026 |
+| Fecha de inicio | No registrada |
+| Distribución | Proyecto académico; entrega gratuita prevista |
 
-| Campo                    | Información                                                                                                                                                                   |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Nombre del proyecto      | Turno Rosso                                                                                                                                                                   |
-| Nombre clave             | Turno Rosso; no se utiliza otro identificador                                                                                                                                 |
-| Versión del GDD          | 0.2.0                                                                                                                                                                         |
-| Estado del proyecto      | Prototipo jugable en etapa de pulido y pruebas                                                                                                                                |
-| Equipo                   | Lester David Uicab Gongora; José Ignacio Hernández Pérez; Romel Sebastián Cruz Medina; Karem Vanessa Borges Correa; Jorge Antonio Castañon Uitz; Gabriel Eduardo Ruiz Velasco |
-| Responsable del proyecto | Lester David Uicab Gongora                                                                                                                                                    |
-| Fecha de inicio          |                                                                                                                                                                               |
-| Última actualización     | 2026-10-16                                                                                                                                                                    |
-| Repositorio              | https://github.com/davida209/turno-rosso                                                                                                                                      |
-| Tipo de proyecto         | Prototipo académico, distribución gratuita prevista                                                                                                                           |
+## El juego en una frase
 
-## Identidad del videojuego
+Atiende una tienda de conveniencia, abastece ocho posibles anaqueles desde una bodega separada y decide cómo repartir tu tiempo entre clientes, limpieza, caja, inversiones y vigilancia.
 
-**Género:** simulación. **Subgénero:** simulación de gestión de tienda con gestión del tiempo en tiempo real. **Plataforma:** PC Windows. **Modo:** un jugador, local y sin conexión. **Perspectiva:** 2D top-down con cámara ortográfica fija. **Tecnología:** Unity y C#.
+## Entrega actual
 
-Las etiquetas aplicables son pixel art, gestión de recursos, jornadas cortas, dificultad progresiva y objetivos diarios. La tienda conserva su estado durante una partida; no existe un mundo persistente entre partidas. La clasificación se desarrolla en [[00 - Biblioteca de Clasificación]].
+Incluye desafío de siete días, modo continuo con guardado al cierre, ocho productos, tres habilidades, supervisor, ladrón, música y efectos, menús navegables con teclado y reportes a una PWA. La versión del GDD identifica el documento, no una versión comercial del ejecutable.
 
-## Elevator pitch
+La coordinación general corresponde al responsable del proyecto. La distribución específica de las áreas de trabajo está pendiente de confirmación del equipo. Véase [02 - Roles y Responsabilidades](../08%20-%20Producci%C3%B3n/02%20-%20Roles%20y%20Responsabilidades.md).
 
-Turno Rosso pone al jugador al frente de una tienda de conveniencia durante siete jornadas. Debe reponer cuatro tipos de productos, limpiar, cobrar personalmente y detener a un ladrón, mientras las visitas del dueño ponen a prueba la reputación del negocio. Cada día dura tres minutos y medio y exige priorizar mejor las tareas.
-
-## Estado actual
-
-El concepto, las mecánicas principales, la tienda, los menús, el HUD y la progresión están implementados. Hay pruebas funcionales e integración de arte y animaciones. Continúan la revisión visual y la validación de una partida completa. La compilación de distribución y la entrega final están pendientes; no se presenta el prototipo como versión comercial terminada.
-
-## Criterio de éxito
-
-Un jugador debe comprender las instrucciones del menú, completar las siete jornadas sin perder toda la reputación y reconocer por qué cambian sus recursos. La presión debe surgir de atender varias tareas, manteniendo controles claros y movimientos legibles.
-
-> **Navegación:** [[00 - Índice]] · ← [[00 - Índice]] · [[02 - Visión del Juego]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

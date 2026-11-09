@@ -2,37 +2,27 @@
 
 ## Bucle principal
 
-`Observar reloj, reputación y existencias → elegir tarea → desplazarse → interactuar → comprobar resultado → atender la siguiente necesidad`.
+Observar tienda y HUD → elegir prioridad → desplazarse → interactuar → comprobar resultado → cobrar o invertir → preparar la siguiente jornada.
 
-## Acciones principales
+| Acción | Condición | Resultado |
+| --- | --- | --- |
+| Comprar caja | Manos libres, dinero y reserva disponibles | Pago de cinco unidades y caja equipada |
+| Rellenar | Caja del producto correcto y anaquel con espacio | Transferencia hasta llenar o agotar la caja |
+| Limpiar | Mopa equipada y mancha cercana | Mantener interacción hasta eliminarla |
+| Cobrar | Manos libres, puesto de caja y cliente listo | Mantener interacción hasta registrar la venta |
+| Vigilar | Ocupar el puesto antes de completarse el robo | El ladrón abandona el intento |
+| Mejorar | Dinero o puntos suficientes | Mayor oferta o eficiencia de trabajo |
 
-| Acción | Propósito | Resultado |
-|---|---|---|
-| Recoger una caja de categoría | Preparar reposición | Se descuentan cinco unidades de esa bodega y se equipa la caja |
-| Reponer un anaquel compatible | Mantener mercancía disponible | Entran unidades progresivamente hasta agotar la caja o llenar el anaquel |
-| Equipar trapeador y limpiar | Mantener la tienda presentable | Desaparece la mancha y su penalización temporal |
-| Cobrar con E | Atender al primero de la fila | Se completa el pago y aumenta el dinero |
-| Interceptar al ladrón con E | Evitar o recuperar una sustracción | Se detiene su actividad; si llevaba dinero robado, se recupera |
-| Pausar | Interrumpir la sesión | Se congela la simulación y el reloj |
+## Ritmo
 
-## Segundo a segundo
+Al comenzar hay cuatro anaqueles básicos con 12/20 unidades. La demanda va consumiendo mercancía y se forma una fila de hasta seis puestos. El jugador alterna recorridos a bodega y atención; las manchas y visitas añaden urgencia. Las compras de mejoras permiten preparar el negocio sin recurrir a construcción libre.
 
-El jugador camina entre pasillos, observa avisos contextuales y utiliza E cerca de un objeto válido. Las barras de progreso y animaciones confirman limpieza, reposición y cobro. Portar una caja reduce la velocidad y obliga a planear la ruta.
+Los clientes pueden visitar uno o dos exhibidores decorativos antes del anaquel. Esas paradas son una representación ambiental: el ticket solo incorpora producto real del anaquel.
 
-## Minuto a minuto
+## Cierre
 
-Se alternan atención de fila, recorridos a bodega y limpieza. Las llegadas de clientes y eventos requieren volver a revisar prioridades. Las inspecciones generan presión adicional porque el estado visible del local afecta el resultado.
+Al agotarse el reloj no entran nuevas operaciones. Un cobro ya iniciado y válido puede terminar dentro de una tolerancia de tres segundos. El resumen muestra ventas, pérdidas y gastos; desde él se continúa al día siguiente o al resultado semanal.
 
-## A largo plazo
+La derrota depende de confianza cero, no de quedarse momentáneamente sin efectivo. El modo continuo no termina por alcanzar el día siete.
 
-El jugador aprende rutas y secuencias eficientes. Los días posteriores reducen intervalos de eventos, aumentan clientes y tamaños de compra, y elevan las exigencias del dueño. No se compran mejoras permanentes del personaje.
-
-## Victoria, derrota y ritmo
-
-Se gana al terminar el día siete conservando reputación. Se pierde cuando llega a cero. El dinero en cero, una multa o no completar un objetivo diario no provocan por sí solos derrota. La transición entre días ofrece una breve pausa y muestra balance y reputación.
-
-## Principios de interacción
-
-Cada interacción exige proximidad y estado compatible. Se muestran motivos contextuales cuando una categoría no coincide o falta equipo. El cobro necesita una nueva pulsación de E para cada cliente; limpiar exige sostenerla. La simulación no avanza durante pausa o transición.
-
-> **Navegación:** [[00 - Índice]] · ← [[04 - Pilares de Diseño]] · [[02 - Mecánicas]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

@@ -1,24 +1,15 @@
 # Géneros
 
-## Género principal — Simulación
+## Principal: simulación
 
-Turno Rosso representa de forma simplificada el trabajo de un encargado de tienda: abastecer, limpiar, cobrar y vigilar. La actividad representada define el género, aunque los tiempos y consecuencias sean deliberadamente compactos y de estilo arcade.
+Turno Rosso simplifica tareas de una tienda: suministro, exhibición, servicio, limpieza, vigilancia e inversión. El énfasis está en mantener el negocio mediante acciones directas.
 
-## Componentes secundarios
+## Componentes
 
-La planificación de rutas y prioridades incorpora decisiones de gestión en tiempo real. La reacción ante el ladrón añade ejecución inmediata, pero no convierte al juego en un título de combate. El recurso crítico de reputación sostiene la partida sin representar vida física del personaje.
+Gestión del tiempo por tareas simultáneas y jornadas limitadas; gestión económica por costos, ingresos y mejoras. La reacción ante robo e inspección añade presión arcade, sin convertir la actividad principal en combate.
 
-## Clasificaciones descartadas
+## Límites
 
-| Género | Por qué no es el principal |
-|---|---|
-| RPG | No hay experiencia, atributos ni desarrollo de habilidades |
-| Plataformas | No hay salto ni navegación lateral por plataformas |
-| Lucha o shooter | No hay ataques ni armas |
-| Aventura narrativa | No hay exploración de varios lugares o trama dialogada |
-| Sandbox de construcción | La tienda está definida; no se construye ni decora libremente |
-| Roguelike | No hay mapas procedurales ni estructura de ese género |
+No es un juego de rol aunque incluya XP y habilidades: esos elementos sirven a la eficiencia de trabajo, no a una campaña de combate y personajes. Tampoco es plataformas, shooter, lucha, estrategia militar o construcción libre. La simulación es deliberadamente compacta; no promete contabilidad o abastecimiento realistas.
 
-La elección principal se complementa con [[02 - Subgéneros y Combinaciones]].
-
-> **Navegación:** [[00 - Índice]]
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

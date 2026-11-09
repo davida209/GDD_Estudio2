@@ -1,31 +1,26 @@
-# UX y Flujo del Jugador
+# UX y flujo del jugador
 
-## Flujo principal
+## Recorrido
 
-`Menú → consultar instrucciones e introducir nombre → jugar → atender turno → pausa opcional → cierre diario → jornadas siguientes → resultado → repetir o menú`.
+Menú principal → Invitado o editar nombre → desafío / nueva tienda / continuar → tienda → operar y visitar bodega → informe diario → siguiente jornada o resultado final.
 
-No existe una partida guardada que pueda continuarse desde el menú. Las instrucciones son consultables; no se afirma que haya un tutorial interactivo separado.
+## Primer turno
 
-## Primeros minutos
+1. Moverse e identificar los cuatro productos iniciales.
+2. Acudir al puesto cuando haya ticket y mantener interacción para cobrar.
+3. Entrar con E a la bodega, comprar caja y regresar.
+4. Rellenar el anaquel del mismo producto.
+5. Recoger mopa y limpiar una mancha manteniendo interacción.
+6. Abrir Tab para revisar inversión y habilidades.
 
-El jugador reconoce cuatro categorías y sus reservas, aprende a mover al empleado y utiliza E en una estación de caja. Lleva cinco unidades al anaquel compatible y observa el llenado gradual. Después aprende el trapeador y la diferencia entre pulsar E para cobrar y mantener E para limpiar. Los avisos presentan robo e inspección sin añadir controles de combate.
+La instrucción explica las acciones, pero no existe un tutorial obligatorio que bloquee el resto del juego. La puerta industrial y el mostrador distinguen trabajo interno y atención.
 
-## Retroalimentación
+## Disponibilidad contextual
 
-| Entrada | Respuesta visual | Respuesta sonora | Resultado |
-|---|---|---|---|
-| E en estación de caja | Caja equipada y reserva actualizada | Feedback de interacción según acción | Cinco unidades retiradas |
-| E al reponer | Producto añadido y progreso | Señal de stock | Anaquel abastecido |
-| Mantener E al limpiar | Progreso y desaparición de mancha | Confirmación de limpieza | Menor suciedad |
-| E al cobrar | Gesto hacia caja y progreso | Señal al terminar venta | Dinero actualizado |
-| Esc | Panel de pausa | Feedback de interfaz cuando corresponda | Tiempo congelado |
+La tecla flotante no debe prometer una acción que el estado no permite. Ticket, manos y producto determinan el cobro y la reposición. Los errores de dinero o reserva deben conservar el objeto y explicar la condición.
 
-## Fricción intencional
+## Flujo secundario
 
-El tiempo limitado, la reducción de velocidad con caja y el cambio de herramienta son decisiones de juego. Un sprite recortado, una fila dentro de muebles, una interacción sin explicación o una dirección de pago equivocada son defectos que deben corregirse.
+Esc → pausa → bocina/volumen, controles, reporte, reinicio, menú o salida. Acciones que abandonan progreso solicitan confirmación. El reporte conserva el borrador tras un fallo de conexión y la simulación continúa pausada. El jugador puede regresar sin enviarlo.
 
-## Descubrimiento
-
-El HUD informa objetivos y recursos; los rótulos de categoría orientan recorridos; los avisos contextuales indican la acción disponible. Los números, cambios de sprites y mensajes explican resultados. Victoria y derrota deben indicar el resultado de la semana y permitir volver a jugar sin reiniciar la aplicación.
-
-> **Navegación:** [[00 - Índice]] · ← [[05 - Audio y Música]] · [[02 - UI y Menús]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

@@ -1,18 +1,19 @@
-# Historial de Versiones
+# Historial de versiones
 
-## Historial del GDD
+| Versión del GDD | Fecha | Contenido |
+| --- | --- | --- |
+| 0.1.0 | No registrada | Plantilla inicial con ficha y visión parciales |
+| 0.2.0 | 16 de octubre de 2026, según registro anterior | Desarrollo de secciones y anexos de reglas/pruebas de aquella iteración |
+| 0.3.0 | 9 de noviembre de 2026 | Consolidación con b28eaa1: modos, bodega aditiva, ocho anaqueles/productos, compras, XP/habilidades, economía en pesos, NPC, audio, pausa y reportes. Añade avance, registro visual y versión unificada para exportar |
 
-| Versión | Fecha | Cambios | Responsable de validación |
-|---|---|---|---|
-| 0.1.0 | No registrada en el original | Plantilla con ficha, visión, público y pilares parcialmente completados | Lester David Uicab Gongora, responsable registrado |
-| 0.2.0 | 2026-10-16 | Desarrollo de todas las secciones con el prototipo actual; actualización de jornadas, dificultad, stock, reputación, arte, UI, tecnología, producción y QA | Responsable del proyecto y equipo |
+## Revisión del juego
 
-## Criterio de versión
+PR #31 integra audio y menús en develop; PR #32 publica la versión probada en main. Ambas ramas quedaron en b28eaa1 al realizar esta edición. Esto identifica la referencia consultada, sin asignar al juego una versión comercial igual a la del documento.
 
-La versión identifica el documento, no una build publicada del juego. Se incrementa la versión menor al desarrollar secciones o registrar cambios relevantes de diseño; las correcciones de redacción pueden registrarse como parche. No se asigna versión comercial al ejecutable sin una entrega identificada.
+## Conservación
 
-## Trazabilidad
+Se conservan los créditos del equipo y de la plantilla. Los anexos de 0.2.0 quedan como históricos.
 
-Las decisiones se explican en [[03 - Registro de Decisiones]], el trabajo pendiente en [[04 - Backlog del Proyecto]] y la evidencia disponible en [[02 - Pruebas]]. La revisión documental conserva los nombres originales del equipo y señala explícitamente los datos administrativos todavía no registrados.
+Las siguientes revisiones deben registrar alcance real del cambio y su evidencia, evitando confundir corrección de redacción con una función implementada.
 
-> **Navegación:** [[00 - Índice]] · ← [[03 - Registro de Decisiones]] · [[00 - Índice]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

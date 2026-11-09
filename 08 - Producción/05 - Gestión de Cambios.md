@@ -1,26 +1,23 @@
-# Gestión de Cambios
+# Gestión de cambios
 
-## Procedimiento
+## Flujo
 
-Registrar el problema concreto, la propuesta, beneficio, sistemas afectados y criterio de prueba. Antes de integrar, comprobar que la propuesta respeta los pilares y el alcance. Después actualizar código, recursos, instrucciones y GDD cuando corresponda. El responsable general coordina la validación; las tareas particulares requieren asignación del equipo.
+Solicitud → revisar impacto sobre reglas, arte, colisiones y guardado → implementar cambio acotado → probar → actualizar bitácora y GDD → publicar cuando el responsable lo autorice.
 
-## Registro de cambios incorporados
+## Control de versiones
 
-La fecha siguiente corresponde a la consolidación documental; no atribuye una fecha exacta de implementación a cada modificación histórica.
+Se utiliza una rama de trabajo cuando hay una función en desarrollo, pull request hacia develop y publicación de la versión probada desde develop a main. No se crea una rama de release para cada ajuste pequeño. Los recursos binarios se gestionan con Git LFS.
 
-| Fecha de registro | Cambio | Motivo | Impacto | Estado |
-|---|---|---|---|---|
-| 2026-10-16 | Cuatro categorías y reservas separadas | Diferenciar productos y reposiciones | Inventario, bodega, anaqueles y HUD | Integrado |
-| 2026-10-16 | Cajas de cinco y llenado gradual | Hacer visible el trabajo y evitar devolución obligatoria | Stock, animación y feedback | Integrado |
-| 2026-10-16 | Cobro manual con E y orientación de pago | Dar control al jugador y coherencia al gesto | Caja, fila e instrucciones | Integrado |
-| 2026-10-16 | Ciclo neutro/izquierdo/neutro/derecho | Corregir caminata y apoyo visual | Clips y presentación de actores | Integrado; revisión visual final pendiente |
-| 2026-10-16 | Anaqueles, paredes y HUD crema/salvia | Unificar estilo y mejorar lectura | Arte y UI | Integrado |
-| 2026-10-16 | Reputación por robo y auditoría | Dar consecuencias al descuido | Economía, reputación y derrota | Integrado |
-| 2026-10-16 | Días de 210 s, transición y escalado | Marcar jornadas e incrementar dificultad | Gestor, spawners, objetivos y UI | Integrado |
-| 2026-10-16 | GDD completo ajustado al prototipo | Sustituir campos vacíos y datos antiguos | Documentación | Versión 0.2.0 |
+| Publicación | Resultado |
+| --- | --- |
+| PR #31 | Audio, interacción de menús y reportes a develop |
+| PR #32 | Versión probada de develop a main |
+| Revisión de referencia | b28eaa1, 9 de noviembre de 2026 |
 
-## Costo y aprobación
+## Documentación
 
-No hay estimaciones de horas ni presupuesto acordados; no se inventan. Un cambio nuevo debe indicar qué tarea desplaza y cómo se verificará. Las solicitudes originales del usuario definen las decisiones de diseño registradas, pero no equivalen a aprobación comercial final del juego.
+La bitácora personal permanece fuera del repositorio del juego. Este GDD tiene su propia carpeta y no cambia scripts al actualizar reglas documentadas. Los anexos históricos no se sustituyen silenciosamente por supuestas pruebas nuevas.
 
-> **Navegación:** [[00 - Índice]] · ← [[04 - Backlog del Proyecto]] · [[01 - Criterios de Calidad]] →
+Si cambia duración, precio, control, límite o requisito de una compra, se actualizan todas las páginas que lo mencionan y el historial. El esquema de guardado se revisa si se altera la estructura de datos. No se cambia un dato administrativo o crédito por deducción.
+
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

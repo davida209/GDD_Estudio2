@@ -1,40 +1,34 @@
-# Arquitectura Técnica
+# Arquitectura técnica
 
 ## Organización
 
-El juego utiliza componentes MonoBehaviour en escenas y prefabs, gestores de estado y eventos de cambio. La entrada conduce a movimiento e interacción; estas acciones modifican inventario, stock, dinero y reputación; la presentación escucha los cambios y actualiza HUD, sprites y sonido.
+Unity 2D y C#, con componentes por responsabilidad y eventos entre sistemas. No hay servidor de simulación: la partida se ejecuta localmente.
 
-```text
-Input System → Movimiento / interacción del empleado
-                         ↓
-Inventario ↔ Bodega ↔ Anaqueles ↔ Clientes / fila ↔ Cobro / economía
-                         ↓
-Suciedad + robos + inspección → Reputación → derrota
-GameManager / DayDifficulty → reloj, estados, eventos y victoria
-                         ↓
-HUD + animaciones + sonido + resultados → ScoreManager
-```
+| Subsistema | Componentes principales |
+| --- | --- |
+| Estado y tiempo | GameManager, DailyDifficultyController, DailyDifficultySettings |
+| Economía/confianza | EconomyManager, StoreReputationManager, OwnerInspectionManager |
+| Crecimiento | StoreProgression, ProductCatalog, StoreUpgradeUI |
+| Jugador | PlayerController, PlayerInteraction, PlayerCarrySystem |
+| Mercancía | Shelf, StockBox, BoxSpawner, WarehouseStockManager |
+| Clientes | CustomerSpawner, CustomerAI, CustomerQueue, CashRegisterZone |
+| Incidencias | DirtSpawner, DirtSpot, ThiefSpawner, ThiefAI, SupervisorAI |
+| Áreas y rutas | WarehouseDoor, StoreEntranceDoor, StoreNavigation, StoreGround |
+| Presentación | HUDController, menús, reacciones y animadores |
+| Sonido | GameAudio, GameAudioLibrary, FootstepAudio, GameAudioSettings |
+| Datos | GameSession, StoreSave/StoreSaveData, ScoreManager |
+| Soporte | BugReportPanel y API de la PWA |
 
-## Componentes principales
+## Escenas
 
-| Componente o área | Responsabilidad | Dependencias |
-|---|---|---|
-| GameManager | Día, reloj, pausa, transición y resultado | Eventos de jornada y reputación |
-| DayDifficulty | Parámetros escalados por día | Día actual |
-| WarehouseStockManager | Reservas por categoría y suministro | Eventos de inicio de jornada |
-| EconomyManager | Balance, ventas, robos y multas | Caja, ladrón y dueño |
-| OwnerInspectionManager | Aviso y evaluación del negocio | Reputación, manchas y stock |
-| Inventario e interactuables | Caja/trapeador y acciones cercanas | Entrada y objetos de escena |
-| StoreWalker | Rutas de NPC por zonas transitables | Mobiliario, obstáculos y destinos |
-| ActorSpriteStability | Apoyo y escala visual de actores | SpriteRenderer y animación |
-| SoundBank | Efectos y preferencia de sonido | Eventos y PlayerPrefs |
-| ScoreManager | Puntuaciones y último nombre | PlayerPrefs, JSON y resultado |
-| RemoteScoreSync | Punto de integración remota opcional | Backend sin configurar; no activo en el alcance |
+MainMenu inicia el flujo. Game conserva gestores, jugador y tienda. Warehouse se carga mediante LoadSceneMode.Additive y permanece en el mismo entorno de simulación; el cambio desplaza jugador y cámara entre áreas. No se instancia otra economía al viajar.
 
-## Comunicación y principios
+## Datos de diseño
 
-Las referencias de escena enlazan objetos concretos; los eventos notifican cambios como stock o jornada. Los valores configurables se serializan en componentes. Debe considerarse el valor de la escena/prefab, no solo el predeterminado escrito en C#.
+ProductCatalog y DailyDifficultySettings son ScriptableObjects. La escena y los prefabs pueden sobrescribir valores por defecto de los scripts; los valores de este GDD se tomaron de recursos y configuración activa cuando estaban serializados.
 
-Mantener categorías explícitas, una sola ejecución por cobro, límites de inventario y coherencia de estados. El código temporal de construcción y pruebas permanece fuera de Assets; la entrega debe contener únicamente los recursos y herramientas necesarios.
+## Comunicación
 
-> **Navegación:** [[00 - Índice]] · ← [[04 - Guardado y Configuración]] · [[02 - Motor y Herramientas]] →
+Eventos de venta, reposición, limpieza, inspección e inicio/cierre alimentan HUD, XP, objetivos y audio. La UI valida el estado antes de permitir acciones. El reporte usa HTTPS como servicio opcional, separado del guardado y del bucle comercial.
+
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

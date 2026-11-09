@@ -1,30 +1,19 @@
-# Requisitos Técnicos
+# Requisitos técnicos
 
-## Ejecución
+## Objetivo de ejecución
 
-| Elemento | Mínimo verificable actual | Recomendación de validación |
-|---|---|---|
-| Sistema operativo | Windows, plataforma objetivo | Confirmar versión concreta en la compilación de entrega |
-| CPU | Mínimo no medido | Medir en los equipos disponibles de evaluación |
-| GPU | Mínimo no medido | Comprobar compatibilidad con la configuración URP 2D utilizada |
-| RAM | Mínimo no medido | Registrar consumo real de la compilación |
-| Almacenamiento | Tamaño final no medido | Medir la carpeta del ejecutable final |
-| Pantalla | Referencia 1280 × 720, 16:9 | Evaluar también 1920 × 1080 |
-| Entrada | Teclado y mouse | Comprobar teclado español y foco de ventanas |
-| Internet | No necesario para la partida local | Probar sin conexión |
+Windows de escritorio, un jugador, teclado y mouse opcional. Relación de referencia 16:9 y 1280 × 720; revisar también 1920 × 1080. Meta de rendimiento: 60 FPS.
 
-No se publican cifras de hardware inventadas. La intención de usar equipos de gama media es una meta de diseño, no un requisito mínimo certificado.
+No hay un mínimo de procesador, tarjeta gráfica, memoria o disco medido y aprobado para el ejecutable; no se publican especificaciones deducidas del equipo de desarrollo. El tamaño final se obtiene de la build, no de la carpeta completa del proyecto.
 
-## Desarrollo
+## Red
 
-Para abrir el proyecto se necesita Unity 6000.6.3f1, sus paquetes y soporte de compilación Windows. Se requiere acceso de escritura para importar recursos y guardar puntuaciones durante las pruebas. El editor no es necesario para el futuro jugador de una compilación independiente.
+Jugar, guardar negocio y consultar marcador local no requieren internet. Enviar un reporte necesita conexión HTTPS a la PWA. Una caída de red no debe bloquear la partida ni borrar el texto durante el intento de reporte.
 
-## Objetivos de rendimiento
+## Compilación de entrega
 
-Se busca 60 FPS con la tienda, HUD y máxima fila operativos. No se han fijado umbrales medidos de carga o memoria. Deben tomarse mediciones en una compilación Windows, porque una prueba dentro del editor no representa todos los equipos de destino.
+En Build Profiles, seleccionar Windows y desactivar Development Build. Scene List: MainMenu, Game y Warehouse activadas, en ese orden. Generar fuera del repositorio y probar el ejecutable en un entorno sin Unity.
 
-## Restricciones
+Se comparte toda la carpeta de salida, comprimida en ZIP; el .exe necesita su carpeta de datos y bibliotecas. No hay una build final auditada adjunta a esta revisión del GDD. La compilación C# previa no sustituye una prueba del paquete distribuible.
 
-No hay compilación de distribución validada ni matriz de hardware completa. El encuadre prioriza 16:9; otras relaciones requieren revisión. La calidad de animación debe comprobarse en movimiento, además de auditar claves y referencias.
-
-> **Navegación:** [[00 - Índice]] · ← [[02 - Motor y Herramientas]] · [[04 - Datos y Persistencia]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)
