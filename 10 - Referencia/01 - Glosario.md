@@ -1,35 +1,33 @@
 # Glosario
 
-## Términos del proyecto
-
-| Término | Definición en Turno Rosso |
-|---|---|
-| GDD | Documento de diseño que registra visión, reglas, contenido, producción y calidad |
-| Jornada / día | Periodo de 210 segundos de juego activo |
-| Turno / partida | Recorrido de hasta siete jornadas, terminado en victoria o derrota |
-| Anaquel | Mueble de una categoría con capacidad de 20 unidades |
-| Stock / existencias | Unidades disponibles de producto |
-| Bodega | Reservas separadas de las cuatro categorías |
-| Caja de mercancía | Objeto transportable de cinco unidades; no es la registradora |
-| Caja registradora | Punto de cobro manual y objetivo del ladrón |
-| Categoría | Bebidas, snacks, abarrotes o limpieza |
-| Reposición | Transferencia gradual de una caja al anaquel compatible |
-| Reputación | Indicador 0–100 que determina continuidad de la partida |
-| Insatisfacción | Registro de cliente que abandona por falta de producto o espera |
-| Inspección / auditoría | Evaluación del dueño sobre el estado del local |
-| HUD | Información visible durante el juego: recursos, tiempo, equipo y objetivos |
-| NPC | Personaje controlado por el juego: clientes, ladrón o dueño |
-| Sprite | Imagen 2D que representa personaje, objeto o interfaz |
-| Pivote | Punto de referencia de un sprite para posicionarlo y animarlo |
-| Tile | Módulo gráfico reutilizable de piso o pared |
-| Prefab | Recurso de Unity con configuración reutilizable de objetos |
-| MVP | Versión mínima que demuestra el bucle principal |
-| Vertical slice | Muestra representativa del acabado y funcionamiento objetivo |
-| Build | Compilación independiente para ejecutar fuera del Editor |
-| PlayerPrefs | Almacenamiento local de preferencias y marcador |
+| Término | Uso en Turno Rosso |
+| --- | --- |
+| Encargado | Personaje controlado por el jugador |
+| Anaquel básico | Uno de los cuatro muebles iniciales |
+| Anaquel extra | Mueble adicional comprable de una categoría |
+| Especialidad | Producto mejorado de un extra, con caja y rack propios |
+| Rack | Almacenamiento de bodega que vende cajas del producto |
+| Caja de mercancía | Objeto transportable, inicialmente cinco unidades |
+| Registradora | Punto de ticket y cobro; no confundir con caja de mercancía |
+| Stock / existencias | Unidades disponibles por producto o anaquel |
+| Reposición / rellenar | Transferir de una caja a un anaquel compatible |
+| Mopa / trapeador | Herramienta de limpieza, no producto comercial |
+| Confianza / reputación | Indicador 0–100; cero causa despido |
+| Crítico | Anaquel con dos unidades o menos para inspección |
+| Eficiencia | Ventas menos robos y multas frente a demanda potencial |
+| Neto | Ventas menos robos, multas y suministros; inversión se presenta aparte |
+| XP | Experiencia que produce niveles y puntos de habilidad |
+| Punto de control | Guardado al cierre del modo continuo |
+| HUD | Información durante juego: reloj, dinero, confianza, equipo y objetivos |
+| NPC | Cliente, supervisor o ladrón controlado por el juego |
+| Sprite / pivote | Imagen 2D y su referencia de colocación |
+| Prefab | Configuración reutilizable de objetos Unity |
+| Escena aditiva | Área cargada conservando Game y sus sistemas |
+| Build | Paquete ejecutable independiente del Editor |
+| PWA | Aplicación web con formulario y revisión de reportes |
 
 ## Convenciones
 
-Se escribe **Turno Rosso** como título. Se usa “anaquel” para el mueble de productos y “caja de mercancía” cuando pueda confundirse con la registradora. “Dueño” e “inspector” se refieren al mismo NPC de supervisión. “Producto de limpieza” es mercancía; “trapeador” es la herramienta.
+Título: Turno Rosso. Estudio: ROSSO GAMES. Básico y especialidad son productos distintos aun compartiendo categoría. Una bonificación de habilidad es pasiva; activa en HUD significa adquirida/aplicada, no un poder con tecla adicional.
 
-> **Navegación:** [[00 - Índice]] · ← [[04 - Criterios de Aceptación]] · [[02 - Referencias e Inspiración]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

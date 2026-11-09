@@ -1,28 +1,23 @@
 # Accesibilidad
 
-## Facilidades presentes
+## Medidas existentes
 
-Los controles principales se concentran en movimiento, E y Esc. Hay alternativas WASD/flechas, instrucciones consultables, pausa y opción de silenciar efectos. El stock y los objetivos usan números y texto además de iconos y color. Los avisos importantes tienen representación visual para no depender exclusivamente del sonido.
+- Teclado para movimiento, interacción y menús; mouse alternativo.
+- Flechas y WASD como alternativas; E y Espacio, Q y G para acciones equivalentes.
+- Selección de botón con color completo y borde visible.
+- Nombre de encargado opcional: Invitado permite comenzar sin escribir.
+- Pausa real, volumen general y silencio persistentes.
+- Texto e iconos acompañan eventos y audio.
+- Acciones contextuales según disponibilidad real y progreso circular.
 
-## Estado de opciones
+## Límites
 
-| Opción | Situación actual |
-|---|---|
-| Pausa de la simulación | Implementada |
-| Controles alternativos de movimiento | WASD y flechas |
-| Silencio global de efectos | Implementado y persistente |
-| Nombres y contadores junto al color | Integrados en categorías y HUD |
-| Reasignación de teclas | No implementada |
-| Escalado de texto configurable | No implementado |
-| Modo específico para daltonismo | No implementado |
-| Volúmenes independientes | No implementados |
-| Reducción de animaciones configurable | No implementada |
-| Dificultad seleccionable o asistencia | No implementada; progresión diaria fija |
-| Subtítulos de voz | No aplican, no hay voz |
-| Asistencia de apuntado | No aplica, no hay apuntado ni combate |
+No se certifican remapeo expuesto al jugador, lector de pantalla, escalado de letra, navegación completa con mando ni modos específicos para daltonismo. La presencia de un paquete de accesibilidad en Unity no demuestra esas funciones.
 
-## Consideraciones de evaluación
+## Criterios de revisión
 
-Mantener texto legible, contrastes suficientes y avisos acompañados de palabras. Probar el juego sin audio y con resoluciones distintas. La limpieza exige mantener E; se debe observar si esta interacción genera dificultad motriz. No se declara una auditoría de accesibilidad aprobada ni se prometen opciones todavía ausentes.
+Probar a 1280 × 720 y 1920 × 1080, sin sonido y sin mouse. Comprobar que foco, tickets, errores y estado deshabilitado se distingan con contraste suficiente. Evitar que el encabezado, nombre, instrucciones o descripción se recorten.
 
-> **Navegación:** [[00 - Índice]] · ← [[02 - UI y Menús]] · [[04 - Guardado y Configuración]] →
+El cobro y la limpieza requieren sostener una tecla; una alternativa de pulsación conmutable queda como posible mejora, no como función implementada.
+
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

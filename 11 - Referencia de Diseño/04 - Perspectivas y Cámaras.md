@@ -1,19 +1,17 @@
-# Perspectivas y Cámaras
+# Perspectivas y cámaras
 
-## Decisión del proyecto
+## Elección
 
-**Perspectiva:** top-down 2D estilizada. **Cámara:** ortográfica fija, encuadrando el local para observar tareas y recorridos. El jugador no la gira ni cambia a primera persona.
+Vista superior 2D estilizada con cámara ortográfica. Los muebles muestran frente y superficie dibujados para ser legibles; no se trata de un mundo 3D ni de una proyección isométrica uniforme.
 
-## Justificación
+El encuadre general permite comparar anaqueles, fila, manchas y desplazamientos. No hay cámara libre, rotación del jugador sobre la cámara ni modo en primera persona.
 
-La vista general permite comparar rápidamente fila, anaqueles, manchas, ladrón y dueño. Los sprites muestran volumen de forma dibujada, pero el juego sigue funcionando en un espacio 2D. No se clasifica como isométrico ni 3D por la apariencia frontal de los muebles.
+## Dos áreas
 
-## Configuración y restricciones
+Game mantiene tienda y gestores; al entrar a Warehouse se carga la bodega aditivamente, se mueve al jugador y se desplaza la cámara al área separada. Al volver se recupera el encuadre de tienda. La simulación no se pausa por ese desplazamiento.
 
-StoreCameraFrame mantiene el encuadre; la configuración actual utiliza tamaño ortográfico 6.15 y referencia 16:9. El layout y posibles bandas de encuadre deben preservar toda la tienda y el HUD. PixelPerfectCamera está deshabilitada en el estado actual debido al encuadre y mezcla de escalas de recursos.
+## Presentación
 
-## Cambios durante la partida
+Se aprovechó el ancho de pantalla para evitar las bandas laterales vacías del encuadre anterior. HUD y paneles se superponen al área jugable. No se prescribe aquí el tamaño ortográfico antiguo de 6.15: encuadre y aspecto deben revisarse con la escena vigente y las resoluciones objetivo.
 
-Pausa, transición y resultado añaden paneles sobre el juego; no introducen una cámara libre o un modo de exploración distinto. Los avisos deben dejar visible la información necesaria para jugar.
-
-> **Navegación:** [[00 - Índice]]
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

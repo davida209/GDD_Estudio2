@@ -1,31 +1,27 @@
-# Visión del Juego
+# Visión del juego
 
-## Concepto central
+## Concepto y experiencia
 
-Ser el único encargado de una tienda de conveniencia pequeña y mantenerla funcionando mientras coinciden compras, suciedad, reposición, robos e inspecciones.
+El jugador es el encargado de una tienda de conveniencia. Mantener la atención en caja, reponer mercancía, limpiar y proteger el efectivo compite por un mismo reloj. La tienda continúa operando cuando el jugador visita la bodega; desplazarse tiene un costo de oportunidad real.
 
-## Experiencia deseada
+La experiencia deseada combina la satisfacción de ordenar y vender con presión moderada: una ruta bien elegida permite atender más tareas, y una inversión o habilidad reduce el esfuerzo de jornadas posteriores.
 
-El jugador debe sentirse ocupado y responsable, pero capaz de recuperar el control. Decide si conviene cobrar una fila, completar una reposición, limpiar antes de la visita del dueño o perseguir al ladrón. Se busca que recuerde los momentos en los que una buena prioridad evitó una multa o salvó la reputación.
+## Propuesta de valor
 
-## Fantasía del jugador y propuesta de valor
+- Operación directa del negocio mediante movimiento e interacción contextual.
+- Dos espacios conectados: tienda y bodega de racks, con inventarios compartidos.
+- Cuatro anaqueles básicos y cuatro adicionales que pueden evolucionar a especialidades.
+- Clientes con preferencias y reacciones, supervisor e intentos de robo.
+- Desafío semanal o negocio continuo con guardado local.
 
-La fantasía es ser el encargado que sostiene todo el negocio con sus propias acciones. Turno Rosso reúne atención al cliente, mantenimiento y vigilancia en un espacio visible, con una sola tecla de interacción y una meta de siete días. La progresión aumenta la carga de trabajo, sin exigir aprender un nuevo sistema de botones cada jornada.
+## Modos
 
-## Características principales
+**Desafío · 7 días:** completar siete jornadas de cinco minutos activos sin perder toda la confianza. El cierre final produce un rango y una recompensa ficticia según la eficiencia.
 
-1. Cuatro anaqueles especializados y cuatro estaciones de cajas en bodega.
-2. Reposición gradual con cajas de cinco unidades y productos visibles según existencias.
-3. Cobro manual con E, fila de clientes y paciencia limitada.
-4. Limpieza mediante trapeador e interacción sostenida.
-5. Ladrón alcanzable que afecta dinero y reputación si completa un robo.
-6. Inspecciones del dueño, multas y penalizaciones por descuido.
-7. Siete jornadas de 210 segundos, transición animada y dificultad creciente.
-8. Menú, pausa, instrucciones, acerca de y puntuaciones locales.
+**Modo continuo:** continuar después del séptimo día con el perfil de dificultad del día siete. Se guarda el negocio al cierre; no se recupera un turno abandonado a la mitad.
 
-## Diferenciadores y límites
+## Alcance de la visión
 
-La tensión viene de combinar tareas sencillas en un mismo lugar y bajo el mismo reloj. No se construyen tiendas ni se negocia con proveedores; no hay mejoras permanentes, combate, multijugador ni finanzas complejas. El objetivo es dominar la operación cotidiana, no expandir una cadena comercial.
+La prioridad es que cada tarea y consecuencia sea comprensible. No incluye multijugador, combate, construcción libre ni una simulación contable realista. Las visitas al café y exhibidores dan vida al local, pero no añaden ventas de esos artículos.
 
-> 
-> **Navegación:** [[00 - Índice]] · ← [[01 - Ficha del Proyecto]] · [[03 - Público y Plataforma]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

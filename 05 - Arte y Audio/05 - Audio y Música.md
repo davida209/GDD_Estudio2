@@ -1,28 +1,41 @@
-# Audio y Música
+# Audio y música
 
 ## Identidad sonora
 
-El audio comunica interacción y resultado con efectos cortos, adecuados al tono ligero de tienda. SoundBank genera los efectos utilizados en la interfaz y acciones. La información esencial también se muestra visualmente.
+Grabaciones breves de acciones físicas y música ligera de tienda. La elección prioriza pasos, cartón, puertas, líquido y taza reconocibles. La información crítica también se muestra en pantalla para jugar en silencio.
 
-## Música
+## Música integrada
 
-No hay una banda sonora ni música dinámica confirmada en la versión documentada. No se asignan compositor, instrumentos o pistas inexistentes. El alcance actual es feedback de efectos, no producción musical ni doblaje.
+| Pista | Autor | Uso |
+| --- | --- | --- |
+| Buy Something! (Shop Theme) | Cleyton Kauffman | Tienda |
+| Bossa Town | Karate Studios | Bodega |
+| Happy Clappy Loop | OwlishMedia | Menú y presentación de cierre |
 
-## Efectos
+Las tres se publicaron bajo CC0. Se ajustaron niveles de mezcla; no se atribuye composición original al equipo.
 
-| Evento | Tratamiento | Propósito |
-|---|---|---|
-| Pasar por botón | Efecto breve de interfaz | Confirmar foco |
-| Pulsar botón | Clic de selección | Confirmar decisión |
-| Venta terminada | Señal de cobro | Confirmar ingreso |
-| Reposición | Señal de stock | Confirmar transferencia |
-| Limpieza completada | Señal de acción | Confirmar eliminación de mancha |
-| Transición diaria | Señal suave de cierre/cambio | Distinguir el nuevo turno |
+## Efectos y disparadores
 
-## Espacialidad, voz y mezcla
+| Acción | Regla sonora |
+| --- | --- |
+| Pasos | Intervalo ligado a distancia recorrida, sin reproducirse al estar quieto |
+| Caja | Manipulación al recoger y al soltar con éxito |
+| Puerta | Cambio real de abierta/cerrada; bodega usa su grabación |
+| Limpieza | Empieza al mantener la acción y se detiene al terminar o cancelar |
+| Cliente enojado | Inicio de reacción, con nivel suficiente frente a música |
+| Cobro | Registradora una vez al registrar venta |
+| Café | Taza y servicio durante la visita ambiental |
+| Cierre de jornada | Sonido de nivel completado al entrar al resumen |
+| Interfaz | Clic físico al navegar, escribir y pasar páginas |
 
-El audio de feedback es 2D; no depende de posicionamiento 3D. No hay narración ni diálogos hablados. Los textos están en español.
+La biblioteca activa tiene **29 clips: tres músicas y 26 efectos**. Los dos clics de interfaz proceden de una grabación de mouse recortada, utilizada como confirmación; no se presenta como una grabación literal de teclado.
 
-La prioridad es escuchar confirmaciones sin saturación cuando coinciden eventos. Existe activación/silencio de sonido, guardada localmente; no hay mezclador de volúmenes independientes expuesto al jugador. Se debe probar la transición y los menús con el sonido silenciado para garantizar que la información siga siendo comprensible.
+## Mezcla y controles
 
-> **Navegación:** [[00 - Índice]] · ← [[04 - Interfaz Visual]] · [[01 - UX y Flujo del Jugador]] →
+GameAudio persiste entre escenas, cruza música con fundido y prioriza efectos importantes. Los sonidos de mundo se atenúan según distancia a cámara para no oír la tienda desde bodega. Los de interacción del jugador e interfaz tienen tratamiento local. La pausa dispone de volumen general y bocina con estado silenciado, guardados en PlayerPrefs.
+
+## Procedencia
+
+[Registro de licencias de los clips](../Media/Revision_2026-11-09/Licencias_Audio.txt). Los cinco audios suministrados para cierre, bodega, limpieza, registradora y enfado no reciben una licencia CC0 por su conversión: su autorización de distribución requiere verificarse aparte. No hay doblaje de diálogos.
+
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

@@ -1,37 +1,25 @@
-# Estructura del Contenido
+# Estructura del contenido
 
-## Estructura
+## Organización jugable
 
-```text
-Turno Rosso
-├── MainMenu: jugar, instrucciones, puntuaciones y acerca de
-└── Game: tienda única
-    ├── Jornadas 1 a 7 con dificultad creciente
-    ├── Caja, cuatro anaqueles, bodega y limpieza
-    ├── Clientes, ladrón e inspecciones
-    ├── Pausa y transición entre jornadas
-    └── Resultado de victoria o derrota
-```
+| Capa | Contenido |
+| --- | --- |
+| Acceso | Menú, nombre opcional, modos, mejores turnos y Cómo jugar |
+| Local | Sala de ventas y bodega conectadas |
+| Oferta | Cuatro productos básicos y cuatro especialidades |
+| Servicio | Clientes, fila, cobro y visitas ambientales |
+| Incidencias | Manchas, robo e inspecciones |
+| Crecimiento | Cuatro anaqueles extra, tres habilidades y diez niveles |
+| Evaluación | Objetivos diarios, informe, eficiencia, rango y despido |
+| Continuidad | Guardado de tienda continua al cerrar jornada |
+| Soporte | Volumen, silencio y reporte de errores a la PWA |
 
-## Inventario de contenido
+## Ritmo y reutilización
 
-| Tipo | Cantidad y alcance |
-|---|---|
-| Escenas de juego y menú | 2: MainMenu y Game |
-| Mapas jugables | 1 tienda |
-| Jornadas | 7; no son siete mapas distintos |
-| Categorías de producto | 4: bebidas, snacks, abarrotes y limpieza |
-| Anaqueles funcionales | 4, uno por categoría |
-| Estaciones de cajas | 4, una por categoría |
-| Herramienta de limpieza | 1 trapeador, con su estación |
-| Protagonistas controlables | 1 empleado |
-| Variantes visuales de cliente | 3 |
-| Tipos de amenaza/supervisión | 1 ladrón y 1 dueño |
-| Tipos de objetivos diarios | 2: reponer y limpiar |
-| Combate, jefes y coleccionables | No forman parte del contenido |
+No son siete mapas: los días reutilizan tienda y bodega, con perfiles de eventos más exigentes. Los básicos permiten jugar desde el comienzo; los extras amplían oferta y especialización sin quitar los productos originales.
 
-## Dependencias
+La decoración incluye pan, golosinas, frutas, congeladores, refrigeradores, café, canastas, carteles y plantas. Su presencia no implica ventas adicionales. Se retiraron mesa, sillas y la mecánica de sentarse; no forman parte del contenido actual.
 
-La tienda y sus colisiones preceden a rutas de NPC. Las existencias alimentan compras y reposiciones. El cobro depende de cliente y fila. Reputación integra limpieza, stock, insatisfacción, robo y auditoría. Menú, instrucciones y resultado deben describir estas mismas reglas.
+La referencia de cada elemento aparece en [04 - Objetos y Coleccionables](04%20-%20Objetos%20y%20Coleccionables.md) y [06 - Registro visual](../05%20-%20Arte%20y%20Audio/06%20-%20Registro%20visual.md).
 
-> **Navegación:** [[00 - Índice]] · ← [[04 - Diálogos y Narrativa]] · [[02 - Niveles]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

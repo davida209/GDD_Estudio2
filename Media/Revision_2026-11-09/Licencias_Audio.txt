@@ -1,0 +1,43 @@
+Audio licenses
+
+Music: Buy Something! (Shop Theme) - Cleyton Kauffman; Bossa Town - Karate Studios;
+Happy Clappy Loop - OwlishMedia. All three are published under CC0 1.0.
+https://opengameart.org/content/shop-theme
+https://opengameart.org/content/bossa-town
+https://opengameart.org/content/happy-clappy-loop
+
+Effects (CC0 1.0):
+Footsteps - SpliceSound: https://freesound.org/people/SpliceSound/sounds/170500/
+Cardboard opening - ittou: https://freesound.org/people/ittou/sounds/465449/
+Cardboard rustle - WasabiWielder: https://freesound.org/people/WasabiWielder/sounds/334212/
+Door - toddcircle: https://freesound.org/people/toddcircle/sounds/442351/
+Coffee pour - ShadowSilhouette: https://freesound.org/people/ShadowSilhouette/sounds/489740/
+Cup - aldenroth2: https://freesound.org/people/aldenroth2/sounds/272022/
+Page - gfrog: https://freesound.org/people/gfrog/sounds/144110/
+Clothing - brandondelehoy: https://freesound.org/people/brandondelehoy/sounds/494790/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Editing: trims, sample-rate conversion and volume adjustment. Music loudness
+matched to -21 LUFS; no tempo or pitch changes. Freesound effects were edited
+from public HQ MP3 previews and converted to WAV; this is not lossless recovery.
+The floor-cloth effect comes from a WAV source.
+
+Project-supplied audio replacements:
+nivel completado.mp3 -> Nivel_Completado.wav
+puerta bodega.mp3 -> Puerta_Bodega.wav
+borrar una mancha.mp3 -> Mancha_Eliminada.wav
+caja-registradora.mp3 -> Caja_Registradora.wav
+cliente enojado.mp3 -> Cliente_Enojado.wav
+Source files supplied for this project; no CC0 license is assigned here.
+Converted to WAV PCM16 / 44.1 kHz, with peak attenuation only where needed.
+
+Mix revision: the supplied cleaning recording plays during held cleaning and
+stops on completion/cancel, instead of playing as a completion notification.
+Angry-customer and cardboard recordings received gain adjustment only;
+no pitch, speed or content changes. The replaced floor-cloth clips were removed.
+
+UI_Tecla / UI_Navegar: short cuts from mouseclicking01.wav,
+bretbernhoft, General Household Sound Effects, CC0 1.0.
+https://opengameart.org/content/general-household-sound-effects
+Recorded physical clicks used for typing and menu selection feedback;
+trimmed and volume-adjusted, no synthesized tones.

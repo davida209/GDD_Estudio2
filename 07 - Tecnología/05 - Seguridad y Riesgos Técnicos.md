@@ -1,27 +1,27 @@
-# Seguridad y Riesgos Técnicos
+# Seguridad y riesgos técnicos
 
-## Riesgos
+## Límites y medidas
 
-| Riesgo | Probabilidad cualitativa | Impacto | Mitigación |
-|---|---|---|---|
-| Perder referencias al mover recursos | Posible en reorganización | Alto | Mover con sus .meta y auditar escenas/prefabs |
-| Rutas de NPC dentro de muebles | Posible al cambiar layout | Alto | Revisar cuadrícula, colisiones y destinos libres |
-| Cobro o stock duplicado | Posible al modificar interacción | Alto | Una operación por acción y pruebas de límites |
-| Pausa o transición que consume tiempo | Posible al modificar estados | Alto | Probar reloj y escala temporal en cada transición |
-| Sprite con recorte o pivote incorrecto | Posible al importar arte | Medio | Auditar recortes y revisar movimiento real |
-| Puntuaciones locales dañadas | Posible | Medio | Comprobar carga y conservar copia de datos al investigar |
-| Rendimiento o HUD distinto por equipo | Sin medir en matriz completa | Medio | Pruebas de compilación y resoluciones |
+| Riesgo | Medida actual / acción necesaria |
+| --- | --- |
+| Saldo o stock inválido | Validar compra, capacidad y compatibilidad antes de modificar |
+| Doble venta | Ticket y estado de cobro; registrar ingreso una vez |
+| Archivo de guardado inválido | Validación de esquema, rangos y arrays; escritura temporal y respaldo |
+| Referencias UI ocultas | Buscar componentes inactivos cuando se prepara la pausa |
+| Reporte duplicado | UUID de envío reutilizado durante reintento idéntico |
+| Conexión caída | Mensaje de error y borrador conservado durante la sesión |
+| Exposición de administración | Clave de revisión y credenciales del backend permanecen en servidor |
+| Datos personales en diagnóstico | Se envían solo texto voluntario, escena, versión y plataforma; no logs ni archivos |
+| Derechos de recursos | Conservar créditos y verificar autorización de audios suministrados antes de distribución |
 
-Las probabilidades anteriores son evaluación de riesgo, no frecuencias medidas ni errores actuales confirmados.
+## Servicio externo
 
-## Datos y red
+La PWA expone un envío HTTPS y una bandeja privada. La integración del juego no concede lectura administrativa. En WebGL se abre el formulario web por las restricciones del navegador; no se declara equivalencia técnica del cliente Windows.
 
-El juego guarda el nombre introducido por el jugador, puntuación, resultado y preferencia de audio. No requiere cuentas, correo, contraseñas ni datos de pago. El marcador es local y puede modificarse fuera del juego; no se presenta como competición protegida contra trampas.
+## Riesgos pendientes
 
-No hay multijugador ni backend activo, por lo que no se diseñan autenticación o autoridad de servidor para esta versión. El código de integración remota opcional no constituye un servicio desplegado.
+Rendimiento y memoria en build, recuperación ante interrupción durante guardado, migración con archivos reales de versiones previas y comportamiento de red lento. Los archivos locales de una partida individual no constituyen protección antitrampa; el juego no se presenta como competitivo online seguro.
 
-## Recuperación
+Los controles del servidor, permisos y límites de abuso deben revisarse al ampliar la distribución pública de reportes. No se modifica el backend como parte de esta edición documental.
 
-Un cierre inesperado pierde el turno actual porque no existe guardado de sesión. Los datos locales ya escritos pueden persistir; el fallo de exportación JSON no debe impedir seguir jugando. La corrupción del marcador requiere diagnóstico: no hay restauración automática completa implementada. Se conservan copias y control de versiones para recuperar el proyecto de desarrollo.
-
-> **Navegación:** [[00 - Índice]] · ← [[04 - Datos y Persistencia]] · [[01 - Alcance]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

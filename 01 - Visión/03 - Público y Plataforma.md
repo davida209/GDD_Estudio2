@@ -1,31 +1,23 @@
-# Público y Plataforma
+# Público y plataforma
 
-## Público objetivo
+## Público
 
-Se dirige a jugadores casuales e intermedios interesados en simulación de gestión y desafíos de organización. El público de diseño es de aproximadamente 13 años en adelante por la lectura y priorización requeridas; esta orientación no es una clasificación oficial por edades. El contenido presenta un robo ficticio sin violencia gráfica.
+Jugadores casuales e intermedios que disfrutan organizar tareas, administrar recursos y mejorar un negocio. La orientación de diseño es aproximadamente 13 años en adelante por la lectura y priorización necesarias; no es una clasificación oficial. Hay robo ficticio, sin violencia gráfica.
 
-No se necesitan conocimientos de comercio ni experiencia previa con simuladores. Las instrucciones explican movimiento, interacción, limpieza, cobro y objetivo de la partida.
+No se requieren conocimientos de comercio. La pantalla Cómo jugar presenta movimiento, interacción, almacén, limpieza, cobro, mejoras y pausa.
 
-## Plataforma
+## Plataforma y sesión
 
-| Elemento | Decisión |
-|---|---|
-| Plataforma principal | PC Windows |
-| Plataformas secundarias | Fuera del alcance actual |
-| Entrada | Teclado para jugar; mouse para los botones de interfaz |
-| Referencia de interfaz | 1280 × 720, relación 16:9 |
-| Resolución adicional de evaluación | 1920 × 1080 |
-| Rendimiento deseado | 60 FPS; pendiente de medición en equipos de entrega |
-| Conexión | No requerida |
+| Aspecto | Decisión |
+| --- | --- |
+| Principal | Windows para PC |
+| Control | Teclado: WASD/flechas, E/Espacio, Q/G, Tab, Enter y Esc; mouse alternativo en interfaz |
+| Interfaz de referencia | 1280 × 720, 16:9 |
+| Resolución adicional a validar | 1920 × 1080 |
+| Duración | 5 minutos activos por jornada; 35 minutos para siete jornadas, más pausas y resúmenes |
+| Internet | No necesario para jugar o guardar localmente; necesario para enviar reportes a la PWA |
+| Rendimiento objetivo | 60 FPS, sujeto a medición del ejecutable |
 
-## Restricciones
+No se certifican CPU, GPU o RAM mínimos sin mediciones. Móvil, consola y soporte completo de mando quedan fuera de la entrega actual. No hay tienda digital ni fecha comercial de lanzamiento confirmadas.
 
-La tienda y el HUD deben ser legibles en 16:9, con escalado y encuadre adecuados. La intención es funcionar en computadoras comunes, pero todavía no hay una medición que permita prometer un mínimo de CPU, GPU o RAM. No está implementado el control táctil ni la adaptación completa a gamepad.
-
-## Sesión de juego y distribución
-
-Cada jornada dura **3 minutos y 30 segundos de juego activo**. Las siete jornadas suman **24 minutos y 30 segundos**; las seis transiciones agregan aproximadamente 25 segundos. Las pausas y los menús pueden prolongar la sesión. Una derrota puede finalizarla antes.
-
-Se prevé una entrega académica gratuita para Windows. No hay tienda de publicación ni fecha de lanzamiento registrada.
-
-> **Navegación:** [[00 - Índice]] · ← [[02 - Visión del Juego]] · [[04 - Pilares de Diseño]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

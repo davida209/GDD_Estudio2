@@ -1,23 +1,23 @@
-# Pilares de Diseño
+# Pilares de diseño
 
-## Pilar 1 — Priorizar bajo presión
+## 1. Priorizar bajo presión
 
-Varias tareas compiten por los mismos 210 segundos. Cobrar evita que se agote la paciencia; reponer conserva ventas; limpiar prepara la inspección; detener al ladrón protege recursos. El espacio debe permitir decidir rápidamente qué atender.
+El mismo encargado cobra, compra cajas, rellena anaqueles y limpia. Abandonar la tienda para entrar a la bodega no detiene a los clientes. Las jornadas de 300 segundos obligan a decidir qué tarea resuelve el riesgo más inmediato.
 
-## Pilar 2 — Cada descuido tiene una consecuencia comprensible
+## 2. Consecuencias legibles
 
-Las manchas y los anaqueles vacíos reducen la reputación mientras permanecen. Los clientes insatisfechos, robos e inspecciones también influyen. La interfaz debe mostrar el resultado de la acción para que el castigo no parezca arbitrario. Limpiar o reponer recupera la parte temporal correspondiente; un robo no se borra simplemente con esperar.
+La falta de producto provoca pérdida de ventas; la espera puede reducir confianza; el robo afecta efectivo y confianza; las infracciones detectadas por el supervisor generan multas. El HUD, las reacciones y los informes deben permitir entender la causa.
 
-## Pilar 3 — Controles sencillos, decisiones constantes
+## 3. Crecimiento tangible
 
-Movimiento y E resuelven la mayoría de las acciones. Las manos solo pueden llevar una caja o un trapeador. Esta restricción crea planificación sin inventarios complejos. La pausa permite detener la partida cuando el jugador lo necesita.
+Vender y trabajar produce experiencia. El dinero compra anaqueles extra y su especialización; los puntos de nivel mejoran limpieza, cobro y transporte. Cada mejora debe apreciarse en el uso, el producto y el mobiliario.
 
-## Pilar 4 — Lectura visual coherente
+## 4. Coherencia visual y espacial
 
-Los personajes, anaqueles, paredes y tarjetas deben compartir el estilo pixel art. La animación conserva apoyo de pies y alterna neutro, paso izquierdo, neutro y paso derecho. Los productos visibles y contadores comunican existencias reales.
+Personajes y muebles comparten pixel art, escala y perspectiva. Los colliders deben impedir atravesar mobiliario sin bloquear pasillos. Una pose cargada o de limpieza no debe encoger al personaje.
 
-## Reglas de decisión
+## Criterio para cambios
 
-Una característica nueva se acepta si mejora la operación de la tienda, tiene una consecuencia legible y cabe en las siete jornadas. Se priorizan correcciones de movimiento, interacción y claridad sobre agregar sistemas ajenos al concepto. El logo original proporcionado se conserva.
+Una función nueva debe apoyar la operación del negocio, ser legible y respetar las rutas. Se priorizan interacción, claridad y estabilidad sobre añadir decoración que estorbe. Se mantiene la identidad de ROSSO GAMES.
 
-> **Navegación:** [[00 - Índice]] · ← [[03 - Público y Plataforma]] · [[01 - Jugabilidad]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

@@ -1,30 +1,26 @@
-# Backlog del Proyecto
+# Backlog del proyecto
 
-## Trabajo realizado
+## Pendientes de entrega
 
-- [x] Integrar tienda, cuatro categorías y sus estaciones de cajas.
-- [x] Reponer progresivamente con cajas de cinco y devolución de sobrantes.
-- [x] Cobrar manualmente con E y orientar el pago hacia la registradora.
-- [x] Integrar limpieza, reputación por robo e inspecciones.
-- [x] Ajustar rutas, velocidad del ladrón y fila de hasta seis clientes.
-- [x] Integrar menús, pausa, acerca de, HUD y marcador local.
-- [x] Implementar siete jornadas de 210 segundos con transición y dificultad diaria.
-- [x] Revisar ciclos de pasos, recortes y referencias de animación.
+| ID | Prioridad | Tarea | Aceptación |
+| --- | --- | --- | --- |
+| ENT-01 | Alta | Generar paquete Windows | MainMenu, Game y Warehouse disponibles; carpeta completa |
+| ENT-02 | Alta | Prueba fuera del Editor | Ejecutar desde ZIP extraído en otra carpeta, sin depender de Unity |
+| QA-01 | Alta | Registrar una semana completa | Siete días, resultado final y ausencia de bloqueos; versión/equipo identificados |
+| QA-02 | Alta | Comprobar guardado continuo | Cerrar, salir y continuar; dinero, stock y mejoras conservados |
+| QA-03 | Alta | Revisar pausa final | Barra llega al extremo a 100%, bocina y encabezado correctos |
+| QA-04 | Media | Probar modo silencioso y sin mouse | Información y navegación completas |
+| QA-05 | Media | Probar red lenta/sin red | Reporte conserva borrador y no bloquea la partida |
+| QA-06 | Media | Medir rendimiento y lectura | Registros de FPS/memoria y revisión a 720p/1080p |
+| DOC-01 | Alta | Confirmar derechos de recursos suministrados | Autor o autorización identificados antes de distribución |
+| EQU-01 | Media | Confirmar reparto de equipo | Roles específicos aceptados por integrantes |
 
-## Pendientes para entrega
+## Mejoras posibles, sin compromiso de implementación
 
-| ID | Tarea | Prioridad | Dependencia | Criterio de aceptación | Responsable específico |
-|---|---|---|---|---|---|
-| P01 | Jugar las siete jornadas sin adelantar el reloj | Alta | Prototipo actual | Registrar duración, dificultad, resultado y cualquier fallo | Por asignar |
-| P02 | Aprobar caminatas y gestos a velocidad real | Alta | Arte y animaciones integrados | Sin pies flotantes, recortes ajenos ni direcciones equivocadas | Por asignar |
-| P03 | Generar y ejecutar build Windows | Alta | Resolver hallazgos críticos | Inicia sin Editor y permite jugar, pausar y terminar | Por asignar |
-| P04 | Evaluar rendimiento y resoluciones | Alta | Build Windows | Registrar FPS, memoria y legibilidad a 720p/1080p | Por asignar |
-| P05 | Revisar procedencia y créditos de recursos | Media | Inventario de arte/audio | Cada recurso tiene origen y condiciones de uso identificados | Por asignar |
-| P06 | Revisar comprensión con jugador nuevo | Media | Instrucciones y HUD actuales | Aprende las tareas y reconoce victoria/derrota sin explicación externa | Por asignar |
-| P07 | Confirmar reparto de equipo y fecha de entrega | Media | Acuerdo del equipo | Roles y calendario registrados en el GDD | Responsable general y equipo |
+Escala de texto, remapeo expuesto y alternativa conmutable para acciones sostenidas. Requieren evaluación de alcance y pruebas; no se consideran funcionalidades terminadas.
 
-## Priorización
+## Tareas retiradas
 
-Primero se atienden fallos que impidan jugar, alteren recursos o bloqueen estados. Después se valida lectura visual y balance, y finalmente presentación secundaria y preparación de entrega. Los pendientes anteriores son trabajo planificado, no errores reproducidos ni características confirmadas como terminadas.
+Sistema de sentarse, mesa/sillas y captura del ladrón con E no son pendientes del diseño vigente. La primera propuesta se retiró; la seguridad actual funciona por presencia en caja. Tampoco falta un pago para Abrir local: se eliminó intencionalmente.
 
-> **Navegación:** [[00 - Índice]] · ← [[03 - Roadmap]] · [[05 - Gestión de Cambios]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

@@ -1,28 +1,27 @@
-# Datos y Persistencia
+# Datos y persistencia
 
-## Modelo de datos
+## Negocio continuo
 
-| Entidad | Campos o información | Vida útil |
-|---|---|---|
-| Partida | Día, reloj, estado, balance y reputación | Memoria de la sesión |
-| Inventario | Equipo y unidades de caja | Memoria de la sesión |
-| Tienda | Stock por anaquel, reservas, manchas y NPC | Memoria de la sesión |
-| Penalizaciones | Insatisfacción, robos e inspecciones | Durante la partida, según sus reglas |
-| ScoreEntry | playerName, score y won | Persistente local |
-| Preferencias | Último nombre y sonido | Persistente local |
+StoreSave serializa JSON en `Application.persistentDataPath/store-checkpoint.json`. Esquema actual 2: próximo día, dinero y acumulados económicos, confianza, nivel/XP/puntos, tres rangos, cuatro especialidades, cuatro extras, ocho productos/stock de anaquel y ocho reservas.
 
-## Formato y ubicación
+La carga valida rangos, tamaños de arrays, dinero finito no negativo, correspondencia de puntos con nivel y coherencia de especialidades. Existe migración del esquema 1 (seis anaqueles y cuatro reservas) al esquema 2. La escritura utiliza archivo temporal y reemplazo con respaldo .bak cuando ya existe destino.
 
-ScoreManager serializa una lista de ScoreEntry mediante JsonUtility en PlayerPrefs con la clave `TurnoRosso_Scores`. Guarda el último nombre bajo `TurnoRosso_PlayerName`. SoundBank utiliza `RossoSoundEnabled`.
+## Marcador y preferencias
 
-Además exporta `turno_rosso_scores.json` en `Application.persistentDataPath`. La ubicación exacta depende de los nombres de compañía/producto configurados en Unity; no se sustituye por una ruta inventada. En Windows PlayerPrefs utiliza almacenamiento propio de la plataforma. El marcador ordena registros por puntuación descendente. El marcador utiliza el balance monetario final como puntuación y registra por separado si la partida terminó en victoria o derrota.
+| Dato | Almacenamiento |
+| --- | --- |
+| Lista de puntuaciones | PlayerPrefs, TurnoRosso_Scores |
+| Nombre del marcador | PlayerPrefs, TurnoRosso_PlayerName |
+| Exportación adicional | turno_rosso_scores.json en persistentDataPath |
+| Volumen y silencio | PlayerPrefs, TurnoRosso.MasterVolume y TurnoRosso.Muted |
+| Sesión de reportes | Preferencia local TurnoRosso.ReportSession, sin clave administrativa |
 
-## Persistencia de progreso
+El marcador local guarda nombre, puntuación y victoria. Existe RemoteScoreSync como cliente opcional, pero no se acredita un ranking remoto activo solo por tener ese script.
 
-No se serializa el estado completo de tienda ni existe recuperación del día en curso. Empezar de nuevo carga recursos iniciales. El marcador registra resultados; no equivale a guardar una partida.
+## Servicio de reportes
 
-## Versionado y migraciones
+El formulario envía identificador, área Juego, sección/escena, título y descripción, con versión y plataforma. Una sesión propia permite asociar el envío; un reintento idéntico reutiliza identificador para evitar duplicados. No sincroniza la partida ni el inventario con la PWA.
 
-El formato actual no tiene un sistema de migraciones versionadas. Si se cambian campos, se deben comprobar registros anteriores antes de distribuir la nueva versión. La exportación JSON es un archivo de consulta adicional; la lectura actual del marcador se hace desde PlayerPrefs. No hay sincronización remota configurada.
+La ruta concreta de almacenamiento local depende de compañía/producto y plataforma. No se fijan rutas personales del equipo en la documentación pública.
 
-> **Navegación:** [[00 - Índice]] · ← [[03 - Requisitos Técnicos]] · [[05 - Seguridad y Riesgos Técnicos]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

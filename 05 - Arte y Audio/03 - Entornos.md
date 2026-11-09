@@ -1,30 +1,27 @@
 # Entornos
 
-## Zonas y elementos
+## Tienda
 
-| Zona | Estética y elementos | Función |
-|---|---|---|
-| Sala de ventas | Piso claro modular; cuatro anaqueles crema/salvia y productos por categoría | Recorridos y compras |
-| Bodega | Piso y divisores diferenciados; cajas identificadas | Acceso a las cuatro reservas |
-| Caja | Mostrador, registradora y espacio de fila | Pago manual y riesgo de robo |
-| Limpieza | Estación de trapeador y manchas distribuidas | Mantenimiento |
-| Acceso | Puerta y marcos consistentes con la tienda | Entrada y salida de NPC |
-| Paredes | Revestimiento claro y paneles verdes | Delimitar y unificar el local |
+Puerta industrial de bodega a la izquierda del acceso doble de clientes. Tapete cercano al acceso, soporte de canastas fuera del paso y plantas/luminarias/carteles de pared. Los cuatro básicos se mantienen separados de los espacios comprables de ampliación. El mostrador en L delimita el área del encargado; la fila se extiende por el lado de clientes.
 
-## Modularidad
+Los panes y exhibidores pequeños, fruta, congeladores, refrigeradores de varias puertas y café dan variedad. Las visitas de clientes usan puntos libres junto a estos muebles. No se bloquea con decoración el frente de puertas ni los puntos de compra.
 
-El suelo y las paredes utilizan módulos reutilizables. Los anaqueles comparten estructura visual, pero sus productos, categoría y existencias los diferencian. La representación de producto está separada del mueble para mostrar vaciado y llenado progresivo.
+## Bodega
 
-## Iluminación
+Racks de básicos en columna a la derecha y racks de especialidades a la izquierda. La especialidad aparece al desbloquearla; no es un rack básico recoloreado. Los bordes contienen reserva, recepción, carro de carga, pallets vacíos, reciclaje, armario y mesa de trabajo. El pasillo central y los accesos a cajas quedan libres.
 
-La escena utiliza luz ambiente cálida y cinco luces locales de tienda mediante URP 2D. Las variaciones son discretas para conservar lectura del pixel art. No existe un ciclo meteorológico ni un sistema exterior de día/noche.
+Las lámparas industriales y las marcas de piso diferencian la bodega del salón de ventas. Pallets y cajas de utilería no sustituyen los racks interactivos actuales. La mopa se encuentra en tienda.
 
-## Efectos y recursos
+## Recursos integrados
 
-El feedback principal son cambios de producto, puerta, gestos, avisos y textos de recursos. No se requieren fuego, magia, clima ni efectos de combate. Los recursos necesarios son tiles de piso y pared, divisores, muebles, productos, cajas, herramientas, manchas, puerta y sus variantes, luces y materiales 2D.
+![[Media/Revision_2026-11-09/CheckoutCounterL.png|320]]
 
-## Reglas de construcción
+![[Media/Revision_2026-11-09/BasketStand.png|320]]
 
-Los módulos deben alinearse sin cortes visibles y respetar las colisiones. Las rutas de jugador, clientes y dueño deben usar suelo transitable. No se modifica un collider solo para ocultar un fallo visual. La caja no debe tapar por completo al empleado y la fila debe mantenerse fuera de los anaqueles.
+Estas imágenes muestran recursos del proyecto; no el montaje completo de la escena. La vista de racks está en [06 - Registro visual](06%20-%20Registro%20visual.md).
 
-> **Navegación:** [[00 - Índice]] · ← [[02 - Personajes y Animación]] · [[04 - Interfaz Visual]] →
+## Integración técnica
+
+Colliders ajustados a las bases de muebles, suelo transitable y orden de profundidad consistente. Las manchas son transitables. El escenario no tiene cámara libre, exterior explorable, clima ni construcción por el jugador.
+
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)
