@@ -1,19 +1,15 @@
-# Plataformas y Consolas
+# Plataformas y consolas
 
-## Elección principal
+## Entrega principal
 
-**PC Windows**, por el proyecto de Unity existente, el esquema de teclado y mouse y el contexto de entrega académica. No se confirma publicación en una tienda digital concreta.
+PC Windows, teclado para juego y navegación de menús, con mouse alternativo. El paquete se genera desde Build Profiles de Unity; incluye las tres escenas activadas y todas las dependencias del ejecutable.
 
-## Implicaciones
+La interfaz de referencia es 16:9 a 1280 × 720. Se debe revisar también 1920 × 1080 y ejecutar sin Unity instalado. El juego funciona localmente; solo el reporte requiere internet.
 
-Movimiento con WASD/flechas, interacción con E y pausa con Esc. Los menús utilizan mouse. El diseño de referencia es 16:9 a 1280 × 720, con revisión prevista a 1920 × 1080. La partida no requiere conexión.
+## Otras plataformas
 
-## Plataformas secundarias
+No se comprometen ports móviles o de consola. El código contempla abrir el formulario externo en WebGL, pero esto no constituye una build web probada. Mando, táctil y adaptación de layouts exigirían trabajo y validación propios.
 
-No forman parte de la versión actual. Un port a móvil exigiría controles táctiles y otro layout; uno a consolas o dispositivos con mando requeriría navegación completa de interfaz y controles adaptados. No se incluyen como entregables ni compatibilidades ya probadas.
+No se declara publicación en Steam, itch.io u otra tienda sin una entrega existente.
 
-## Validación de Windows
-
-Antes de entregar se debe compilar, ejecutar fuera del Editor y medir funcionamiento, rendimiento, guardado de marcador y legibilidad. No se asignan requisitos mínimos de hardware sin estas mediciones; véase [[03 - Requisitos Técnicos]].
-
-> **Navegación:** [[00 - Índice]]
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

@@ -1,38 +1,21 @@
-# Dirección de Arte
+# Dirección de arte
 
-## Identidad visual
+## Identidad
 
-**Estilo:** pixel art 2D de tienda de conveniencia, con personajes de proporciones pequeñas y objetos claros. **Sensación:** local cálido y cotidiano bajo presión de trabajo. **Realismo:** estilizado; el menú debe guardar relación con los sprites del juego. **Formas:** rectángulos en muebles y tarjetas, siluetas reconocibles en personajes y herramientas.
+Pixel art 2D cálido: paredes crema, revestimiento salvia, madera, metal y acentos terracota/rojos. El título Turno Rosso utiliza letras rojas de bloque, borde oscuro y contorno claro; ROSSO GAMES mantiene su identidad gráfica.
 
-La referencia directa es el arte integrado de Turno Rosso, junto con las indicaciones visuales del usuario para una tienda más detallada y legible. No se utiliza una estética medieval para el HUD.
+La perspectiva es superior estilizada, con frente y superficie de muebles dibujados para leer su volumen. No se rota un sprite frontal 90 grados para fingir otra vista: los objetos laterales requieren dibujo con perspectiva propia.
 
-## Paleta
+## Escala y legibilidad
 
-| Función                             | Tratamiento                                             |
-| ----------------------------------- | ------------------------------------------------------- |
-| Base ambiental                      | Crema y tonos claros de piso y paredes                  |
-| Identidad de mobiliario y tarjetas  | Verde salvia                                            |
-| Acentos de anaqueles y señalización | Terracota                                               |
-| Texto y separación                  | Oscuros contrastantes y bordes discretos                |
-| Información jugable                 | Color acompañado de números, nombres, iconos o progreso |
+El personaje es la referencia. Puertas permiten su paso, tiradores y superficies quedan a altura creíble y los productos se leen como unidades pequeñas. Un cambio de pose, recorte o equipo no debe reducir la altura del personaje. Los sprites transparentes no deben arrastrar fondo de la hoja.
 
-No se fijan aquí códigos hexadecimales distintos de los recursos actuales; la referencia concreta son las texturas integradas.
+Anaqueles básicos y especialidades se diferencian por silueta, detalles e iconos, además del color. Los racks de bodega usan metal y cajas para distinguir almacenamiento de exhibición al público.
 
-## Iluminación y materiales
+## Reglas de integración
 
-Iluminación cálida mediante URP 2D, ambiente global y luces locales. Los materiales representan metal pintado, cartón, vidrio y revestimientos mediante sprites. No se busca acabado fotorealista ni materiales 3D complejos.
+Importación Point cuando corresponda, transparencia y pivotes revisados, orden de render por apoyo en suelo y colliders ajustados a la huella. No se estira el arte de forma no uniforme para cubrir espacio. La decoración respeta pasillos y no tapa interacciones.
 
-## Reglas visuales
+El mobiliario de café no incluye mesa ni sillas: esos elementos y el sistema de sentarse se retiraron del alcance.
 
-1. Mantener escala, perspectiva y apoyo de pies coherentes entre personajes.
-2. Importar pixel art con filtrado Point, sin mipmaps y sin compresión que dañe el borde.
-3. Recortar cada sprite sin fragmentos de poses u objetos vecinos.
-4. Mostrar anaqueles vacíos cuando no tienen existencias y productos según stock real.
-5. Conservar exactamente el logo original proporcionado por el usuario.
-6. Evitar que decoración, luces o paneles oculten interacciones esenciales.
-
-## Referencia interna
-
-Las capturas anexas del local y HUD muestran el estado documentado. El origen de recursos se registra en [[02 - Referencias e Inspiración]].
-
-> **Navegación:** [[00 - Índice]] · ← [[05 - Misiones y Desafíos]] · [[02 - Personajes y Animación]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

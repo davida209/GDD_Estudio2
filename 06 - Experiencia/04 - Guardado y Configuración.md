@@ -1,23 +1,26 @@
-# Guardado y Configuración
+# Guardado y configuración
 
-## Guardado
+## Continuidad
 
-Se conservan automáticamente **nombre del jugador, puntuaciones locales y preferencia de sonido**. No se guardan día, reloj, posición, manos, mercancía ni manchas de una partida en curso. No existen ranuras manuales, checkpoints ni botón de continuar un turno abandonado.
+El modo continuo escribe un punto de control al cerrar cada jornada. Continúa al comienzo del día siguiente; no restaura clientes, manchas o un cobro de mitad de turno. Desafío conserva progreso durante la sesión, pero no ofrece Continuar esa campaña tras salir.
 
-Las puntuaciones se escriben al registrar el resultado. Se almacenan en PlayerPrefs y se exportan adicionalmente como JSON en `Application.persistentDataPath`. El fallo de exportación produce una advertencia; PlayerPrefs sigue siendo la fuente de lectura del marcador.
+| Se conserva en tienda continua | No se restaura como estado de mitad de turno |
+| --- | --- |
+| Próximo día y efectivo | Posición y movimiento de clientes |
+| Ventas, pérdidas, suministros e inversiones acumulados | Fila/ticket/cobro activo |
+| Confianza | Temporizadores de eventos |
+| Nivel, XP, puntos y rangos | Posición exacta del jugador |
+| Extras adquiridos y especialidades | Manchas y acciones sostenidas en curso |
+| Producto/stock de ocho anaqueles y ocho reservas | Edición de un formulario tras cerrar la aplicación |
 
-## Configuración
+Se vuelve a guardar si se compra una mejora durante el resumen. Al comenzar el día siguiente se aplican los eventos normales de inicio, incluido suministro y recuperación de confianza.
 
-| Categoría | Opciones actuales |
-|---|---|
-| Audio | Sonido activado o silenciado desde pausa |
-| Vídeo | Sin menú de ajustes gráficos propio; encuadre y escalado definidos en el proyecto |
-| Controles | Esquema fijo; sin reasignación en menú |
-| Accesibilidad | Facilidades descritas en su sección; sin panel específico |
-| Jugabilidad | Nueva partida con siete días y dificultad progresiva fija |
+## Preferencias
 
-## Restablecimiento y recuperación
+Volumen y silencio se conservan localmente. El último nombre se utiliza para el resultado, pero el menú nuevo presenta Invitado hasta que el usuario decida editarlo. El marcador local guarda mejores turnos.
 
-Reintentar reinicia los recursos del turno y conserva las preferencias y registros locales. Volver al menú no guarda la partida actual. No existe botón general de restaurar todos los ajustes ni sincronización de progreso entre equipos. La recuperación ante datos locales dañados requiere revisión técnica; no se garantiza una reparación automática que el código no implementa.
+## Advertencias de salida
 
-> **Navegación:** [[00 - Índice]] · ← [[03 - Accesibilidad]] · [[01 - Arquitectura Técnica]] →
+Reiniciar o crear una tienda nueva puede reemplazar el negocio continuo. Volver al menú en mitad del día pierde los cambios posteriores al último cierre. Se requiere confirmación. Guardado corrupto o incompatible debe mostrar un motivo y permitir empezar de nuevo, no cargar datos parcialmente sin validar.
+
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

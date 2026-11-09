@@ -1,27 +1,23 @@
-# Clasificaciones y Etiquetas
+# Clasificaciones y etiquetas
 
-## Etiquetas aplicables
+| Etiqueta aplicable | Razón |
+| --- | --- |
+| Simulación de gestión | Operar la tienda y sus recursos |
+| Gestión del tiempo | Jornadas limitadas y tareas concurrentes |
+| Un jugador | Un encargado controlable |
+| Pixel art / 2D | Recursos y mundo bidimensional |
+| Vista superior | Lectura general de recorridos y tareas |
+| Progresión | XP, niveles, habilidades y especialización |
+| Economía | Compra de suministros, ventas, pérdidas e inversiones |
+| Guardado local | Punto de control del negocio continuo |
+| Desafío semanal | Siete jornadas con rango final |
 
-| Etiqueta | Evidencia en el juego |
-|---|---|
-| Simulación de gestión | Operación de tienda y recursos |
-| Gestión del tiempo | Jornadas de 210 segundos y tareas simultáneas |
-| Un jugador | Un empleado controlable |
-| Local / offline | Partida y marcador disponibles sin servidor |
-| Pixel art 2D | Sprites, tiles e interfaz estilizados |
-| Top-down | Visión superior del local |
-| Dificultad progresiva | Mayor exigencia a lo largo de siete días |
-| Inventario limitado | Un objeto en manos y cajas por categoría |
-| Objetivos diarios | Reposición y limpieza con contadores |
+## Uso preciso
 
-## Etiquetas que no corresponden
+El continuo guarda el negocio, pero no es un mundo persistente compartido por red. Un formulario online no convierte al juego en multijugador. Hay habilidades, pero no un árbol ramificado con clases de combate. No hay crafteo, construcción libre, exploración de mundo abierto ni mapa procedural.
 
-No se usa “mundo persistente” para una sesión que no se guarda; “mundo abierto”, porque solo hay una tienda; “procedural”, porque el mapa no se genera; ni “online”, porque no hay backend activo. Los tiempos aleatorios de eventos no equivalen a generación procedural del mundo.
+## Público
 
-No corresponden combate, jefes, crafteo, coleccionables, narrativa ramificada, construcción ni árbol de habilidades. El dueño es un supervisor, no un jefe de combate.
+Orientación de diseño aproximada 13+, por lectura y organización; robo ficticio sin violencia gráfica. No hay clasificación oficial ESRB o PEGI registrada y no deben utilizarse sus sellos como si existieran.
 
-## Público y clasificación por edades
-
-La orientación de diseño es aproximadamente 13+, sin violencia gráfica. No hay una clasificación oficial ESRB, PEGI u otra registrada. No debe colocarse un sello oficial sin un proceso real de clasificación.
-
-> **Navegación:** [[00 - Índice]]
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

@@ -1,39 +1,39 @@
 # Progresión
 
-## Progresión general
+## Experiencia y niveles
 
-La partida abarca siete días en la misma tienda. Todas las tareas están disponibles desde el inicio; la progresión exige ejecutarlas con mayor eficiencia, sin desbloquear mapas ni habilidades. Cada día tiene 210 segundos activos y una transición de 4.2 segundos antes del siguiente. Al finalizar el séptimo llega la victoria si la reputación se conserva.
+Se empieza en nivel 1 y el máximo es 10. El requisito para subir desde nivel `n` es `75 + 25 × (n − 1)` XP. El excedente se conserva al subir; al nivel 10 deja de acumularse. Cada nivel concede un punto y hay nueve puntos posibles.
 
-## Curva de dificultad
+| Fuente | Experiencia |
+| --- | ---: |
+| Venta cobrada | Máximo entre 4 y redondeo hacia arriba del importe / 15 |
+| Reposición de un anaquel | 3 |
+| Mancha eliminada | 8 |
+| Inspección con infracciones | 5 |
+| Inspección sin infracciones | 25 |
+| Cierre diario | 20 |
+| Completar todos los objetivos diarios | 25, una vez por jornada |
 
-| Día | Clientes simultáneos máximos | Paciencia en fila (s) | Unidades por compra deseadas | Manchas máximas | Meta de reposiciones | Meta de limpiezas |
-|---|---:|---:|---:|---:|---:|---:|
-| 1 | 3 | 55 | 1 | 3 | 5 | 1 |
-| 2 | 3 | 52 | 1 | 3 | 5 | 1 |
-| 3 | 4 | 49 | 1 | 3 | 6 | 1 |
-| 4 | 4 | 46 | 2 | 3 | 6 | 2 |
-| 5 | 5 | 43 | 2 | 4 | 7 | 2 |
-| 6 | 5 | 40 | 2 | 4 | 7 | 2 |
-| 7 | 6 | 37 | 3 | 4 | 8 | 3 |
+## Habilidades
 
-Los clientes solo retiran las unidades disponibles: una compra deseada de tres puede terminar siendo menor. La paciencia se consume al esperar físicamente en la fila, sin contar un pago en curso.
+Cada rango cuesta un punto; cada habilidad tiene tres rangos.
 
-| Día | Intervalo de clientes × | Intervalo de suciedad × | Intervalo de ladrón × | Intervalo de inspecciones × |
-|---|---:|---:|---:|---:|
-| 1 | 1.000 | 1.000 | 1.00 | 1.00 |
-| 2 | 0.935 | 0.945 | 0.95 | 0.95 |
-| 3 | 0.870 | 0.890 | 0.90 | 0.90 |
-| 4 | 0.805 | 0.835 | 0.85 | 0.85 |
-| 5 | 0.740 | 0.780 | 0.80 | 0.80 |
-| 6 | 0.675 | 0.725 | 0.75 | 0.75 |
-| 7 | 0.610 | 0.670 | 0.70 | 0.70 |
+| Habilidad | Efecto por rango | Aplicación |
+| --- | --- | --- |
+| Limpieza | +15% al factor de eficacia | Divide la duración base de limpieza entre `1 + 0.15r` |
+| Cobro | +10% al factor de eficacia | Divide duración base de cobro entre `1 + 0.10r` |
+| Transporte | +8% al factor de velocidad con caja | Multiplica 0.75 por `1 + 0.08r`, con tope de 1 |
 
-Un multiplicador menor reduce el tiempo entre eventos; no aumenta la velocidad de caminar del ladrón. La suciedad tiene una espera inicial configurada de 40 segundos e intervalos base de 50–85 segundos, sujetos al escalado diario y al máximo de manchas.
+Las habilidades se aplican pasivamente; no necesitan otro botón de activación. El HUD inferior izquierdo presenta las adquiridas.
 
-## Aprendizaje y recursos
+## Anaqueles
 
-El jugador aprende primero movimiento y E, después la correspondencia caja–anaquel, limpieza, fila y avisos de inspección/robo. Los días 4 y 7 incrementan el tamaño de compra. Desde el día 5 puede haber una cuarta mancha.
+La tienda comienza con cuatro básicos. Se compra un extra por categoría por $220, hasta ocho en total, sin pagar una apertura previa del local. El extra empieza vacío con el producto básico correspondiente. Después puede mejorar a Refresco, Gourmet, Despensa+ o Concentrado; conserva la cantidad existente y cambia ese stock al nuevo producto. El básico permanece disponible en su anaquel original.
 
-La bodega recibe 20 unidades por categoría al empezar los días 2 a 7, hasta 80 por categoría. El dinero y el estado de tienda continúan entre jornadas; no hay subida de nivel, equipo nuevo, árbol de habilidades ni mejoras permanentes. Las metas diarias orientan la atención, pero no bloquean el cambio de día.
+La mejora desbloquea un rack propio en bodega. Los campos de nivel recomendado 2/3 del catálogo no son un bloqueo actual: la compra exige anaquel instalado y dinero, no subir de nivel.
 
-> **Navegación:** [[00 - Índice]] · ← [[04 - Controles]] · [[06 - Economía y Recursos]] →
+## Dificultad y resultado
+
+Los perfiles diarios acortan los intervalos de clientes, suciedad, robos e inspecciones. El continuo reutiliza el perfil del día siete. El desafío produce rango S (≥90% eficiencia), A (≥75%), B (≥60%) o C (<60%). Véase [02 - Niveles](../04%20-%20Contenido/02%20-%20Niveles.md).
+
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

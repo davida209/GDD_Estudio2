@@ -1,38 +1,27 @@
-# UI y Menús
+# UI y menús
 
-## Mapa de navegación
+## Menú principal
 
-```text
-Menú principal
-├── Nombre del jugador
-├── Jugar → Tienda
-├── Cómo jugar → instrucciones → regresar
-├── Puntuaciones → marcador local → regresar
-├── Acerca de → información del juego → regresar
-└── Salir
+Invitado por defecto; lápiz para editar. Desafío · 7 días, Nueva tienda · modo continuo, Continuar tienda, Mejores turnos, Cómo jugar y Salir. Continuar está deshabilitado si no existe guardado válido. El input no captura escritura hasta activar la edición.
 
-Tienda → Pausa: continuar / sonido / volver al menú
-Tienda → Cierre diario → siguiente día
-Tienda → Victoria o derrota: repetir / menú
-```
+Flechas recorren opciones y Enter acepta. Mouse alternativo. La selección ilumina el botón y suena; Esc sale de una subvista. Los botones comparten ancho, alineación y estilo.
 
-## Pantallas y funciones
+## Mejoras
 
-| Pantalla | Propósito y elementos | Acciones y transiciones |
-|---|---|---|
-| Principal | Imagen de tienda estilizada, logo original, nombre y botones | Iniciar partida, abrir paneles o salir |
-| Cómo jugar | Controles, tareas, cajas de cinco, días y reputación | Leer y volver al menú |
-| Puntuaciones | Registros locales, lista con desplazamiento | Consultar y cerrar |
-| Acerca de | Identidad y créditos disponibles | Consultar y cerrar, incluido Esc |
-| HUD | Tiempo, día, dinero, reputación, bodega, equipo y objetivos | Jugar y abrir pausa |
-| Pausa | Estado detenido, controles y sonido | Continuar con botón/Esc, alternar sonido o ir al menú |
-| Cierre de jornada | Resumen y anuncio animado | Avance automático tras 4.2 segundos |
-| Resultado | Victoria/derrota y balance final | Repetir desde día uno o ir al menú |
+| Pestaña | Contenido |
+| --- | --- |
+| Anaqueles | Extras, producto actual y mejora a especialidad; básicos no comprables como mejora |
+| Ampliación | Cuatro compras directas de anaquel extra por categoría |
+| Habilidades | Limpieza, cobro y transporte; rango 0–3 y costo de un punto |
 
-## Confirmaciones y acciones que terminan sesión
+No se cobra por Abrir local. Comprar un extra no lo convierte automáticamente en especialidad. La mejora conserva sus unidades y desbloquea un rack propio.
 
-Volver al menú abandona el turno; reintentar inicia una partida nueva. No hay guardado del turno para restaurarlo después. No se documenta una ventana de confirmación adicional como si ya existiera: se debe comprobar el comportamiento de los botones en la entrega y que su texto sea inequívoco.
+## Pausa y resultados
 
-No hay pantallas independientes de vídeo, inventario, mapa o accesibilidad. El control de sonido actual se encuentra en la pausa; no representa un menú completo de ajustes gráficos.
+Continuar, controles, reiniciar, menú, reportar error y salir. Bocina superior, volumen general y confirmaciones. Los resúmenes separan ventas, pérdidas, suministros e inversiones; el desafío culmina en rango/recompensa o despido.
 
-> **Navegación:** [[00 - Índice]] · ← [[01 - UX y Flujo del Jugador]] · [[03 - Accesibilidad]] →
+## Reporte
+
+Título, descripción, Enviar y Volver. Adjunta versión, escena y plataforma, sin logs ni archivos del equipo. Requiere conexión; mensaje de error y borrador se conservan para reintentar. En Windows se envía dentro del juego; la variante WebGL abre el formulario web existente, sin certificar una build web.
+
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

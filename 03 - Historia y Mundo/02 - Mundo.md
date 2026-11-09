@@ -1,29 +1,24 @@
 # Mundo
 
-## Concepto del mundo
+## Contexto
 
-**Época:** contemporánea, sin año establecido. **Lugar:** interior de una tienda de conveniencia ficticia. **Contexto:** operación cotidiana de un negocio pequeño. No se fija ciudad, país ni una moneda nacional; el símbolo $ representa dinero del juego.
+Tienda ficticia contemporánea con identidad italiana sugerida por el nombre, la paleta y la decoración. No se fija una ciudad o una fecha narrativa. La versión actual representa los importes con pesos ($); la identidad visual no obliga a usar euros.
 
-## Historia del mundo
+## Espacios
 
-Antes de jugar, la tienda ya existe y dispone de anaqueles, caja y bodega. Durante la partida se desarrolla una semana de trabajo. Después del resultado no se simula una continuación del mundo. No se han definido acontecimientos históricos, facciones políticas ni trasfondo fantástico.
+| Espacio | Contenido | Función |
+| --- | --- | --- |
+| Tienda | Anaqueles básicos y extra, mostrador en L, exhibidores, refrigeradores y café | Atención, venta real de anaqueles y visitas ambientales |
+| Bodega | Racks, mesa de recepción, almacenamiento, carro de carga, armario y marcas de suelo | Comprar y recoger cajas de productos |
+| Acceso de clientes | Puerta doble, tapete y soporte de canastas | Entrada/salida y lectura del local |
+| Puerta industrial | Conexión con bodega | Cambio de área mediante E |
+| Puesto del encargado | Zona tras mostrador en L | Cobro y prevención del robo |
+| Limpieza | Mopa accesible en tienda | Mantenimiento del piso |
 
-## Lugares
+## Reglas espaciales
 
-| Lugar | Descripción | Función jugable | Papel narrativo |
-|---|---|---|---|
-| Sala de ventas | Piso claro, pasillos y cuatro categorías | Comprar, reponer y circular | Centro del trabajo cotidiano |
-| Bodega | Área separada con estaciones de caja | Retirar o devolver mercancía | Fuente limitada de suministro |
-| Estación de limpieza | Trapeador y utensilios | Cambiar herramienta | Mantenimiento del local |
-| Caja registradora | Mostrador y fila | Cobrar y proteger dinero | Punto de atención y riesgo |
-| Entrada y salida | Puerta del negocio | Acceso de clientes, dueño y ladrón | Conecta el local con el exterior |
+Los racks de especialidades están a la izquierda de la bodega y los básicos a la derecha; el pasillo central comunica puerta y zona de trabajo. El mobiliario tiene colisión y una huella congruente con el personaje. Los clientes pueden atravesarse entre sí para evitar bloqueos, pero no deben atravesar los muebles.
 
-## Grupos y relaciones
+La bodega pertenece a una escena diferente cargada aditivamente. El exterior queda fuera del área jugable. La tienda mantiene actividad mientras el jugador está en el almacén.
 
-El empleado mantiene el servicio; los clientes buscan comprar; el dueño exige orden y reputación; el ladrón intenta sustraer dinero. Estos son roles funcionales, no facciones con progresión o alianzas.
-
-## Coherencia del mundo
-
-Cada anaquel representa una categoría y solo acepta su mercancía. Las paredes y muebles delimitan rutas. Los NPC caminan por áreas libres. La cámara mantiene una visión general del local; el exterior no es explorable. El cambio de día es una transición de jornada, no un viaje a otra tienda.
-
-> **Navegación:** [[00 - Índice]] · ← [[01 - Premisa y Trama]] · [[03 - Personajes]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

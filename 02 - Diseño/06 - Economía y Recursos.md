@@ -1,29 +1,40 @@
-# Economía y Recursos
+# Economía y recursos
 
-## Recursos
+## Estado inicial y límites
 
-| Recurso | Inicio y obtención | Uso o pérdida | Límite |
-|---|---|---|---|
-| Dinero | $1000 iniciales; $40 por unidad cobrada | Robo y multas | No puede sustraerse más dinero del disponible |
-| Reputación | Base 100; se recuperan penalizaciones temporales al resolver causas | Manchas, vacíos, insatisfacción, robo e inspección | 0–100; cero provoca derrota |
-| Stock de anaquel | 12 iniciales por categoría; reposición | Compras de clientes | 20 por anaquel |
-| Stock de bodega | 30 iniciales por categoría; +20 al iniciar días 2–7 | Cajas de cinco unidades | 80 por categoría |
-| Caja transportada | Retiro de cinco unidades de una categoría | Transferencia gradual o devolución | Una caja en manos |
-| Tiempo diario | 210 segundos por jornada | Avanza durante juego activo | Se congela en pausa y transición |
-| Capacidad de manos | Manos vacías al inicio | Caja o trapeador ocupan la única selección | Un objeto equipado |
+| Recurso | Valor actual |
+| --- | --- |
+| Efectivo inicial | $600, pesos del juego |
+| Confianza | 100; rango de 0 a 100 |
+| Anaqueles iniciales | Cuatro; 12 unidades por anaquel, capacidad de 20 |
+| Reservas iniciales | 30 por producto básico; 120 unidades básicas en total |
+| Reabastecimiento diario | +10 por producto desbloqueado desde el día 2, hasta 30 por producto |
+| Caja de mercancía | Cinco unidades; un objeto en manos |
+| Extra de anaquel | $220 por categoría; máximo cuatro extras |
 
-## Fuentes y sumideros
+## Catálogo y márgenes
 
-Las ventas son la fuente monetaria; el ingreso solo se produce al terminar el cobro. La mercancía llega mediante el suministro diario automático. No hay compra de cajas con dinero ni tienda de mejoras. Las compras retiran producto del anaquel; multas y robos reducen el balance. Atrapar al ladrón puede recuperar lo que llevaba.
+Los importes son por unidad, salvo costo de caja y mejora. Margen bruto unitario es venta menos costo; no descuenta pérdidas ni multas.
 
-## Reglas y casos límite
+| Producto | Venta | Costo/unidad | Caja de 5 | Margen/unidad | Mejora del extra | Peso de demanda |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Agua | $40 | $12 | $60 | $28 | — | 1.00 |
+| Papas | $40 | $14 | $70 | $26 | — | 1.00 |
+| Conservas | $40 | $16 | $80 | $24 | — | 1.00 |
+| Limpiador | $40 | $18 | $90 | $22 | — | 1.00 |
+| Refresco | $72 | $28 | $140 | $44 | $220 | 0.65 |
+| Gourmet | $78 | $30 | $150 | $48 | $260 | 0.60 |
+| Despensa+ | $88 | $35 | $175 | $53 | $300 | 0.55 |
+| Concentrado | $100 | $40 | $200 | $60 | $340 | 0.50 |
 
-Una compra parcial cobra únicamente lo retirado: dos unidades cuestan $80, aunque el cliente intentara adquirir tres. Un anaquel lleno no acepta más producto. Si una caja termina la reposición con sobrante, este regresa a bodega; la caja desaparece. Las categorías mantienen inventarios separados.
+El peso es relativo entre productos elegibles, no una probabilidad porcentual garantizada. La mercancía se paga al comprar la caja. Un rack agotado no vende hasta el suministro siguiente. Desbloquear una especialidad concede su reserva inicial de 30 unidades.
 
-Un robo consume hasta $150 y resta 12 de reputación cuando hubo sustracción real. La multa comienza en $200 y crece $20 diarios. Ninguno de estos eventos genera por sí solo una derrota monetaria; el criterio de derrota es reputación cero.
+## Pérdidas y confianza
 
-## Balance buscado
+Un robo completado toma todo el efectivo disponible y resta 50 de confianza una sola vez, incluso si la caja estaba sin dinero. No existe recuperación del robo mediante una captura posterior. Una espera agotada penaliza 5 de confianza. La inspección detecta manchas y anaqueles críticos (≤2 unidades): resta 5/10 de confianza y multa $20/$40 respectivamente por infracción. La multa no crea deuda; se limita al efectivo disponible. Al comenzar otro día se recuperan hasta 10 de confianza, sin superar 100.
 
-Se incentiva alternar cobros, rutas cortas y mantenimiento preventivo. Acumular dinero sin limpiar o dejar anaqueles vacíos es insuficiente. Tampoco conviene reponer constantemente un anaquel lleno mientras se abandona la caja. La duración y el suministro buscan permitir errores recuperables sin eliminar la presión.
+## Indicadores del informe
 
-> **Navegación:** [[00 - Índice]] · ← [[05 - Progresión]] · [[07 - Reglas y Estados del Juego]] →
+`Neto = ventas − robos − multas − suministros`. Las inversiones se muestran aparte y sí reducen el efectivo. `Eficiencia = (ventas − robos − multas) / ventas potenciales × 100`, limitada a 0–100; con demanda cero da 0. No debe confundirse eficiencia con margen ni efectivo con ventas.
+
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

@@ -1,23 +1,23 @@
-# Criterios de Calidad
+# Criterios de calidad
 
-## Calidad funcional
+## Función
 
-Las cuatro categorías conservan stock independiente; las cajas contienen cinco; la reposición es gradual y respeta capacidad. Se cobra solo con E, una vez por cliente y por unidades reales. La limpieza necesita herramienta. El robo y las inspecciones afectan dinero y reputación según las reglas. Pausa, transición y resultado mantienen coherencia temporal.
+Operaciones válidas producen un solo efecto; acciones inválidas no pierden recursos. El cliente encuentra otra fuente del mismo producto antes de abandonar por falta de stock. El viaje a bodega conserva gestores y actividad de tienda. El guardado recupera el cierre, no un estado parcial inexistente.
 
-## Calidad de experiencia
+## Presentación
 
-El jugador debe entender qué lleva en manos, qué puede hacer, qué productos faltan y por qué cambió su reputación. Las animaciones conservan dirección y apoyo de pies. Los NPC no ocupan muebles y las tarjetas no ocultan las interacciones importantes. La derrota debe poder relacionarse con decisiones observables.
+Escala coherente de actor, puertas y muebles; apoyo de pies estable; sprites sin recortes ajenos ni fondos accidentales; orden de profundidad y colliders congruentes. Los textos conservan acentos y no desbordan. La barra de volumen representa correctamente su porcentaje.
 
-## Calidad técnica
+## Experiencia
 
-Escenas y prefabs sin referencias rotas; sprites sin recortes vecinos; compilación sin errores actuales; flujo menú–juego–pausa–resultado sin bloqueos. Los registros locales deben poder consultarse tras volver a abrir el juego. El objetivo de rendimiento es 60 FPS, todavía pendiente de validación en build y varios equipos.
+Foco visible, navegación por teclado, condiciones contextuales reales y confirmación antes de abandonar progreso. El audio no es el único canal de información. Los sonidos importantes se distinguen de la música y la limpieza termina de sonar al terminar la acción.
 
-## Definición de terminado
+## Robustez
 
-Una característica queda lista cuando cumple sus reglas, maneja los casos límite relevantes, ofrece feedback comprensible, no rompe sistemas relacionados y pasa revisión funcional y visual. Para declarar la entrega completa también deben aprobarse build Windows y una partida real de siete días.
+Sin excepciones en recorridos normales; salidas de pausa/menú correctas; cargas repetidas sin duplicar gestores; cierre con cobro tolerado sin doble ingreso. Una caída de red no impide seguir jugando ni envía reportes repetidos en un reintento idéntico.
 
-## Situación actual
+## Entrega
 
-Hay pruebas funcionales y auditorías aprobadas del prototipo. Esto no certifica rendimiento universal, accesibilidad completa o ausencia absoluta de errores. La aprobación visual final y la sesión continua siguen en el backlog.
+Ejecutable y dependencias incluidos, sin archivos temporales. Licencias conservadas. Rendimiento objetivo 60 FPS sujeto a medición. Una revisión documental o compilación C# no se registra como prueba de usabilidad o de una build final.
 
-> **Navegación:** [[00 - Índice]] · ← [[05 - Gestión de Cambios]] · [[02 - Pruebas]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

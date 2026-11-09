@@ -1,19 +1,17 @@
 # Acerca de esta guía
 
-## Autoría original
+## Autoría y estructura
 
-**Ing. Luis Fernando Villafaña Rejón**, creador de la guía integral de GDD en español utilizada como base de esta bóveda.
+Este documento organiza el diseño de Turno Rosso en once áreas, con un avance jugable, un registro visual y una edición completa para consulta y exportación. La plantilla original de GDD en español corresponde al **Ing. Luis Fernando Villafaña Rejón**.
 
-## Propósito de esta edición
+## Edición vigente
 
-Documentar Turno Rosso de manera coherente con su prototipo jugable: visión, reglas, mundo, contenido, arte, experiencia, tecnología, producción y calidad. Los apartados genéricos se han concretado para el juego; no representan una lista de funciones que deban añadirse automáticamente.
+**GDD 0.3.0 · 9 de noviembre de 2026.** Referencia del juego: revisión b28eaa1 de nachherp/TurnoRosso. Se contrastaron escenas, recursos de configuración y componentes con las decisiones del proyecto. Los valores configurados tienen prioridad sobre defaults del código cuando difieren.
 
-## Criterios de documentación
+## Criterios
 
-Se mantienen las decisiones expresadas para el proyecto y los datos del equipo. Las funciones existentes se diferencian de tareas pendientes. Una fecha, crédito, requisito de hardware o asignación no registrada se indica como tal. Los valores de balance reflejan la configuración actual y pueden revisarse con pruebas.
+Se distinguen implementación, confirmación de pruebas del responsable y verificaciones pendientes de distribución. Los anexos anteriores son históricos. Las capturas de ejecución y las previsualizaciones de clips se identifican por separado. No se inventan fechas de inicio, tareas personales o mínimos de hardware.
 
 ## Uso
 
-Comenzar en [[00 - Índice]], consultar [[01 - Ficha del Proyecto]] y mantener alineadas reglas, código e instrucciones cuando se cambie el juego. La biblioteca final concreta la clasificación de Turno Rosso y evita confundir género, plataforma, cámara y modo.
-
-El GDD no reemplaza la revisión de una partida real ni acredita como final un prototipo aún en pulido. Las evidencias disponibles y sus límites se describen en [[02 - Pruebas]].
+Comenzar por [00 - Índice](00%20-%20%C3%8Dndice.md) o [00 - Avance jugable](00%20-%20Avance%20jugable.md). Para lectura seguida o exportación usar [00 - GDD Completo (Para Exportar PDF)](00%20-%20GDD%20Completo%20%28Para%20Exportar%20PDF%29.md). Los enlaces y medios son relativos y funcionan dentro de esta carpeta. Obsidian puede abrirla como bóveda; Markdown conserva texto y enlaces. Un PDF no anima GIFs y requiere exportación desde un lector compatible.

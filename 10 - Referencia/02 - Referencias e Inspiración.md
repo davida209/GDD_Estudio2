@@ -1,43 +1,26 @@
-# Referencias e Inspiración
+# Referencias e inspiración
 
-## Referencias utilizadas
+## Estructura documental
 
-| Referencia | Tipo y procedencia | Qué aporta | Límite de uso |
-|---|---|---|---|
-| Recursos de TurnoRosso-Scripts/Assets | Material proporcionado por el usuario | Base de personajes, objetos e identidad | Revisar procedencia de cada recurso antes de distribución externa |
-| Test_Sprites_TR/Assets/Sprites | Proyecto de referencia aportado | Ejemplos de animación del empleado | Mantener recortes y escala; no mezclar poses incompatibles |
-| Carpeta “10mo/sprites” | Biblioteca proporcionada por el usuario | Recursos complementarios de personajes y entorno | Registrar autoría/licencia cuando corresponda |
-| Imagen de tienda enviada por el usuario | Referencia visual de composición | Pasillos legibles, categorías, caja, bodega e información clara | Referencia de diseño; no se atribuye un título de juego desconocido |
-| Capturas del prototipo actual | Evidencia interna | Estado concreto de HUD, tienda, reposición y transición | Reflejan una iteración, no una entrega comercial certificada |
-| Logo original ROSSO GAMES proporcionado | Identidad gráfica | Mantener la identidad solicitada | Conservarlo sin rediseño |
-| Arte generado para el proyecto | Recursos creados con herramienta de imágenes | Unificar anaqueles, paredes, tarjetas y otros elementos | Revisar consistencia y procedencia en el inventario de recursos |
+El GDD se organiza en visión, diseño, historia y mundo, contenido, arte y audio, experiencia, tecnología, producción, calidad, referencias y clasificación del juego. El avance jugable resume la versión actual y el registro visual reúne sus recursos.
 
-## Referencias visuales internas
+La plantilla original de GDD en español se acredita al **Ing. Luis Fernando Villafaña Rejón**, como constaba en esta documentación. Sus créditos son distintos de los del equipo Turno Rosso.
 
-Las imágenes anexas muestran tienda, HUD, reposición y cambio de jornada. No se añaden juegos, autores, enlaces o influencias que el equipo no haya indicado. El repositorio del proyecto está en [[01 - Ficha del Proyecto]].
+## Fuentes del contenido
 
-## Crédito de la estructura documental
+| Fuente | Uso | Límite |
+| --- | --- | --- |
+| Repositorio nachherp/TurnoRosso, b28eaa1 | Reglas, recursos y arquitectura vigentes | No demuestra por sí solo rendimiento del ejecutable |
+| Capturas y decisiones del proyecto | Composición, distribución y presentación | Las capturas antiguas no certifican el montaje actual |
+| Biblioteca de sprites del proyecto | Personajes e identidad de tienda | Conservar y confirmar procedencia individual para distribución |
+| Recursos específicos de tienda/bodega integrados | Racks, extras, mostrador y utilería | Los medios documentales son copias de recursos del proyecto |
+| Identidad ROSSO GAMES y título del juego | Identidad visual | Identidad propia del proyecto |
+| OpenGameArt/Freesound y audios suministrados | Sonido | Véase registro de licencias; no asignar CC0 a material sin comprobar |
 
-La guía de GDD en español fue creada por el **Ing. Luis Fernando Villafaña Rejón**. Su autoría corresponde a la plantilla; los integrantes del juego se encuentran en [[02 - Roles y Responsabilidades]].
+Las ilustraciones y animaciones documentadas se contrastan con los recursos del proyecto. Los reportes de pruebas antiguos se conservan aparte como antecedentes, sin reutilizar sus capturas o sprites para representar esta versión.
 
-> **Navegación:** [[00 - Índice]] · ← [[01 - Glosario]] · [[03 - Registro de Decisiones]] →
+## Evidencia visual
 
-## Capturas del prototipo
+[06 - Registro visual](../05%20-%20Arte%20y%20Audio/06%20-%20Registro%20visual.md) separa recursos actuales de previsualizaciones y capturas antiguas. Las imágenes y GIFs locales se enlazan mediante rutas relativas, sin rutas personales del equipo.
 
-### Tienda, paredes, anaqueles y HUD
-
-![Tienda Turno Rosso con paleta crema y salvia](../Anexos/tienda-crema-salvia.png)
-
-### Reposición con caja de cinco
-
-![Reposición progresiva](../Anexos/reposicion-caja-de-5.png)
-
-### Cierre de jornada
-
-![Resumen de jornada](../Anexos/cierre-de-jornada.png)
-
-### Anuncio del siguiente día
-
-![Nuevo día](../Anexos/anuncio-nuevo-dia.png)
-
-
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

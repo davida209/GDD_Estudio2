@@ -1,25 +1,31 @@
 # Personajes
 
-## Protagonista — Empleado de la tienda
+## Encargado
 
-**Nombre:** no se establece nombre narrativo; el jugador introduce uno para su puntuación. **Rol:** único personaje controlable. **Función:** caminar, llevar cajas, reponer, limpiar, cobrar y detener al ladrón. **Apariencia:** sprite pixel art con gorra roja y delantal verde. **Motivación:** completar la semana manteniendo el negocio. **Conflicto:** dispone de tiempo y manos limitados frente a tareas simultáneas.
+Único personaje controlable. Su gorra roja y ropa de trabajo facilitan reconocerlo entre clientes. Empieza como Invitado; el lápiz del menú permite cambiar el nombre del marcador. Su motivación es mantener servicio y confianza. Progresa mediante experiencia y habilidades de limpieza, cobro y transporte.
 
-La personalidad se expresa mediante las decisiones del jugador; no hay biografía ni arco dialogado. Su aprendizaje es operativo. Es más lento al cargar cajas y no puede llevar trapeador y caja simultáneamente. No tiene vida, ataques ni habilidades desbloqueables.
+No tiene vida física, armas ni ataques. Las manos limitadas y el tiempo son sus restricciones principales.
 
 ## Clientes
 
-Hay tres variantes visuales: verde, morada y azul. Su función es buscar productos, retirarlos, formarse, pagar y salir. Las variantes no constituyen clases de comprador con poderes distintos. Pueden mostrarse molestos por falta de existencias o exceso de espera. Su motivación es completar una compra; se comunican con gestos y estados visuales, sin conversaciones ramificadas.
+Tres arquetipos con variantes visuales. Sus preferencias son funcionales, no biografías:
+
+| Arquetipo | Productos elegibles por categoría | Cantidad deseada |
+| --- | --- | --- |
+| Vecino | Conservas y limpieza, incluidas especialidades de esas categorías | 4–6 unidades |
+| Estudiante | Bebidas y snacks | 3–5 unidades |
+| Oficinista | Bebidas y snacks | 2–3 unidades |
+
+Pueden detenerse frente a pan, refrigeradores, café u otros exhibidores; luego buscan su producto, compran, esperan, pagan y salen. Las burbujas comunican curiosidad, espera y enfado.
+
+## Dueño / supervisor
+
+Don Rosso representa la evaluación del trabajo. Se desplaza por el local, observa manchas y anaqueles críticos y comunica infracciones. No es un jefe de combate. Menor confianza acelera sus visitas.
 
 ## Ladrón
 
-Es la amenaza económica: entra, se aproxima a la registradora, intenta robar y huye. Su apariencia debe diferenciarlo claramente de los clientes. No es un enemigo de combate ni un jefe con vida. Su debilidad jugable es poder ser interceptado con E; la velocidad está ajustada para que sea alcanzable.
+Amenaza económica diferenciada por ropa oscura. Se dirige a caja, intenta sustraer el efectivo y huye. Ocupar el puesto a tiempo evita el intento. No hay captura física ni combate.
 
-## Dueño
+No se han fijado apellidos, parentescos, edades o historias individuales adicionales.
 
-Representa la supervisión del negocio. Anuncia su llegada, entra, recorre una ruta libre, inspecciona y comunica el resultado antes de retirarse. Evalúa limpieza, existencias y reputación; puede imponer multa. No pelea ni permanece sobre un anaquel.
-
-## Relaciones, tono y referencias
-
-El empleado atiende al cliente, responde ante el dueño e impide el robo. La expresión es cotidiana, directa y ligera. No se han definido frases personales, parentescos o historias adicionales. Las capturas y recursos actuales del proyecto son la referencia visual de estos personajes; sus estados se detallan en [[02 - Personajes y Animación]].
-
-> **Navegación:** [[00 - Índice]] · ← [[02 - Mundo]] · [[04 - Diálogos y Narrativa]] →
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

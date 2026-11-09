@@ -1,26 +1,35 @@
-# Criterios de Aceptación
+# Criterios de aceptación
 
-## Criterios verificables
+## Juego
 
-| Característica | Dado que | Cuando | Entonces |
-|---|---|---|---|
-| Caja de categoría | Manos libres y cinco unidades en reserva | Se pulsa E en su estación | Se equipa caja de cinco de esa categoría y baja su reserva |
-| Reposición | Caja correcta y anaquel con espacio | Se activa la reposición | Entra una unidad cada 0.18 s hasta límite o agotamiento |
-| Sobrante | Anaquel 18/20 y caja de cinco | Termina la reposición | Queda 20/20, desaparece la caja y vuelven tres a bodega |
-| Limpieza | Trapeador y mancha cercana | Se mantiene E el tiempo requerido | La mancha desaparece y se actualizan objetivo/reputación |
-| Cobro | Primer cliente listo | Se pulsa E y termina el gesto | Se cobra una sola vez, $40 por unidad real |
-| Robo | Ladrón completa sustracción con dinero disponible | Se resuelve el robo | Baja balance y reputación en 12; recalcular no borra esa pérdida |
-| Inspección | Dos manchas o dos anaqueles vacíos | El dueño revisa | Se aplica multa y pérdida acumulada según las reglas |
-| Pausa | Partida activa | Se pulsa Esc | Reloj y simulación se detienen hasta continuar |
-| Cambio de día | Finaliza día 1–6 | Termina la transición | Comienza el siguiente con 210 s, sin tiempo consumido por la transición |
-| Victoria | Finaliza día 7 con reputación | Se procesa el cierre | Aparece victoria y no comienza día 8 |
-| Derrota | Reputación llega a cero | Se actualiza estado | Aparece derrota y se detiene la partida |
-| Animación | Actor caminando en cada dirección | Se reproduce el ciclo | Alterna neutro/izquierdo/neutro/derecho sin recortes ni saltos de apoyo |
+- [ ] Iniciar desafío y continuo sin errores; Continuar solo con guardado válido.
+- [ ] Comprar cajas de cinco con costo correcto y sin saldo negativo.
+- [ ] Rellenar hasta capacidad 20, conservando sobrante de caja y compatibilidad de producto.
+- [ ] Cobrar una vez por ticket con interacción sostenida y manos libres.
+- [ ] Limpiar manchas transitables; cancelar sin completar la limpieza.
+- [ ] Viajar a bodega con E sin detener el reloj ni duplicar gestores.
+- [ ] Evitar robo ocupando puesto y aplicar pérdida/penalización una vez si se completa.
+- [ ] Resolver inspección con multas y confianza por infracción observada.
+- [ ] Comprar cuatro extras, mejorar con stock y mantener básicos disponibles.
+- [ ] Ganar XP y gastar hasta nueve puntos coherentes con nivel y rangos.
 
-## Aceptación del prototipo y de la entrega
+## Flujo y presentación
 
-Los casos funcionales anteriores tienen evidencia de comprobación; los aspectos visuales necesitan también revisión humana en movimiento. La entrega completa requiere una build Windows funcional, una sesión continua de siete días, lectura de HUD e instrucciones, persistencia de resultados y mediciones de rendimiento.
+- [ ] Siete jornadas y resultado final en desafío; continuo permite día ocho.
+- [ ] Pausa visible, volumen completo, silencio y navegación sin mouse.
+- [ ] Nombre Invitado/lápiz, textos centrados y caracteres españoles legibles.
+- [ ] Colisiones, escala, profundidad y caminata coherentes con objetos equipados.
+- [ ] Sonido de limpieza sincronizado, caja/enfado audibles y música sin saturación.
+- [ ] Reporte enviable, reintento sin duplicados y fallo de red recuperable.
 
-Guardar el turno no es un criterio de esta versión porque esa función no forma parte del alcance. No se marca la entrega final como aprobada mientras las validaciones pendientes sigan abiertas.
+## Entrega
 
-> **Navegación:** [[00 - Índice]] · ← [[03 - Bugs y Seguimiento]] · [[01 - Glosario]] →
+- [ ] Ejecutable Windows probado fuera del Editor con dependencias completas.
+- [ ] Guardado/carga continuo verificados tras reiniciar el juego.
+- [ ] Rendimiento y lectura registrados en equipos/resoluciones de entrega.
+- [ ] Licencias de recursos suministrados confirmadas.
+- [ ] GDD y paquete corresponden a la misma revisión.
+
+Las casillas son la lista de firma de la entrega independiente. Se dejan sin marcar hasta adjuntar el registro de esa verificación; no contradicen la confirmación funcional previa del responsable.
+
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

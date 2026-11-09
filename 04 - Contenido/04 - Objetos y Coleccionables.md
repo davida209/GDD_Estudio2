@@ -1,24 +1,33 @@
-# Objetos y Coleccionables
+# Objetos y coleccionables
 
-## Objetos funcionales
+## Mercancía
 
-| Objeto | Obtención y uso | Límite y valor | Representación y restricciones |
-|---|---|---|---|
-| Caja de bebidas | E en estación de bebidas; E en su anaquel | 5 unidades, provenientes de bodega | Caja identificada por categoría; no sirve para snacks |
-| Caja de snacks | E en estación de snacks; reposición compatible | 5 unidades | Icono y nombre propios |
-| Caja de abarrotes | E en estación de abarrotes; reposición compatible | 5 unidades | Se distingue de las otras categorías |
-| Caja de limpieza | E en estación de limpieza de productos; reposición compatible | 5 unidades | Mercancía de limpieza; no sustituye al trapeador |
-| Trapeador | Equipar o devolver con E en su estación | Una herramienta equipada | Necesario para eliminar manchas |
-| Anaquel | Interacción desde pasillo con caja correcta | Capacidad 20; inicio 12 | Mueble y productos separados; muestra contador |
-| Registradora | E en zona de cobro con cliente | $40 por unidad comprada | Mostrador, caja y gesto de pago |
-| Mancha | Aparece durante el turno; mantener E con trapeador | Tope 3 o 4 según día | Obstáculo de mantenimiento y penalización reputacional |
+| Categoría | Básico | Especialidad | Representación |
+| --- | --- | --- | --- |
+| Bebidas | Agua | Refresco | Botella de agua / botella de refresco |
+| Snacks | Papas | Gourmet | Bolsa básica / bolsa especial |
+| Abarrotes | Conservas | Despensa+ | Conserva / surtido de despensa |
+| Limpieza | Limpiador | Concentrado | Atomizador / envase de concentrado |
 
-## Reglas de objetos
+Cada producto tiene icono, precio y reserva independientes. Las especialidades añaden caja, rack y anaquel visualmente propios. Los precios se concentran en [06 - Economía y Recursos](../02%20-%20Dise%C3%B1o/06%20-%20Econom%C3%ADa%20y%20Recursos.md).
 
-Se lleva una sola caja o herramienta a la vez. Las cajas no son compras monetarias ni premios aleatorios: retiran cinco unidades del suministro correspondiente. La reposición es de una unidad cada 0.18 segundos. Al concluir, la caja desaparece y cualquier sobrante vuelve a bodega; también puede devolverse antes de usarla.
+## Objetos de uso
 
-## Coleccionables, rareza e inventario
+| Objeto | Regla |
+| --- | --- |
+| Caja | Compra de cinco unidades; conserva sobrante tras rellenar; puede soltarse |
+| Mopa | Herramienta de tienda; permite limpiar mientras se mantiene la interacción |
+| Anaquel básico | Cuatro iniciales, capacidad 20, no se mejora |
+| Anaquel extra | Uno por categoría; compra $220 y mejora individual opcional |
+| Rack | Dispensador de cajas del producto, condicionado por reserva y dinero |
+| Registradora | Ticket y cobro manual desde el puesto |
+| Puerta de bodega | Interacción E y cambio de área |
+| Mancha | Superficie transitable; no debe impedir caminar ni bloquear acceso a limpieza |
 
-No existen coleccionables, rarezas, objetos de combate, crafteo ni inventario por casillas. Los productos son unidades de stock administradas por categoría; sus sprites comunican disponibilidad, no un catálogo comercial con precios individuales.
+## Utilería
 
-> **Navegación:** [[00 - Índice]] · ← [[03 - Enemigos y NPC]] · [[05 - Misiones y Desafíos]] →
+Exhibidores de panes, golosinas y fruta; refrigeradores; congeladores; café; tapete; soporte de canastas; plantas; luminarias; reloj; carteles; almacenamiento y mesa de trabajo en bodega. Las colisiones protegen las huellas de los muebles. Café y otros exhibidores sirven de puntos de visita, sin inventario comercial propio.
+
+No existe colección de objetos raros. La computadora del resultado semanal es una recompensa narrativa en la interfaz, no un objeto utilizable ni entregable físico.
+
+> **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)
