@@ -12,6 +12,16 @@ Racks de básicos en columna a la derecha y racks de especialidades a la izquier
 
 Las lámparas industriales y las marcas de piso diferencian la bodega del salón de ventas. Pallets y cajas de utilería no sustituyen los racks interactivos actuales. La mopa se encuentra en tienda.
 
+## Iluminación y ambiente 
+
+La tienda y la bodega combinan una iluminación ambiental suave con zonas de luz localizadas. Las lámparas aportan tonos cálidos y algunas zonas incorporan acentos fríos para dar profundidad y diferenciar espacios. La entrada de la tienda incorpora un efecto de luz exterior que se extiende hacia el interior.
+
+La iluminación cambia gradualmente durante cada jornada. En el tramo final disminuye la aportación de luz exterior, el ambiente adquiere tonos más fríos y destaca más la iluminación artificial. El cambio depende del avance del reloj del juego.
+
+El mobiliario seleccionado incorpora sombras suaves de contacto sobre el suelo para reforzar su apoyo y volumen. Estas sombras acompañan la activación de los muebles, incluidos los anaqueles y racks desbloqueables.
+
+El fondo ilustrado del menú principal recibe un tratamiento propio de luces cálidas y resplandores suaves. El HUD y los textos conservan su legibilidad mediante una presentación independiente del tratamiento del escenario.
+
 ## Recursos integrados
 
 ![[Media/Revision_2026-11-09/CheckoutCounterL.png|320]]

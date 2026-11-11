@@ -31,7 +31,7 @@ El cobro del suministro se efectúa de forma inmediata en la bodega al interactu
 
 ## Pérdidas y confianza
 
-Un robo completado toma todo el efectivo disponible y resta 50 de confianza una sola vez, incluso si la caja estaba sin dinero. No existe recuperación del robo mediante una captura posterior. Una espera agotada penaliza 5 de confianza. La inspección detecta manchas y anaqueles críticos (≤2 unidades): resta 5/10 de confianza y multa $20/$40 respectivamente por infracción. La multa no crea deuda; se limita al efectivo disponible. Al comenzar otro día se recuperan hasta 10 de confianza, sin superar 100.
+Un robo completado toma todo el efectivo disponible y resta 50 de confianza una sola vez, incluso si la caja estaba sin dinero. No existe recuperación del robo mediante una captura posterior. Un cliente que abandona por agotar sus 20 segundos de paciencia en el primer puesto de la fila resta 5 puntos de confianza y su compra no se cobra. La inspección detecta manchas y anaqueles críticos (≤2 unidades): Cada mancha detectada por el inspector resta 8 puntos de confianza y genera una multa de $20. Cada anaquel detectado con dos unidades o menos resta 10 puntos de confianza y genera una multa de $40. La multa no crea deuda; se limita al efectivo disponible. Al comenzar otro día se recuperan hasta 10 de confianza, sin superar 100.
 
 ## Indicadores del informe
 

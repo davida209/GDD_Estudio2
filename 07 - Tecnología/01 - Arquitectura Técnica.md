@@ -31,4 +31,13 @@ ProductCatalog y DailyDifficultySettings son ScriptableObjects. La escena y los 
 
 Eventos de venta, reposición, limpieza, inspección e inicio/cierre alimentan HUD, XP, objetivos y audio. La UI valida el estado antes de permitir acciones. El reporte usa HTTPS como servicio opcional, separado del guardado y del bucle comercial.
 
+
+## Gestión de la iluminación
+
+El proyecto utiliza Built-in Render Pipeline y shaders personalizados. Cada área configura su iluminación mediante RoomLighting, que define el color ambiental, las zonas iluminadas, su intensidad, alcance y resplandor, además de las sombras de contacto del mobiliario seleccionado.
+
+RoomLightingCamera aplica el efecto sobre la imagen del escenario y selecciona la configuración correspondiente a la tienda o la bodega según la posición de la cámara. La variación de tarde se calcula a partir del tiempo restante de la jornada.
+
+Las sombras de contacto se generan tomando como referencia la base de los colliders configurados. El menú principal utiliza un shader independiente aplicado a su fondo ilustrado.
+
 > **Navegación:** [00 - Índice](../00%20-%20%C3%8Dndice.md) · [00 - Avance jugable](../00%20-%20Avance%20jugable.md)

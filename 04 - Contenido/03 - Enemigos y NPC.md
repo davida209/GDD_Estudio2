@@ -8,13 +8,16 @@ Los arquetipos Vecino, Estudiante y Oficinista restringen categorías y cantidad
 
 Las visitas al café, pan y refrigeradores son ambientales: no consumen esos sprites ni elevan el ticket. No hay clientes sentados.
 
+La paciencia del cliente dura 20 segundos y empieza a descontarse cuando llega físicamente al primer puesto de la fila. Mientras espera detrás de otros clientes, ese temporizador permanece detenido. Si los 20 segundos se agotan antes de completar el cobro, el cliente abandona la tienda, la compra no se cobra y se pierden 5 puntos de confianza. La cuenta continúa durante el cobro normal.
+
+
 ## Ladrón
 
 Estados: aproximación → robo → huida → salida. Su temporizador base de código es 4 s, configurable en prefab. Si el cajero ocupa el puesto al aproximarse o durante el intento, huye. Al completar el robo sustrae todo el efectivo disponible y aplica −50 de confianza una vez; la caja vacía no evita la pérdida de confianza. No hay barra de vida ni recompensa por capturarlo.
 
 ## Supervisor
 
-Entra, recorre puntos de inspección, comprueba su entorno y sale. Cada mancha o anaquel crítico observado se registra una vez por visita. Criterio crítico: dos unidades o menos. Multas: $20 por mancha y $40 por anaquel crítico; confianza: −5 y −10 respectivamente. No es una multa fija que aumente automáticamente cada día.
+Entra, recorre puntos de inspección, comprueba su entorno y sale. Cada mancha o anaquel crítico observado se registra una vez por visita. Criterio crítico: dos unidades o menos. Multas: $20 por mancha y $40 por anaquel crítico; Cada mancha detectada resta 8 puntos de confianza y cada anaquel crítico detectado resta 10 puntos. No es una multa fija que aumente automáticamente cada día.
 
 La periodicidad depende del perfil diario y de la confianza actual: menor confianza implica visitas más frecuentes. No hay combate ni jefes.
 
