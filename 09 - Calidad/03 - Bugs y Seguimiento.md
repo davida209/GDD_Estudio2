@@ -16,6 +16,14 @@
 
 No se declaran bloqueos abiertos reproducidos en esta revisión documental. Esto no significa ausencia absoluta de errores: faltan pruebas dirigidas y del ejecutable indicadas en [02 - Pruebas](02%20-%20Pruebas.md).
 
+## Incidencias identificadas en pruebas recientes (QA Abiertas)
+
+| ID | Área | Problema detectado | Reproducción rápida | Comportamiento esperado | Severidad |
+| :---: | :---: | :--- | :--- | :--- | :---: |
+| **BUG-01** | Transición | Presionar Esc al viajar a bodega cancela el viaje y traba la pantalla. | Pulsar E en puerta y presionar Esc de inmediato. | Bloquear pausa durante el viaje y completar transición. | Media |
+| **BUG-02** | Animación | El personaje avanza con la animación de pasos congelada (patina). | Moverse justo al soltar un objeto o terminar interacción. | Activar ciclo de caminata siempre que haya movimiento. | Baja |
+| **BUG-03** | Render / Capas | Sprites inferiores son atravesables y se dibujan por debajo del jugador. | Caminar por la base/muros de la parte baja de la tienda. | Colocar colisión y ordenar capas por posición en Y. | Media |
+
 ## Registro de un fallo
 
 Título, revisión/build, frecuencia, pasos, resultado esperado/real, área, gravedad y evidencia. Para el jugador existe Reportar un error en pausa. El reporte requiere internet y se revisa en la bandeja privada de la PWA.
