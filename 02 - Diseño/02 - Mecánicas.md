@@ -16,7 +16,7 @@ La mopa se recoge en la tienda. Con ella se puede caminar sobre la mancha y mant
 
 ## Cobro
 
-El encargado debe estar en su puesto, con manos libres y un ticket listo. Mantener E o Espacio completa el cobro; base 1.5 s y duración efectiva `1.5 / (1 + 0.10 × rango de cobro)`. No es automático por proximidad. El progreso se representa con un círculo.
+El encargado debe situarse en el puesto de cobro manteniendo las manos libres y con un cliente en disposición de pago, activando el proceso mediante una pulsación sostenida de la tecla E o Espacio; esta acción inicializa un tiempo base de 1.5 segundos cuya duración efectiva se calcula con la fórmula `1.5 / (1 + 0.10 × rango de cobro)`, descartando cualquier activación automática por proximidad y visualizando el progreso operativo a través de una interfaz circular dedicada.
 
 ## Puertas, pausa y mejoras
 

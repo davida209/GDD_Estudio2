@@ -27,7 +27,7 @@ Los importes son por unidad, salvo costo de caja y mejora. Margen bruto unitario
 | Despensa+ | $88 | $35 | $175 | $53 | $300 | 0.55 |
 | Concentrado | $100 | $40 | $200 | $60 | $340 | 0.50 |
 
-El peso es relativo entre productos elegibles, no una probabilidad porcentual garantizada. La mercancía se paga al comprar la caja. Un rack agotado no vende hasta el suministro siguiente. Desbloquear una especialidad concede su reserva inicial de 30 unidades.
+El cobro del suministro se efectúa de forma inmediata en la bodega al interactuar para recoger la caja de mercancía (descontando de forma directa el costo correspondiente del efectivo disponible). Un rack agotado no genera ventas hasta completar el suministro e integración del producto. 
 
 ## Pérdidas y confianza
 
